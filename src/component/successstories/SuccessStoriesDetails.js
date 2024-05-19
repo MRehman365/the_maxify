@@ -4,7 +4,9 @@ import WelcomeImg from "../../assets/welcome-img.jpg";
 import { useNavigate } from "react-router-dom";
 import OurSuccessStories from "../home/OurSuccessStories";
 import "./success.css";
-import success1 from "../../assets/university banner.png";
+import success1 from "../../assets/university internal image 2.png";
+import success2 from "../../assets/hospital banner.png";
+import success3 from "../../assets/play school internal image 2.png";
 import Img2 from "../../assets/img2.jpg";
 import MetaData from "../../layout/MetaData";
 
@@ -51,7 +53,7 @@ const SuccessStoriesDetails = ({
                   </div>
                     
                   <div className="first-success">
-                    <div className="image-success"><img src={success1} alt="" /></div>
+                    <div className="image-success"><img src={success2} alt="" /></div>
                     <div className="success-content">
                       <h2>Revamping and Enhancing The presence of Delhi Eye Care Website</h2>
                       <p>Maxify Web Solutions been giving the best website design and digital marketing services embarked on a journey to upgrade Delhi Eye Care website.</p>
@@ -59,7 +61,7 @@ const SuccessStoriesDetails = ({
                   </div>
 
                   <div className="first-success">
-                    <div className="image-success"><img src={success1} alt="" /></div>
+                    <div className="image-success"><img src={success3} alt="" /></div>
                     <div className="success-content">
                       <h2>Revolutionizing Education by Integrating AI in My Chhota School Website</h2>
                       <p>Maxify Web Solutions was given an opportunity to design and implement AI solutions to transform the education and give new manners to it.</p>
