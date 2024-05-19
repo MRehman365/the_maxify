@@ -28,7 +28,7 @@ const ServicesDetails = ({
     <>
       <MetaData titles={`Maxify Industries ${name}`} />
       <div className="element-banner ">
-        <img className="banner h-[30rem] brightness-75" src={img} alt="jpg" />
+        <img className="banner" src={img} alt="jpg" />
         <div className="container-section">
           <div className="element-banner-content">
             <h1 className="heading-h1 text-white"> {title2} </h1>
@@ -36,13 +36,17 @@ const ServicesDetails = ({
           </div>
         </div>
       </div>
-      <div className="container-section mat-50">
+      <div className="w-[90%] mx-auto mt-14">
         <div className="grid grid-cols-12  gap-10">
           <div className=" md:col-span-7 sm:col-span-12">
             <div className="border-line"></div>
             <div className="element-container">
-              <h3 className="heading-h3 text-gray-600 ">{title}</h3>
-              <p className="para1 text-lg mt-6 text-justify">{description}</p>
+              <h3 className="heading-h3 sm:text-xl font-[600] lg:text-3xl text-gray-600 ">
+                {title}
+              </h3>
+              <p className="para1 sm:text-base lg:text-base mt-6 text-justify">
+                {description}
+              </p>
 
               <button class="custom-btn btn-16 mt-8">
                 <span>Read More</span>{" "}
@@ -51,7 +55,7 @@ const ServicesDetails = ({
           </div>
           {/* <!-- ... --> */}
 
-          <div className=" md:col-span-5 sm:col-span-12 mt-20">
+          <div className=" md:col-span-5 sm:col-span-12 mt-10">
             <div className="element-container">
               <div className="img">
                 <img className="" src={img2} alt="" />

@@ -81,7 +81,7 @@
   }
 
   .home-slider-img {
-    height: 29rem;
+    /* height: 29rem; */
   }
 
   .home-success-stories {
@@ -166,7 +166,7 @@
   }
 
   .home-slider-img {
-    height: 29rem;
+    /* height: 29rem; */
   }
 
   .home-success-stories {
@@ -363,5 +363,11 @@
     font-size: 19px;
     font-weight: 600;
     line-height: 27px;
+  }
+  .why-choose-card .slider-wrap .slider {
+    position: absolute;
+    width: 100%;
+    left: -12px;
+    top: 50px;
   }
 }
