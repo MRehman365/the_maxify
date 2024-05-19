@@ -192,7 +192,7 @@ body {
   width: 170px;
   background: #525ceb;
 }
-.#525CEB-line {
+.red-line {
   width: 180px;
   height: 3px;
 }
@@ -201,7 +201,7 @@ body {
   color: #595959;
 }
 .success-text {
-  font-size: 24px;
+  font-size: 30px;
   color: #3d3b40;
   font-weight: bold;
 }

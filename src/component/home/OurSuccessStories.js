@@ -11,13 +11,12 @@ const OurSuccessStories = () => {
     <>
       <div className="gray-section">
         <div className="container-section">
-          <h3 className="success-heading disabled text-center text mb-2">
-            Our Success Stories
+          <h3 className="success-heading text-center para success-text  text mb-2">
+          Industries Solutions and Expertise
           </h3>
           <div className="border-line text-center m-auto #525CEB-line"></div>
-          <p className="para success-text text-center">
-            Your search for the Web, App Development and Digital Marketing
-            Services Ends Here.
+          <p className="para disabled text-center">
+          Employing Services and Solutions, diversifying the needs of Industries across the globe
           </p>
           <div className="grid grid-cols-12 mat-50">
             <div className="lg:col-span-4 md:col-span-4 sm:col-span-6">
@@ -25,7 +24,8 @@ const OurSuccessStories = () => {
                 <Link>
                   <img src={health} alt="" />
                   <div className="content">
-                    <p className="para">Health Care</p>
+                    {/* <p className="para">Health Care</p> */}
+                    <p className="para">Prominent Healthcare Services</p>
                   </div>
                 </Link>
               </div>
@@ -35,7 +35,7 @@ const OurSuccessStories = () => {
                 <Link>
                   <img src={industry} alt="" />
                   <div className="content">
-                    <p className="para">Industries</p>
+                    <p className="para">Empowering Industry Led process</p>
                   </div>
                 </Link>
               </div>
@@ -45,7 +45,7 @@ const OurSuccessStories = () => {
                 <Link>
                   <img src={life} alt="" />
                   <div className="content">
-                    <p className="para">Education</p>
+                    <p className="para">Redefining educational world</p>
                   </div>
                 </Link>
               </div>
@@ -55,7 +55,7 @@ const OurSuccessStories = () => {
                 <Link>
                   <img src={banking} alt="" />
                   <div className="content">
-                    <p className="para">Banking & Finance</p>
+                    <p className="para">Streamlining Financial Services</p>
                   </div>
                 </Link>
               </div>
@@ -65,7 +65,7 @@ const OurSuccessStories = () => {
                 <Link>
                   <img src={telecom} alt="" />
                   <div className="content">
-                    <p className="para">Telecom & Media</p>
+                    <p className="para">Reimagining Global Media</p>
                   </div>
                 </Link>
               </div>
@@ -75,7 +75,7 @@ const OurSuccessStories = () => {
                 <Link>
                   <img src={software} alt="" />
                   <div className="content">
-                    <p className="para">Software & Hi-Tec</p>
+                    <p className="para">Accelerated hi-tech softwares</p>
                   </div>
                 </Link>
               </div>

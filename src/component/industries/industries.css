@@ -111,10 +111,12 @@ button:focus {
   background-position: 50%;
   background-size: cover;
   object-fit: scale-down;
-
   padding: 240px 0;
   position: relative;
   z-index: 1;
+}
+.success-banner{
+  padding: 350px 0;
 }
 .industry-box {
   background: #3d3b40;

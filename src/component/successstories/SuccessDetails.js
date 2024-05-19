@@ -72,7 +72,7 @@ const SuccessDetails = ({ title,
                     <div className="lg:col-span-1 right-full-border sm:flex-none"></div>
                     <div className='lg:col-span-4  md:col-span-12 sm:col-span-12'>
                         <div className="element-container  flex columns-lg h-[100%] justify-center sm:flex-col">
-                            <p className="para"><b>Website :</b> www.charleskeith.com</p>
+                            <p className="para"><b>Website :</b> www.themaxify.com</p>
                             <p className="para sm:mt-4"><b>Industry :</b> Retail & eCommerce, Fashion & Apparels</p>
                         </div>
 
