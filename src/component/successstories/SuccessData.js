@@ -26,7 +26,7 @@ import schoolhigh from "../../assets/play school internal image 2.png";
 import hoshigh from "../../assets/hospital banner.png";
 export const SuccessData = [
   {
-    url: "/success-one",
+    url: "/sharda-university",
     name: "Sharda University",
     title2: "Uplifting The Digital Presence of Sharda University with Our Solutions",
     text: "Maxify web solutions was given the opportunity to increase visibility of the Sharda University website.",
@@ -102,7 +102,7 @@ export const SuccessData = [
     ],
   },
   {
-    url: "/success-two",
+    url: "/eye-care",
     name: " Delhi Eye Care",
     title2: "Revamping and Enhancing The presence of Delhi Eye Care Website",
     text: "",
@@ -176,7 +176,7 @@ export const SuccessData = [
     ],
   },
   {
-    url: "/success-three",
+    url: "/chhota-school",
     name: "My Chhota School",
     title2: "Revolutionizing Education by Integrating AI in My Chhota School Website",
     text: "",

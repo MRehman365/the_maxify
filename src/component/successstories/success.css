@@ -218,7 +218,106 @@
   width: 90%;
   margin-left: 5%;
 }
-@media (max-width: 450px) {
+.width{
+  width: 90%;
+  margin-left: 5%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.top-content{
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  bottom: 50px;
+  z-index: 1;
+  position: relative;
+  background-color: white;
+  
+}
+.top-content h2{
+  font-size: 40px;
+  color: #000;
+  font-weight: bold;
+
+
+}
+.top-content p{
+  font-size: 20px;
+}
+.top-content button{
+  height: 60px;
+  width: 170px;
+  font-size: 17px;
+  background-color: #525ceb;
+  border: none;
+  color: white;
+}
+.success{
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.success h2{
+  font-size: 40px;
+  font-weight: bold;
+}
+.success-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+.first-success{
+  width: 800px;
+}
+.image-success{
+  width: 100%;
+  overflow: hidden;
+}
+.first-success img{
+  z-index: 2;
+  width: 100%;
+  overflow: hidden;
+  transition:all 0.5s linear;
+}
+.first-success img:hover{
+  transform: scale(1.1);
+}
+.success-content{
+  width: 100%;
+}
+.success-content h2{
+  background-color: white;
+  width: 80%;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: -100px;
+  margin-left: -20%;
+  z-index: 1;
+  transition: 0.5s;
+}
+.success-content h2:hover{
+  color: #525ceb;
+}
+.success-content p{
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: -20%;
+}
+.btn-success{
+position: relative;
+left: 45%;
+  height: 60px;
+  width: 150px;
+  background-color: #525ceb;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+@media (max-width: 1000px){
   .highlight-data {
     background-color: #2b2b2b;
     max-width: 430px;
@@ -256,4 +355,134 @@
   .tec-inner {
     width: 80%;
   }
+  .top-content{
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    bottom: 0px;
+    z-index: 1;
+    position: relative;
+    background-color: white;
+    
+  }
+  .top-content h2{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+  
+  
+  }
+  .top-content p{
+    font-size: 14px;
+  }
+  .top-content button{
+    height: 40px;
+    width: 100px;
+    font-size: 17px;
+    background-color: #525ceb;
+    border: none;
+    color: white;
+  }
+  .btn-success{
+    position: relative;
+    left: 40%;
+      height: 50px;
+      width: 120px;
+      background-color: #525ceb;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+    .success h2{
+      font-size: 25px;
+      padding-top: 5%;
+      padding-bottom: 5%;
+    }
 }
+@media (max-width: 450px){
+  .highlight-data {
+    background-color: #2b2b2b;
+    max-width: 430px;
+    height: 480px;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2%;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #3d3b40 gray;
+  }
+  .technologies-data p {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .technologies-data img {
+    height: 70px;
+    width: 120px;
+    border: 1px solid #3d3b40;
+  }
+  .tec-img {
+    display: flex;
+    gap: 5px;
+  }
+  .tec-img2 {
+    display: flex;
+    gap: 5px;
+  }
+  .tec-inner {
+    width: 80%;
+  }
+  .top-content{
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    bottom: 0px;
+    z-index: 1;
+    position: relative;
+    background-color: white;
+    
+  }
+  .top-content h2{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+  
+  
+  }
+  .top-content p{
+    font-size: 14px;
+  }
+  .top-content button{
+    height: 40px;
+    width: 100px;
+    font-size: 17px;
+    background-color: #525ceb;
+    border: none;
+    color: white;
+  }
+  .success-content h2{
+    font-size: 20px;
+  }
+  .success-content p{
+    font-size: 16px;
+  }
+  .btn-success{
+    position: relative;
+    left: 35%;
+      height: 50px;
+      width: 120px;
+      background-color: #525ceb;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+}
+
+

@@ -162,6 +162,10 @@
   background-image: url("../../assets/1714720500199_arioaq_2_0.jpg");
   /* height: 250px; */
 }
+.success-banner {
+  background-image: url("../../assets/MOBILITY.png");
+  height: 250px;
+}
 
 .banner {
   top: 0;
@@ -175,6 +179,15 @@
     position: absolute;
     height: 700px;
     width: 100%;
+  }
+  .element-banner .element-banner-content {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    position: relative;
+    width: 100%;
+    z-index: 1;
   }
 }
 
