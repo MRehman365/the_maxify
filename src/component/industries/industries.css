@@ -112,6 +112,8 @@ button:focus {
   background-size: cover;
   object-fit: scale-down;
   padding: 240px 0;
+
+  padding: 170px 0;
   position: relative;
   z-index: 1;
 }

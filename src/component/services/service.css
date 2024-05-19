@@ -129,6 +129,7 @@
   right: 0;
   top: 0;
   z-index: 1;
+  /* height: 75%; */
 }
 
 .element-banner .element-banner-content {
@@ -149,17 +150,17 @@
 
 .element-banner.service-banner {
   background-image: url("../../assets/service\ web.png");
-  height: 250px;
+  /* height: 250px; */
 }
 
 .application-banner {
   background-image: url("../../assets/1714638131214_w3yfxk_2_0.jpg");
-  height: 250px;
+  /* height: 250px; */
 }
 
 .industry-banner {
   background-image: url("../../assets/1714720500199_arioaq_2_0.jpg");
-  height: 250px;
+  /* height: 250px; */
 }
 .success-banner {
   background-image: url("../../assets/MOBILITY.png");

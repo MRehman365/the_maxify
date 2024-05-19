@@ -2,7 +2,7 @@
   box-shadow: 0 -7px 25px rgba(0, 0, 0, 0.14901960784313725);
   border: 1px solid #f4f4f4;
   background: #fff;
-  padding: 50px;
+  /* padding: 50px; */
   margin-bottom: -245px;
   position: relative;
 }
@@ -22,7 +22,7 @@
 .footer-contact-section .footer-contact-form textarea {
   border: 1px solid gainsboro;
   margin-bottom: 18px;
-  padding: 12px;
+  padding: 9px;
 }
 
 .footer-contact-section .footer-contact-form {
