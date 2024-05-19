@@ -22,6 +22,15 @@ const SuccessStoriesDetails = ({
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
   const navigate = useNavigate();
+  const handleClick = () => {
+    navigate('/sharda-university/');
+  };
+  const handleClick2 = () => {
+    navigate('/eye-care/');
+  };
+  const handleClick3 = () => {
+    navigate('/chhota-school/');
+  };
 
   return (
     <>
@@ -29,7 +38,7 @@ const SuccessStoriesDetails = ({
       <div className="element-banner success-banner">
                 <div className="container-section">
                     <div className="element-banner-content">
-                        <h1 className="heading-h1 text-white">Explore the Dynamic World of Industries with Maxify Web Solutions</h1>
+                        <h1 className="heading-h1 text-white">Revolutionize Brands into Success by Unlocking Your Potential with Maxify Web Solutions</h1>
                         <p className="para">Revolutionizing Industries through Innovative Solutions</p>
                     </div>
                 </div>
@@ -37,9 +46,9 @@ const SuccessStoriesDetails = ({
             </div>
             <div className="width">
             <div className="top-content">
-                  <h2>Digitizing customer service with conversational AI and automation for an agricultural solutions leader</h2>
-                  <p>Overview of MAS CBDC challenge ANZ Bank, one of the 15 finalists in the Monetary Authority of Singapore (MAS) Global…</p>
-                  <button className="btn-readmore mt-4">Read More</button>
+                  <h2>Achieve Success By Unlocking Your Potential with Maxify Web Solutions</h2>
+                  <p>We are the ones turning your business into success and your goals. We believe that success is not just a goal but it is a destination filled with compassion, hard work, dedication. Either you are a business person or a person who is passionate to fulfil his dreams and get to the goals, we are standing by your side and we are with you at each step. We are proud of our remarkable achievements as we carry the crown that our clients have given us. We have the expertise, and our commitment is shown in the work we deliver.</p>
+                  {/* <button className="btn-readmore mt-4">Read More</button> */}
                 </div>
 
                 <div className="success"><h2>Client Success Stories</h2></div>
@@ -47,7 +56,7 @@ const SuccessStoriesDetails = ({
                 <div className="first-success">
                     <div className="image-success"><img src={success1} alt="" /></div>
                     <div className="success-content">
-                      <h2>Uplifting The Digital Presence of Sharda University with Our Solutions</h2>
+                      <h2  onClick={handleClick}>Uplifting The Digital Presence of Sharda University with Our Solutions</h2>
                       <p>Maxify web solutions was given the opportunity to increase visibility of the Sharda University website.</p>
                     </div>
                   </div>
@@ -55,7 +64,7 @@ const SuccessStoriesDetails = ({
                   <div className="first-success">
                     <div className="image-success"><img src={success2} alt="" /></div>
                     <div className="success-content">
-                      <h2>Revamping and Enhancing The presence of Delhi Eye Care Website</h2>
+                      <h2 onClick={handleClick2}>Revamping and Enhancing The presence of Delhi Eye Care Website</h2>
                       <p>Maxify Web Solutions been giving the best website design and digital marketing services embarked on a journey to upgrade Delhi Eye Care website.</p>
                     </div>
                   </div>
@@ -63,7 +72,7 @@ const SuccessStoriesDetails = ({
                   <div className="first-success">
                     <div className="image-success"><img src={success3} alt="" /></div>
                     <div className="success-content">
-                      <h2>Revolutionizing Education by Integrating AI in My Chhota School Website</h2>
+                      <h2 onClick={handleClick3}>Revolutionizing Education by Integrating AI in My Chhota School Website</h2>
                       <p>Maxify Web Solutions was given an opportunity to design and implement AI solutions to transform the education and give new manners to it.</p>
                     </div>
                   </div>
