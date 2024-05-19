@@ -11,7 +11,7 @@ import Graphic from "../assets/graphic.jpg";
 import DigitalMarketing from "../assets/web development service banner.png";
 import S1 from "../assets/university internal image 2.png";
 import S2 from "../assets/hospital banner.png";
-import S3 from "../assets/s3.jpg";
+import S3 from "../assets/play school internal image 2.png";
 import S4 from "../assets/s4.jpg";
 import abImg from "../assets/company.jpg";
 import leaderImg from "../assets/leadership image.png";
@@ -105,17 +105,17 @@ export const NaveData = [
       {
         link: "/success-one/",
         img: S1,
-        names: "University",
+        names: "Sharda University",
       },
       {
         link: "/success-two/",
         img: S2,
-        names: "Hospital",
+        names: "Delhi Eye Care",
       },
       {
         link: "/success-three/",
         img: S3,
-        names: "Success Three",
+        names: "Chhota School",
       },
     ],
   },

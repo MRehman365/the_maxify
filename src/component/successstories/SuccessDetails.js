@@ -4,7 +4,6 @@ import "../services/service.css"
 import { IoIosArrowRoundForward } from "react-icons/io";
 import OurSuccessStories from '../home/OurSuccessStories';
 import MetaData from '../../layout/MetaData';
-import image22 from '../../assets/1714567529414_2n6b6f_2_0.jpg'
 // import img2 from '../../assets/1715154300452_bjeoh5_2_0.jpg'
 
 const SuccessDetails = ({ title,
@@ -20,6 +19,7 @@ const SuccessDetails = ({ title,
     img,
     img2,
     img3,
+    img22,
     title2,
     title3,
     text,
@@ -27,6 +27,15 @@ const SuccessDetails = ({ title,
     logo2,
     logo3,
     logo4,
+    challenge,
+    challenge1,
+    challenge2,
+    challenge3,
+    challenge4,
+    goal,
+    highlight1,
+    highlight2,
+    highlight3,
     IndustriesSubData,
 }) => {
 
@@ -97,10 +106,13 @@ const SuccessDetails = ({ title,
                             <div className="success-stories-middle-section">
                                 <h6 className="heading-h6"><b>CHALLENGE</b></h6>
                                 <div className="border-line" style={{ height: "1px" }}></div>
-                                <p className="para">The online presence of Charles & Keith was a significant milestone for the company which resulted in an immense expansion. In order to cater to different countries and offer a localised experience focused on efficient inventory management, Charles & Keith were looking for a Magento partner to fulfill its requirements by leveraging the full power of Magento.</p>
+                                <p className="para">{challenge}</p>
+                                <li className="para">{challenge1}</li>
+                                <li className="para">{challenge2}</li>
+                                <li className="para">{challenge3}</li>
                                 <h6 className="heading-h6 mt-3"><b>THE GOAL</b></h6>
                                 <div className="border-line" style={{ height: "1px" }}></div>
-                                <p className="para">Charles & Keith's main goal was to ensure that the online store is updated as per the latest commerce trends thereby customers would have superior shopping experiences. Hence, Charles & Keith wanted a Magento Partner who provides high quality system maintenance support as well as a partner who can recommend strategies to improve conversions & boost online revenue.</p>
+                                <p className="para">{goal}</p>
                             </div>
                         </div>
                     </div>
@@ -123,14 +135,12 @@ const SuccessDetails = ({ title,
 
            {/*  */}
                 <div className='highlight mt-2'>
-                    <img src={image22} alt='' />
+                    <img src={img22} alt='' />
                     <div className='highlight-data para'>
                         <h2>Highlight</h2>
-                        <li>Crafting an intuitive, visually-stunning, and responsive eCommerce platform that caters to a diverse set of pro</li>
-                        <li>Crafting an intuitive, visually-stunning, and responsive eCommerce platform that caters to a diverse set of pro g, and responsive eCommerce platform that caters to a diverse set of pro</li>
-                        <li>Crafting an intuitive, visually-stunning, and responsive eCommerce platform that caters to a diverse set of pro g, and responsive eCommerce platform that caters to a diverse set of pro</li>
-                        <li>Crafting an intuitive, visually-stunning, and responsive eCommerce platform that caters to a diverse set of pro g, and responsive eCommerce platform that caters to a diverse set of pro</li>
-                        <li>Crafting an intuitive, visually-stunning, and responsive eCommerce platform that caters to a diverse set of pro</li>
+                        <li>{highlight1}</li>
+                        <li>{highlight2} </li>
+                        <li>{highlight3}</li>
                     </div>
 
                 </div>

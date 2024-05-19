@@ -72,6 +72,7 @@ function App() {
               img={item.img}
               img2={item.img2}
               img3={item.img3}
+              img22={item.img22}
               logo1={item.logo1}
               logo2={item.logo2}
               logo3={item.logo3}
@@ -93,6 +94,15 @@ function App() {
               technologydescription={item.technologydescription}
               technologyData={item.technologyData}
               IndustriesSubData={item.industriesSubData}
+              challenge={item.challenge}
+              challenge1={item.challenge1}
+              challenge2={item.challenge2}
+              challenge3={item.challenge3}
+              challenge4={item.challenge4}
+              goal={item.goal}
+              highlight1={item.highlight1}
+              highlight2={item.highlight2}
+              highlight3={item.highlight3}
             />} />
           </Fragment>
         ))}
