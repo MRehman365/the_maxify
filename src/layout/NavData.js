@@ -103,17 +103,17 @@ export const NaveData = [
         },
       },
       {
-        link: "/success-one/",
+        link: "/sharda-university/",
         img: S1,
         names: "Sharda University",
       },
       {
-        link: "/success-two/",
+        link: "/eye-care/",
         img: S2,
         names: "Delhi Eye Care",
       },
       {
-        link: "/success-three/",
+        link: "/chhota-school/",
         img: S3,
         names: "Chhota School",
       },
