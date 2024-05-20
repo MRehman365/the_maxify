@@ -59,7 +59,7 @@ const SuccessDetails = ({ title,
                 <div className="grid grid-cols-12  gap-4">
                     <div className='lg:col-span-7 md:col-span-12 sm:col-span-12'>
                         <div className="border-line"></div>
-                        <h2 className='para'>{title3}</h2>
+                        <h2 className='para heading-h5'>{title3}</h2>
                         <div className="element-container ">
                             {/* <h3 className="heading-h3 text-white">Charles & Keith empowers women around the world to express themselves freely through fashion with Ranosys commerce experts."</h3> */}
                             <p className="para mt-6">{description}</p>
@@ -105,13 +105,13 @@ const SuccessDetails = ({ title,
                         <div className="element-container ">
                             <div className="success-stories-middle-section">
                                 <h6 className="heading-h6"><b>CHALLENGE</b></h6>
-                                <div className="border-line" style={{ height: "1px" }}></div>
+                                <div className="border-line" style={{ height: "2px" }}></div>
                                 <p className="para">{challenge}</p>
                                 <li className="para">{challenge1}</li>
                                 <li className="para">{challenge2}</li>
                                 <li className="para">{challenge3}</li>
                                 <h6 className="heading-h6 mt-3"><b>THE GOAL</b></h6>
-                                <div className="border-line" style={{ height: "1px" }}></div>
+                                <div className="border-line" style={{ height: "3px", width: "96px" }}></div>
                                 <p className="para">{goal}</p>
                             </div>
                         </div>
@@ -122,7 +122,7 @@ const SuccessDetails = ({ title,
             {/*  */}
 
             <div className='mt-3 result'>
-                <h2 className='heading-h2 para'>The Result</h2>
+                <h2 className='heading-h2 para' style={{  }}>The Result</h2>
                 <div className='content-result'>
                 <li className='para'>{headingp1}</li>
                 <p className='para'>{description3}</p>
