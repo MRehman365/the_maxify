@@ -18,24 +18,36 @@ const Career = () => {
     <>
       <MetaData titles={`Maxify Career`} />
       {/* serive banner */}
-      <div className="element-banner service-banner">
+      <div className="element-banner pt-[25%] pb-[5%] service-banner">
         <img className="banner" src={img2} alt="jpg" />
-        <div className="container-section">
+        <div className="container-sectio lg:w-[70%] lg:mx-20 sm:w-[90%] sm:mx-10">
           <div className="element-banner-content">
-            <h1 className="heading-h1">Shaping New World Through Maxify Lens</h1>
+            <h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[40px]">
+              Shaping New World Through Maxify Lens
+            </h1>
             <p className="para">Embark on a Journey of Growth and Innovation</p>
           </div>
         </div>
       </div>
 
-      <div className="container-section mat-100">
+      <div className="container-section mat-50">
         <div className="lg:w-[70%] md:w-[80%] sm:w-[100%]">
           <div className="border-line"></div>
           <h3 className="heading-h3">
             Maxify Web Solution - Your next career destination
           </h3>
           <p className="para">
-          We believe in creating a workspace where everyone thrives and has the right to communicate and share their ideas. We are seeking innovative and young minds that can contribute to the leading success of out team and more value to the team. We are committed to make a place where everyone feels welcomed and consider it their own place to relive ideas and help others doing the same and rejuvenate together by bringing joy to the work culture. Join a place where creativity is respected, and challenges are embraced with passion and dedication. Become a part of our journey and we will together shape the future by immersing in the new technologies that will bring out the best in us and work we are committed to. 
+            We believe in creating a workspace where everyone thrives and has
+            the right to communicate and share their ideas. We are seeking
+            innovative and young minds that can contribute to the leading
+            success of out team and more value to the team. We are committed to
+            make a place where everyone feels welcomed and consider it their own
+            place to relive ideas and help others doing the same and rejuvenate
+            together by bringing joy to the work culture. Join a place where
+            creativity is respected, and challenges are embraced with passion
+            and dedication. Become a part of our journey and we will together
+            shape the future by immersing in the new technologies that will
+            bring out the best in us and work we are committed to.
           </p>
         </div>
         <div className="grid grid-cols-12  gap-4 mat-50">
@@ -44,7 +56,9 @@ const Career = () => {
               <img src={CareerIcons} alt="" />
               <h5 className="heading-h5">Innovation at its Best</h5>
               <p className="para">
-              We are committed to drive excellence, and we believe to be going along with time and new technologies that can cater to the project well and drive solutions to the problem.
+                We are committed to drive excellence, and we believe to be going
+                along with time and new technologies that can cater to the
+                project well and drive solutions to the problem.
               </p>
             </div>
           </div>
@@ -53,7 +67,10 @@ const Career = () => {
               <img src={CareerIcons} alt="" />
               <h5 className="heading-h5">Growth Opportunities</h5>
               <p className="para">
-              Maxify team makes sure our team members grow exponentially from personal and professional manner. To deepen your knowledge in the subject matter, we strive to provide an area of learning where your grow and help others grow.
+                Maxify team makes sure our team members grow exponentially from
+                personal and professional manner. To deepen your knowledge in
+                the subject matter, we strive to provide an area of learning
+                where your grow and help others grow.
               </p>
             </div>
           </div>
@@ -62,7 +79,9 @@ const Career = () => {
               <img src={CareerIcons} alt="" />
               <h5 className="heading-h5">Real-Time Scenario</h5>
               <p className="para">
-              The projects we work on are the ones that will add more value to your learning and career. It helps you brainstorm new ideas and explore new horizons while implementing solutions effectively.
+                The projects we work on are the ones that will add more value to
+                your learning and career. It helps you brainstorm new ideas and
+                explore new horizons while implementing solutions effectively.
               </p>
             </div>
           </div>
@@ -71,7 +90,10 @@ const Career = () => {
               <img src={CareerIcons} alt="" />
               <h5 className="heading-h5">Diverse Perspective</h5>
               <p className="para">
-              Coming from different backgrounds makes us different, what unites us together is the technology. Ideas are welcomed and every voice is heard to make our environment sustainable and bringing more innovation.
+                Coming from different backgrounds makes us different, what
+                unites us together is the technology. Ideas are welcomed and
+                every voice is heard to make our environment sustainable and
+                bringing more innovation.
               </p>
             </div>
           </div>
@@ -80,7 +102,10 @@ const Career = () => {
               <img src={CareerIcons} alt="" />
               <h5 className="heading-h5">Work-Life Balance</h5>
               <p className="para">
-              We believe in maintain a healthy and balanced lifestyle where you can grow professionally and personally. Where you can prioritize yourself and enjoy living being a part of Maxify team.
+                We believe in maintain a healthy and balanced lifestyle where
+                you can grow professionally and personally. Where you can
+                prioritize yourself and enjoy living being a part of Maxify
+                team.
               </p>
             </div>
           </div>

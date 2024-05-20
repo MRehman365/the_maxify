@@ -113,8 +113,7 @@
   background-position: 50%;
   background-size: cover;
   object-fit: scale-down;
-
-  padding: 220px 0;
+  /* padding: 220px 0; */
   position: relative;
   z-index: 1;
 }
@@ -138,13 +137,13 @@
   flex-direction: column;
   /* justify-content: center; */
   position: relative;
-  width: 70%;
+  /* width: 70%; */
   z-index: 1;
 }
 
 .element-banner .element-banner-content p {
   color: white;
-  margin-top: 20px;
+  margin-top: 10px;
   overflow: hidden;
 }
 
@@ -164,7 +163,7 @@
 }
 .success-banner {
   background-image: url("../../assets/MOBILITY.png");
-  height: 250px;
+  /* height: 250px; */
 }
 
 .banner {

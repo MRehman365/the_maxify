@@ -17,28 +17,15 @@ const Footer = () => {
   return (
     <>
       <div className="container-section mat-50">
-        <div className="footer-contact-section py-10 px-20">
-          <div className="grid grid-cols-12 gap-10">
+        <div className="footer-contact-section sm:py-20 lg:py-10 lg:px-20 sm:px-5">
+          <div className="grid grid-cols-12 gap-[5%]">
             <div className="lg:col-span-6  md:col-span-6 sm:col-span-12">
-              {/* <h3 className="heading-h3">Time to break the ice?</h3>
-              <p className="para">We would love to hear from you.</p>
-              <p className="mt-5">
-                Please fill the form or send us an email at
-              </p>
-              <p
-                className="para para-#525CEB mt-7 "
-                style={{ fontSize: "20px" }}
-              >
-                <a className="text-[#ffac05]" href="mailto:sales@maxifyweb.com">
-                  sales@maxifyweb.com
-                </a>
-              </p> */}
-              <div className="map lg:w-full sm:w-[60%] h-[300px] border-[1px] mt-10">
+              <div className="map lg:w-full sm:w-[100%] h-[300px] lg:mt-10 sm:mt-5">
                 <div className="overflow-hidden">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.5542845965706!2d77.31402716000127!3d28.583144025590354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce45917b8e8a5%3A0xac53cd47e64bfd7c!2sD%20Block%2C%20Sector%202%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1716119557655!5m2!1sen!2sin"
-                    width={600}
-                    height={300}
+                    width="100%"
+                    height={350}
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
@@ -46,24 +33,24 @@ const Footer = () => {
                   />
                 </div>
               </div>
-              <div className="contenct mt-10">
+              <div className="contenct mt-14">
                 <h5 className="text-lg font-[600]">Company Address</h5>
                 <div className="mt-5 ml-5">
                   <ul className="text-base text-gray-600">
                     <li>
-                      <strong>The Maxify web solution pvt. ltd</strong>
+                      <strong>Maxify web solution pvt. ltd</strong>
                       <br />
-                      The Vista Centre
+                      The Viste Centre
                       <br />
-                      50 Salisbury Road
+                      Office No - F-02
                       <br />
-                      Hounslow, England
+                      Block- D, Sector 2, Red FM Road
                       <br />
-                      TW4 6JQ
+                      Noida, Uttar Pradesh 201301
                       <br />
                       Telephone:<a href="tel:+442084322870">+442084322870</a>
                       <br />
-                      E-mail:{" "}
+                      E-mail:
                       <a href="mailto:info@mindtreeitsolutions.com">
                         info@mindtreeitsolutions.com
                       </a>

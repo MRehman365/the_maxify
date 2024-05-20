@@ -209,7 +209,7 @@
   }
 
   .footer-contact-section {
-    padding: 16px;
+    /* padding: 16px; */
   }
 
   .footer-contact-section .mt-8 {
@@ -221,8 +221,8 @@
   }
 
   .element-banner {
-    padding: 75px 0 !important;
-    padding-top: 141px !important;
+    /* padding: 75px 0 !important;
+    padding-top: 141px !important; */
   }
 
   .element-banner .element-banner-content {
@@ -233,11 +233,11 @@
     padding: 20px !important;
   }
 
-  .heading-h1 {
+  /* .heading-h1 {
     font-size: 28px;
     font-weight: 800;
     line-height: 37px;
-  }
+  } */
 
   .single-industries-box .content h4 {
     font-size: 18px !important;
@@ -369,5 +369,10 @@
     width: 100%;
     left: -12px;
     top: 50px;
+  }
+  .heading-h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
   }
 }

@@ -10,17 +10,17 @@ const Welcome = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div className="welcome-section mt-[50px] ">
+      <div className="welcome-section lg:mt-[50px] sm:mt-[20px]">
         <div className="container-section">
           <div className="grid grid-cols-12  gap-[5%]">
             <div className="lg:col-span-6 sm:col-span-12">
               <div className="element-container">
-                <h6 className="text mb-2 ">WELCOME TO MAXIFY</h6>
+                <h6 className="text mb-2">WELCOME TO MAXIFY</h6>
                 <div className="welcome"></div>
                 <h2 className="heading-h3 text">
                   Simplifying, Strengthening Business Worldwide
                 </h2>
-                <p className="text-[#595959] sm:text-[1rem] xl:text-[1.2rem]  mt-6 text-justify">
+                <p className="text-[#595959] sm:text-[1rem] lg:text-[1rem] xl:text-[1.2rem]  mt-6 text-justify">
                   Maxify is the right platform for all your development and
                   marketing needs. From Strategies to providing end-to-end
                   solutions we have it all covered. We provide our expertise in
@@ -56,7 +56,7 @@ const Welcome = () => {
               </div>
             </div>
             {/* <!-- ... --> */}
-            <div className="lg:col-span-6 sm:col-span-12 sm:mt-4">
+            <div className="lg:col-span-6 sm:col-span-12 sm:mt-4 lg:mt-10">
               <div className="element-container">
                 <div className="img-box">
                   <img src={WelcomeImg} alt="" />

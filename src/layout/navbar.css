@@ -335,6 +335,23 @@ a:focus {
     visibility: hidden;
     transition: all 0.5s linear;
   }
+  .nav-menu1 {
+    position: absolute;
+    flex-direction: column;
+    background: #3d3b40;
+    width: 50%;
+    right: 0;
+    overflow: hidden;
+    top: 61px !important;
+    justify-content: start !important;
+    display: flex !important;
+    align-items: start !important;
+    padding: 32px;
+    transform: translateX(100%);
+    visibility: hidden;
+    transition: all 0.5s linear;
+    display: none !important;
+  }
 
   .submenu-names {
     font-size: 17px;

@@ -97,7 +97,7 @@ const Navbar = () => {
             <img loading="lazy" src={Logo} alt="" />
           </div>
           <nav className="navigation">
-            <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <ul className={click ? "nav-menu active" : "nav-menu1"}>
               {NaveData.map((item, i) => (
                 <li
                   className={item.submenu ? "nav-item small-nav" : "nav-item"}

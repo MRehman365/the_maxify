@@ -20,13 +20,16 @@ const Service = () => {
     <>
       <MetaData titles={`Maxify Industries Services`} />
       {/* serive banner */}
-      <div className="element-banner service-banner">
+      <div className="element-banner pt-[20%] pb-[15%]  service-banner">
+        {/* <div className="element-banner sm:pt-[30%] sm:pb-[5%] lg:py-[200px] xl:py-[222px] service-banner"> */}
         <div className="container-section">
           <div className="element-banner-content">
-            <h1 className="heading-h1 text-white">Maxify Services</h1>
+            <h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[40px] text-white">
+              Maxify Services
+            </h1>
             <p className="para ">
-              Maxifying Your Business Requirements with our tailored
-              solutions to the table to beat the odds
+              Maxifying Your Business Requirements with our tailored solutions
+              to the table to beat the odds
             </p>
           </div>
         </div>
