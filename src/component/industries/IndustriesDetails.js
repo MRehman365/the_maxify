@@ -23,16 +23,18 @@ const IndustriesDetails = ({
   return (
     <>
       <MetaData titles={`Maxify industries ${name}`} />
-      <div className="element-banner industry-banner">
+      <div className="element-banner  pt-[25%] pb-[10%] industry-banner">
         <img className="banner" src={img2} alt="jpg" />
         <div className="container-section">
           <div className="element-banner-content">
-            <h1 className="heading-h1 text-white">{title2}</h1>
+            <h1 className=" sm:text-[24px] font-[700] md:text-[35px] sm:leading-[32px] lg:leading-[64px] lg:text-[40px] text-white">
+              {title2}
+            </h1>
             <p className="para">{text}</p>
           </div>
         </div>
       </div>
-      <div className="container-section mat-100">
+      <div className="container-section mat-50">
         <div className="grid grid-cols-12  gap-4">
           <div className="lg:col-span-6 md:col-span-6 sm:col-span-12">
             <div className="border-line"></div>
