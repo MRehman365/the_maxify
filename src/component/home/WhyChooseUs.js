@@ -116,7 +116,7 @@ const WhyChooseUs = () => {
                                             <div className="icons">
                                                 <FaUserFriends />
                                             </div>
-                                            <h5 className="heading-h5">Tailo#525CEB Digital Solutions</h5>
+                                            <h5 className="heading-h5">Tailored Digital Solutions</h5>
                                         </div>
                                         <p className="para mt-1">Our team specializes in delivering bespoke digital services, ensuring your unique needs are met with precision and excellence.
                                         </p>
@@ -151,7 +151,7 @@ const WhyChooseUs = () => {
                       </div>
                       <div className="animation-card_content">
                         <h4 className="animation-card_content_title title-2">
-                          Tailo#525CEB Web Solutions 1:
+                          Tailored Web Solutions 1:
                         </h4>
                         <p className="animation-card_content_description p-2">
                           {" "}

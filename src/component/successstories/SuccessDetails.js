@@ -47,11 +47,11 @@ const SuccessDetails = ({ title,
     return (
         <>
             <MetaData titles={`Maxify ${name}`} />
-            <div className="element-banner pt-[20%] pb-[10%] " ><img className="banner" src={img} alt="jpg" />
-                <div className="container-section">
+            <div className="element-banner lg:pt-[15%] lg:pb-[15%] md:pt-[17%] md:pb-[18%] sm:pt-[23%] sm:pb-[7%] " ><img className="banner" src={img} alt="jpg" />
+                <div className="container-sectio sm:w-[90%] sm:mx-10 lg:w-[70%] lg:mx-20">
                     <div className="element-banner-content">
-                        <h1 className="heading-h1 text-white"> {title2} </h1>
-                        <p className="para">{text}</p>
+                        <h1 className="heading- sm:text-[20px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[40px] xl:text-[56px]  text-white"> {title2} </h1>
+                        <p className="para sm:hidden md:block">{text}</p>
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@ const SuccessDetails = ({ title,
                         <div className="element-container ">
                             <div className="success-stories-middle-section">
                                 <h6 className="heading-h6"><b>CHALLENGE</b></h6>
-                                <div className="border-line" style={{ height: "2px" }}></div>
+                                <div className="border-line" style={{ height: "3px" }}></div>
                                 <p className="para">{challenge}</p>
                                 <li className="para">{challenge1}</li>
                                 <li className="para">{challenge2}</li>

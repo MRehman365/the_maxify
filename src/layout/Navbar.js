@@ -127,7 +127,8 @@ const Navbar = () => {
                             : "dropdowns img-dropdowns"
                         }
                       >
-                        <div className="drop-menu">
+                        <div className={i==1? "xl:ml-[15%] lg:ml-[5%] drop-menu": "ml-[10%] xl:ml-[20%] drop-menu"}>
+
                           {item.insideName.map((data, i) => (
                             <>
                               {data.dMenu && (
