@@ -117,9 +117,6 @@ button:focus {
   position: relative;
   z-index: 1;
 }
-.success-banner {
-  /* padding: 350px 0; */
-}
 .industry-box {
   background: #3d3b40;
   z-index: 1;
