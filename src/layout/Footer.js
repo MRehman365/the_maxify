@@ -25,7 +25,7 @@ const Footer = () => {
               <div className="map lg:w-full sm:w-[100%] h-[300px] lg:mt-10 sm:mt-5">
                 <div className="overflow-hidden">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.5542845965706!2d77.31402716000127!3d28.583144025590354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce45917b8e8a5%3A0xac53cd47e64bfd7c!2sD%20Block%2C%20Sector%202%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1716119557655!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d437.94898951084804!2d77.31535415943979!3d28.58201447114941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8cb2844875948653%3A0x31a70beb6225a223!2sMaxify%20Web%20Solutions%20pvt%20ltd!5e0!3m2!1sen!2sin!4v1716287100411!5m2!1sen!2sin"
                     width="100%"
                     height={350}
                     style={{ border: 0 }}
@@ -50,7 +50,7 @@ const Footer = () => {
                       <br />
                       Noida, Uttar Pradesh 201301
                       <br />
-                      Telephone:<a href="tel:+442084322870">+442084322870</a>
+                      Telephone:<a href="tel:+91">+442084322870</a>
                       <br />
                       E-mail:
                       <a href="mailto:info@mindtreeitsolutions.com">
