@@ -53,7 +53,7 @@ const HomeService = () => {
                     </li>
                     <li>
                       <Link>
-                        Website #525CEBesigning and development
+                        Website Designing and development
                         <div class="arrow"> </div>
                       </Link>
                     </li>

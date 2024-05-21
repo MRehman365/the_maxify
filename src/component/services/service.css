@@ -172,6 +172,17 @@
   /* max-height: 100%; */
   width: 100%;
 }
+@media (max-width: 1050px) {
+  .element-banner .element-banner-content {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+}
 @media (max-width: 550px) {
   .banner {
     top: 0;
@@ -188,7 +199,10 @@
     width: 100%;
     z-index: 1;
   }
+  .element-banner-content h1{
+  }
 }
+
 
 .gray-section {
   background-color: #cccccc;

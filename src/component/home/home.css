@@ -1164,7 +1164,7 @@
   }
 }
 
-@media (max-width: 450px) and (min-width: 768px) {
+@media (max-width: 450px){
   .home-slider-container .home-slider-content {
     position: absolute;
     text-align: center;
@@ -1180,5 +1180,15 @@
   }
   .home-slider-img {
     height: 30rem;
+  }
+  .home-success-stories .content {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+  }
+  .home-success-stories .content p {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
   }
 }

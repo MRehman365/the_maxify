@@ -27,11 +27,11 @@ const ServicesDetails = ({
   return (
     <>
       <MetaData titles={`Maxify Industries ${name}`} />
-      <div className="element-banner pt-[25%] pb-[10%] ">
+      <div className="element-banner lg:pt-[15%] lg:pb-[20%] md:pt-[25%] md:pb-[10%] sm:pt-[24%] sm:pb-[11%] ">
         <img className="banner" src={img} alt="jpg" />
         <div className="container-section">
-          <div className="element-banner-content sm:w-full lg:w-[50%]">
-            <h1 className="heading-  sm:text-[24px] font-[700] md:text-[35px] sm:leading-[32px] lg:leading-[64px] lg:text-[40px] text-white">
+          <div className="element-banner-content sm:w-full md:w-[60%] lg:w-[50%]">
+            <h1 className="heading-  sm:text-[24px] font-[700] md:text-[35px] sm:leading-[32px] lg:leading-[64px] lg:text-[56px] text-white">
               {" "}
               {title2}{" "}
             </h1>
