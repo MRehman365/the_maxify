@@ -48,7 +48,7 @@ const Footer = () => {
                       <br />
                       Noida, Uttar Pradesh 201301
                       <br />
-                      Telephone:<a href="tel:+442084322870">+442084322870</a>
+                      Telephone:<a href="tel:+91">+442084322870</a>
                       <br />
                       E-mail:
                       <a href="mailto:info@mindtreeitsolutions.com">
