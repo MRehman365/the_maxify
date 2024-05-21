@@ -55,7 +55,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-
+      {/* 
       <div className="gray-section ">
         <div className="container-section">
           <div className="grid grid-cols-12  gap-6 mat-50">
@@ -138,7 +138,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
