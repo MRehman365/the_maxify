@@ -279,9 +279,14 @@
     width: 600px;
   }
 }
-@media (max-width:1400px) {
+@media (max-width:1500px) {
   .first-success{
     width: 500px;
+  }
+}
+@media (max-width:1130px) {
+  .first-success{
+    width: 100%;
   }
 }
 .image-success{

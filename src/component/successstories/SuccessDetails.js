@@ -48,9 +48,9 @@ const SuccessDetails = ({ title,
         <>
             <MetaData titles={`Maxify ${name}`} />
             <div className="element-banner lg:pt-[15%] lg:pb-[15%] md:pt-[17%] md:pb-[18%] sm:pt-[23%] sm:pb-[7%] " ><img className="banner" src={img} alt="jpg" />
-                <div className="container-sectio sm:w-[90%] sm:mx-10 lg:w-[70%] lg:mx-20">
+                <div className="container-sectio sm:w-[90%] sm:mx-10 lg:w-[70%] xl:w-[50%] lg:mx-20">
                     <div className="element-banner-content">
-                        <h1 className="heading- sm:text-[20px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[40px] xl:text-[56px]  text-white"> {title2} </h1>
+                        <h1 className="heading- sm:text-[20px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[40px] xl:text-[40px]  text-white"> {title2} </h1>
                         <p className="para sm:hidden md:block">{text}</p>
                     </div>
                 </div>

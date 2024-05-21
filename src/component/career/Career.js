@@ -18,14 +18,14 @@ const Career = () => {
     <>
       <MetaData titles={`Maxify Career`} />
       {/* serive banner */}
-      <div className="element-banner pt-[25%] pb-[5%] service-banner">
+      <div className="element-banner lg:pt-[15%] lg:pb-[15%] sm:pt-[23%] sm:pb-[7%] service-banner">
         <img className="banner" src={img2} alt="jpg" />
-        <div className="container-sectio lg:w-[70%] lg:mx-20 sm:w-[90%] sm:mx-10">
-          <div className="element-banner-content">
+        <div className="container-sectio lg:w-[70%] lg:mx-20 sm:w-[90%] sm:mx-5">
+          <div className="element-banner-content ">
             <h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[40px]">
               Shaping New World Through Maxify Lens
             </h1>
-            <p className="para">Embark on a Journey of Growth and Innovation</p>
+            <p className="para sm:hidden md:block text-2xl">Embark on a Journey of Growth and Innovation</p>
           </div>
         </div>
       </div>

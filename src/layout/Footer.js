@@ -10,10 +10,12 @@ import { BiSolidCheckbox } from "react-icons/bi";
 import { PiMapPinThin } from "react-icons/pi";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineMailOutline } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import FooterLogo from "../assets/d-logo.png";
 import { FaCheckDouble } from "react-icons/fa6";
 const Footer = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className="container-section mat-50">
@@ -148,27 +150,27 @@ const Footer = () => {
               <div className="footer-content">
                 <h2 className="heading-h5">Services</h2>
                 <ul className="footer-ul">
-                  <li>
+                <li onClick={() => navigate('/application-development/')}>
                     <i>
-                      <FaCheckDouble />
+                      {/* <FaCheckDouble /> */}
                     </i>{" "}
                     App Development
                   </li>
-                  <li>
+                  <li onClick={() => navigate('/web-development/')}>
                     <i>
-                      <FaCheckDouble />
+                      {/* <FaCheckDouble /> */}
                     </i>{" "}
                     Web Development
                   </li>
-                  <li>
+                  <li onClick={() => navigate('/digital-marketing/')}>
                     <i>
-                      <FaCheckDouble />
+                      {/* <FaCheckDouble /> */}
                     </i>{" "}
                     Digital Marketing
                   </li>
                   <li>
                     <i>
-                      <FaCheckDouble />
+                      {/* <FaCheckDouble /> */}
                     </i>{" "}
                     Graphic Designing
                   </li>
@@ -179,27 +181,27 @@ const Footer = () => {
               <div className="footer-content">
                 <h2 className="heading-h5">Explore</h2>
                 <ul className="footer-ul">
-                  <li>
-                    <i>
-                      <FaCheckDouble />
+                  <li onClick={() => navigate('/about-company/')}>
+                    <i >
+                      {/* <FaCheckDouble /> */}
                     </i>{" "}
                     About{" "}
                   </li>
                   <li>
                     <i>
-                      <FaCheckDouble />
+                      {/* <FaCheckDouble /> */}
                     </i>{" "}
                     Blog{" "}
                   </li>
-                  <li>
+                  <li onClick={() => navigate('/success/')}>
                     <i>
-                      <FaCheckDouble />
+                      {/* <FaCheckDouble /> */}
                     </i>{" "}
                     Projects
                   </li>
                   <li>
                     <i>
-                      <FaCheckDouble />
+                      {/* <FaCheckDouble /> */}
                     </i>{" "}
                     Contact
                   </li>
