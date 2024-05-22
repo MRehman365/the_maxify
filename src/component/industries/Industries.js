@@ -13,7 +13,7 @@ const Industries = () => {
     <>
       <MetaData titles="Maxify industries" />
       {/* serive banner */}
-      <div className="element-banner industry-banner lg:pt-[15%] lg:pb-[20%] md:pt-[25%] md:pb-[10%] sm:pt-[24%] sm:pb-[11%] service-banner">
+      <div className="element-banner industry-banner lg:pt-[15%] lg:pb-[15%] md:pt-[25%] md:pb-[10%] sm:pt-[24%] sm:pb-[11%]">
         {/* <div className="element-banner industry-banner sm:pt-[30%] sm:pb-[5%] lg:py-[200px] xl:py-[222px] service-banner"> */}
         <div className="container-section">
           <div className="element-banner-content">

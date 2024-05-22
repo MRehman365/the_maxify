@@ -9,7 +9,7 @@ const HomeService = () => {
         <div className="container-section py-10">
           <h3 className="heading-h3 text-center text-white">Our services</h3>
           <div className="border-line text-center m-auto my-2"></div>
-          <p className="para text-center">
+          <p className="para text-white text-center">
             Entrust Us with Your Business Needs, We Have Got It All Covered
             Here.
           </p>
