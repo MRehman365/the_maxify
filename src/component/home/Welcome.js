@@ -20,7 +20,7 @@ const Welcome = () => {
                 <h2 className="heading-h3 text">
                   Simplifying, Strengthening Business Worldwide
                 </h2>
-                <p className="text-[#595959] sm:text-[1rem] lg:text-[1rem] xl:text-[1.5rem]  mt-6 text-justify">
+                <p className="text-[#595959] sm:text-[1rem] lg:text-[1rem] xl:text-[1.5rem]  mt-6 ">
                   Maxify is the right platform for all your development and
                   marketing needs. From Strategies to providing end-to-end
                   solutions we have it all covered. We provide our expertise in

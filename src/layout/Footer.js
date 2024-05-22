@@ -4,7 +4,7 @@ import { IoCallSharp } from "react-icons/io5";
 import { FaFacebookF } from "react-icons/fa";
 import { FaPinterestP } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
-import { FaTwitter } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 import { BiSolidCheckbox } from "react-icons/bi";
 import { PiMapPinThin } from "react-icons/pi";
@@ -168,12 +168,12 @@ const Footer = () => {
                     </i>{" "}
                     Digital Marketing
                   </li>
-                  <li>
+                  {/* <li>
                     <i>
-                      {/* <FaCheckDouble /> */}
+                      <FaCheckDouble />
                     </i>{" "}
                     Graphic Designing
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -187,12 +187,12 @@ const Footer = () => {
                     </i>{" "}
                     About{" "}
                   </li>
-                  <li>
+                  {/* <li>
                     <i>
-                      {/* <FaCheckDouble /> */}
+                      <FaCheckDouble />
                     </i>{" "}
                     Blog{" "}
-                  </li>
+                  </li> */}
                   <li onClick={() => navigate('/success/')}>
                     <i>
                       {/* <FaCheckDouble /> */}
@@ -246,7 +246,7 @@ const Footer = () => {
                   </span>
                   <span>
                     <Link to="" target="_blank">
-                      <FaTwitter />
+                    <FaXTwitter />
                     </Link>
                   </span>
                   <span>

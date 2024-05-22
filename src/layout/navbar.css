@@ -210,7 +210,7 @@ a:focus {
   margin: 0 6px;
   padding: 0;
   width: 20%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 @media (max-width: 1400px) and (min-width: 1024px) {
   .navigation ul li ul.dropdowns.img-dropdowns li {
@@ -218,7 +218,7 @@ a:focus {
     margin: 0 6px;
     padding: 0;
     width: 24%;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 }
 @media (min-width: 1400px) {
@@ -227,7 +227,7 @@ a:focus {
     margin: 0 6px;
     padding: 0;
     width: 18%;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 }
 
