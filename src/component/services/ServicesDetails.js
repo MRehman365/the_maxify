@@ -27,7 +27,7 @@ const ServicesDetails = ({
   return (
     <>
       <MetaData titles={`Maxify Industries ${name}`} />
-      <div className="element-banner lg:pt-[15%] lg:pb-[20%] md:pt-[25%] md:pb-[10%] sm:pt-[24%] sm:pb-[11%] ">
+      <div className="element-banner lg:pt-[12%] lg:pb-[10%] md:pt-[25%] md:pb-[10%] sm:pt-[24%] sm:pb-[11%] ">
         <img className="banner" src={img} alt="jpg" />
         <div className="container-section">
           <div className="element-banner-content sm:w-full md:w-[60%] lg:w-[50%]">
@@ -41,7 +41,7 @@ const ServicesDetails = ({
       </div>
       <div className="w-[90%] mx-auto mt-14">
         <div className="grid grid-cols-12 sm:gap-3 lg:gap-[5%]">
-          <div className=" md:col-span-7 sm:col-span-12">
+          <div className="lg:col-span-7 xl:col-span-6 sm:col-span-12">
             <div className="border-line"></div>
             <div className="element-container">
               <h3 className="heading-h3 sm:text-xl font-[600] lg:text-3xl text-gray-600 ">
@@ -58,10 +58,10 @@ const ServicesDetails = ({
           </div>
           {/* <!-- ... --> */}
 
-          <div className=" md:col-span-5 sm:col-span-12 lg:mt-10 sm:mt-0">
-            <div className="element-container">
+          <div className="lg:col-span-5 xl:col-span-6 sm:col-span-12 lg:mt-5 sm:mt-0">
+            <div className="element-container lg:w-[100%] xl:h-[70%] lg:overflow-hidden">
               <div className="img">
-                <img className="" src={img2} alt="" />
+                <img className="w-full" src={img2} alt="" />
               </div>
             </div>
           </div>

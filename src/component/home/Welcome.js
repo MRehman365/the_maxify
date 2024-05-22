@@ -10,7 +10,8 @@ const Welcome = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div className="welcome-section lg:mt-[50px] sm:mt-[20px]">
+            
+      <div className="welcome-section mt-[50px]">
         <div className="container-section">
           <div className="grid grid-cols-12  gap-[5%]">
             <div className="lg:col-span-6 sm:col-span-12">
@@ -20,7 +21,7 @@ const Welcome = () => {
                 <h2 className="heading-h3 text">
                   Simplifying, Strengthening Business Worldwide
                 </h2>
-                <p className="text-[#595959] sm:text-[1rem] lg:text-[1rem] xl:text-[1.5rem]  mt-6 text-justify">
+                <p className="text-[#595959] sm:text-[1rem] lg:text-[1rem] 2xl:text-[1.3rem]  mt-6 text-justify">
                   Maxify is the right platform for all your development and
                   marketing needs. From Strategies to providing end-to-end
                   solutions we have it all covered. We provide our expertise in
@@ -57,8 +58,8 @@ const Welcome = () => {
             </div>
             {/* <!-- ... --> */}
             <div className="lg:col-span-6 sm:col-span-12 sm:mt-4 lg:mt-10">
-              <div className="element-container">
-                <div className="img-box">
+              <div className="element-container lg:w-[100%] lg:h-[80%] lg:overflow-hidden lg:mt-[50px]">
+                <div className="img-box sm:mb-20 lg:mb-0">
                   <img src={WelcomeImg} alt="" />
                   {/* <div className="overlay-content">
                                         <div className="content">
