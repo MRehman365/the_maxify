@@ -20,14 +20,17 @@ const Service = () => {
     <>
       <MetaData titles={`Maxify Industries Services`} />
       {/* serive banner */}
-      <div className="element-banner pt-[15%] pb-[15%]  service-banner">
+
+      <div className="element-banner lg:pt-[12%] lg:pb-[10%] sm:pt-[20%] sm:pb-[15%] service-banner">
+=======
+      {/* <div className="element-banner pt-[15%] pb-[15%]  service-banner"> */}
         {/* <div className="element-banner sm:pt-[30%] sm:pb-[5%] lg:py-[200px] xl:py-[222px] service-banner"> */}
         <div className="container-section">
           <div className="element-banner-content">
             <h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[56px] text-white">
               Maxify Services
             </h1>
-            <p className="para ">
+            <p className="para lg:w-[50%] md:w-[60%] sm:w-[90%]">
               Maxifying Your Business Requirements with our tailored solutions
               to the table to beat the odds
             </p>
@@ -57,7 +60,7 @@ const Service = () => {
             </div>
           </div>
           <div className="lg:col-span-12 md:col-span-12 sm:col-span-12">
-            <div className="grid grid-cols-12 single-service-box">
+            <div className="lg:grid lg:grid-cols-12 sm:flex sm:flex-col-reverse single-service-box">
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 img">
                 <img src={WebImg} alt="" />
               </div>
