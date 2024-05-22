@@ -27,10 +27,10 @@ const IndustriesDetails = ({
         <img className="banner" src={img2} alt="jpg" />
         <div className="container-section">
           <div className="element-banner-content">
-            <h1 className=" sm:text-[24px] font-[700] md:text-[35px] sm:leading-[32px] lg:leading-[64px] lg:text-[40px] text-white">
+            <h1 className=" sm:text-[24px] font-[700] md:text-[35px] sm:leading-[32px] lg:leading-[64px] lg:text-[56px] text-white">
               {title2}
             </h1>
-            <p className="para">{text}</p>
+            <p className="para sm:hidden md:block">{text}</p>
           </div>
         </div>
       </div>

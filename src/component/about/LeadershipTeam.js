@@ -15,7 +15,7 @@ const LeadershipTeam = () => {
         <img className="banner" src={img2} alt="jpg" />
         <div className="container-section ">
           <div className="element-banner-content">
-            <h1 className="text-heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[40px]">
+            <h1 className="text-heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[56px]">
               Powering Great Ideas, Driving <br /> Excellence Through Our
               Solutions
             </h1>

@@ -205,8 +205,8 @@
   background-size: cover;
 }
 .technologies-data img:hover {
-  border: 1px solid rgb(255, 0, 0);
-  background-color: rgb(255, 255, 255);
+  border: 1px solid #525ceb;
+  background-color: #949bf8;
 }
 .tec-img {
   display: flex;

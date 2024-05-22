@@ -35,7 +35,7 @@ const ServicesDetails = ({
               {" "}
               {title2}{" "}
             </h1>
-            <p className="para">{text}</p>
+            <p className="para sm:hidden md:block">{text}</p>
           </div>
         </div>
       </div>

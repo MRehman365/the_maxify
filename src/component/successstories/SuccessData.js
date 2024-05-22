@@ -17,10 +17,10 @@ import schoolImg3 from "../../assets/play school internal image 2.png";
 import hospitalImg from "../../assets/hospital main banner.png";
 import hospitalImg2 from "../../assets/hospital internal image2.png";
 import hospitalImg3 from "../../assets/hospital internal image 1.png";
-import logo1 from "../../assets/php_developer-removebg-preview (3).png";
-import logo2 from "../../assets/java-img.png";
-import logo3 from "../../assets/REACT_NATIVE-removebg-preview.png";
-import logo4 from "../../assets/mern-img.png";
+import logo1 from "../../assets/microsoft_net_development-removebg-preview (4).png";
+import logo2 from "../../assets/java_development-removebg-preview (1).png";
+import logo3 from "../../assets/php_developer-removebg-preview (3).png";
+import logo4 from "../../assets/JAVA-removebg-preview.png";
 import Unihigh from "../../assets/university banner.png";
 import schoolhigh from "../../assets/play school internal image 2.png";
 import hoshigh from "../../assets/hospital banner.png";
@@ -109,6 +109,9 @@ export const SuccessData = [
     img: hospitalImg,
     img22:hoshigh,
     logo1: logo1,
+    logo2: logo2,
+    logo3: logo3,
+    logo4: logo4,
     img2: hospitalImg2,
     img3: hospitalImg3,
     name: "Application Development",
@@ -183,6 +186,9 @@ export const SuccessData = [
     img: schoolImg,
     img22:schoolhigh,
     logo1: logo1,
+    logo2: logo2,
+    logo3: logo3,
+    logo4: logo4,
     img2: schoolImg2,
     img3: schoolImg3,
     name: "Application Development",
