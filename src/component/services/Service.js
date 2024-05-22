@@ -20,11 +20,10 @@ const Service = () => {
     <>
       <MetaData titles={`Maxify Industries Services`} />
       {/* serive banner */}
-<<<<<<< HEAD
+
       <div className="element-banner lg:pt-[12%] lg:pb-[10%] sm:pt-[20%] sm:pb-[15%] service-banner">
 =======
-      <div className="element-banner pt-[15%] pb-[15%]  service-banner">
->>>>>>> f1694042b959c0a2dde98b7501cec0f9d24b5a25
+      {/* <div className="element-banner pt-[15%] pb-[15%]  service-banner"> */}
         {/* <div className="element-banner sm:pt-[30%] sm:pb-[5%] lg:py-[200px] xl:py-[222px] service-banner"> */}
         <div className="container-section">
           <div className="element-banner-content">
