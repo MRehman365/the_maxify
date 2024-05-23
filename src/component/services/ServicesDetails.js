@@ -27,12 +27,11 @@ const ServicesDetails = ({
   return (
     <>
       <MetaData titles={`Maxify Industries ${name}`} />
-      <div className="element-banner lg:pt-[12%] lg:pb-[10%] md:pt-[25%] md:pb-[10%] sm:pt-[24%] sm:pb-[11%] ">
+      <div className="element-banner lg:pt-[15%] lg:pb-[12%] md:pt-[25%] md:pb-[10%] sm:pt-[24%] sm:pb-[11%] ">
         <img className="banner" src={img} alt="jpg" />
         <div className="container-section">
           <div className="element-banner-content sm:w-full md:w-[60%] lg:w-[50%]">
-            <h1 className="heading-  sm:text-[24px] font-[700] md:text-[35px] sm:leading-[32px] lg:leading-[64px] lg:text-[56px] text-white">
-              {" "}
+            <h1 className="heading-  sm:text-[24px] font-[600] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[40px] text-white">
               {title2}{" "}
             </h1>
             <p className="para sm:hidden md:block">{text}</p>
@@ -44,7 +43,7 @@ const ServicesDetails = ({
           <div className="lg:col-span-7 xl:col-span-6 sm:col-span-12">
             <div className="border-line"></div>
             <div className="element-container">
-              <h3 className="heading-h3 sm:text-xl font-[600] lg:text-3xl text-gray-600 ">
+              <h3 className="heading-h3 sm:text-xl font-[600] lg:text-3xl text-gray-600">
                 {title}
               </h3>
               <p className="para1 sm:text-base lg:text-base mt-6 text-justify">

@@ -35,10 +35,10 @@ const SuccessStoriesDetails = ({
   return (
     <>
       <MetaData titles={`Maxify Industries success stories`} />
-      <div className="element-banner lg:pt-[15%] lg:pb-[15%] sm:pt-[23%] sm:pb-[7%] success-banner">
+      <div className="element-banner lg:pt-[13%] lg:pb-[13%] sm:pt-[23%] sm:pb-[7%] success-banner">
         <div className="container-sectio sm:w-[90%] sm:mx-5 lg:w-[70%] lg:mx-20 ">
           <div className="element-banner-content">
-            <h1 className="heading- sm:text-[20px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[56px] text-white">
+            <h1 className="heading- sm:text-[20px] font-[600] sm:leading-[32px] lg:leading-[64px] lg:text-[40px] text-white">
               Revolutionize Brands into Success by Unlocking Your Potential with
               Maxify Web Solutions
             </h1>

@@ -3,7 +3,8 @@ import Ecommerce from "../../assets/1714728390203_9gutvq_2_0.jpg";
 import Education from "../../assets/1714742535980_6mx8uu_2_0.jpg";
 import Healthcare from "../../assets/1714742637478_i6y61k_2_0.jpg";
 import Banking from "../../assets/1714742717118_genmm1_2_0.jpg";
-import ecomImg from "../../assets/1714728390203_9gutvq_2_0.jpg";
+// import ecomImg from "../../assets/1714728390203_9gutvq_2_0.jpg";
+import ecomImg from "../../assets/ecom.jpg";
 import healthImg from "../../assets/1714742637478_i6y61k_2_0.jpg";
 import finImg from "../../assets/1714742717118_genmm1_2_0.jpg";
 import eduImg from "../../assets/1714742535980_6mx8uu_2_0.jpg";
@@ -16,7 +17,7 @@ export const IndustriesData = [
     name: "eCommerce Services",
     url: "/ecommerce-services",
     img: ecomcont,
-    img2: ecomImg,
+    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462198/myCloud/ecom_z78g6j.jpg",
     title2: "E-commerce and Retail Services To The Best",
     text: "Creating personalized shopping experiences and driving sales with AI-powered insights",
     industriesHeading: "Personalize experiences, boost sales",

@@ -18,11 +18,11 @@ export default function Slider() {
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
           <SwiperSlide>
             <div className="home-slider-container">
-              <div className="home-slider-img">
+              <div className="home-slider-img1">
                 {/* <img src={Slider1} alt="" /> */}
                 <video autoPlay muted loop>
                   <source
-                    className="brightness-75"
+                    className="brightness-50"
                     src={Vedio}
                     type="video/mp4"
                   />

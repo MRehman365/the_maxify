@@ -183,7 +183,7 @@ export const SuccessData = [
     name: "My Chhota School",
     title2: "Revolutionizing Education by Integrating AI in My Chhota School Website",
     text: "",
-    img: schoolImg,
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716467603/myCloud/education_x6xag1.png",
     img22:schoolhigh,
     logo1: logo1,
     logo2: logo2,
