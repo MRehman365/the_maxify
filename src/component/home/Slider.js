@@ -18,11 +18,11 @@ export default function Slider() {
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
           <SwiperSlide>
             <div className="home-slider-container">
-              <div className="home-slider-img">
+              <div className="home-slider-img1">
                 {/* <img src={Slider1} alt="" /> */}
                 <video autoPlay muted loop>
                   <source
-                    className="brightness-75"
+                    className="brightness-50"
                     src={Vedio}
                     type="video/mp4"
                   />
@@ -32,9 +32,9 @@ export default function Slider() {
               {/* <div className="slider-overlay">
 
                             </div> */}
-              <div className="home-slider-content">
+              <div className="home-slider-content sm:mt-14">
                 <h1 className="heading-h1"> We are Maxify</h1>
-                <p className="para ">
+                <p className="para sm:hidden md:block ">
                   We provide cutting-edge digital services to elevate your
                   business.
                 </p>

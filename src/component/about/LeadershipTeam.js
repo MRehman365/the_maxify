@@ -10,9 +10,9 @@ const LeadershipTeam = () => {
       <div className="element-banner lg:pt-[15%] lg:pb-[15%] sm:pt-[23%] sm:pb-[7%]  about-company-banner">
         <img className="banner" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462462/myCloud/leadership_image_uoi3xx.png" alt="jpg" />
         <div className="container-section ">
-          <div className="element-banner-content">
-            <h1 className="text-heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[56px]">
-              Powering Great Ideas, Driving <br /> Excellence Through Our
+          <div className="element-banner-content lg:w-[60%]">
+            <h1 className="text-heading- sm:text-[24px] font-[600] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
+              Powering Great Ideas, Driving Excellence Through Our
               Solutions
             </h1>
           </div>
@@ -21,7 +21,7 @@ const LeadershipTeam = () => {
 
       <div className="container-section-2 mat-50">
         <div className="grid grid-cols-12  gap-4">
-          <div className="lg:col-span-6 md:col-span-12 sm:col-span-12">
+          <div className="lg:col-span-7 xl:col-span-6 sm:col-span-12">
             <div className="element-container">
               <div className="border-line"></div>
               <h3 className="heading-h3 ">Meet our team</h3>
@@ -43,10 +43,11 @@ const LeadershipTeam = () => {
             </div>
           </div>
           {/* <!-- ... --> */}
-          <div className="lg:col-span-6 md:col-span-12 sm:col-span-12">
-            <div className="element-container">
+          <div className="lg:col-span-5 xl:col-span-6 sm:col-span-12 lg:mt-20 sm:mt-0">
+            <div className="element-container lg:w-[100%] xl:h-[100%] 2xl:h-[100%] lg:overflow-hidden">
               <div className="img-box about-leadership-main">
                 <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462514/myCloud/welcome-img_1_w9k7l7.jpg" alt="" />
+                <img className="w-full" src={AboutCompanyImg} alt="" />
               </div>
             </div>
           </div>

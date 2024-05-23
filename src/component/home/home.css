@@ -539,7 +539,7 @@
 /* animation */
 .why-choose-use-section {
   position: relative;
-  padding: 54px 0 70px;
+  /* padding: 54px 0 70px; */
   /* background-image: url("../../assets/pattern-11.jpg"); */
   background-position: center;
   background-repeat: no-repeat;

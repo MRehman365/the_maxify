@@ -20,7 +20,7 @@ const Career = () => {
         <img className="banner" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462421/myCloud/CAREER_PAGE_IMAGE_sgnt2s.png" alt="jpg" />
         <div className="container-sectio lg:w-[70%] lg:mx-20 sm:w-[90%] sm:mx-5">
           <div className="element-banner-content ">
-            <h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[56px]">
+            <h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
               Shaping New World Through Maxify Lens
             </h1>
             <p className="para sm:hidden md:block text-2xl">Embark on a Journey of Growth and Innovation</p>

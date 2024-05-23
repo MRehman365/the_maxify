@@ -98,7 +98,7 @@
   }
 
   .why-choose-use-section {
-    padding: 1px 0 70px;
+    /* padding: 1px 0 70px; */
   }
 
   .fact-counter-section {
@@ -264,7 +264,7 @@
   }
 
   .navbar-main-box {
-    padding: 8px 48px;
+    padding: 8px 3px;
   }
 
   .logo img {

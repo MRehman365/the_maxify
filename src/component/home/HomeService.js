@@ -76,7 +76,7 @@ const HomeService = () => {
                 <div className="content">
                   <div>
                     <h5 className="text-[1.3rem] font-[700] ">
-                      Application Development{" "}
+                      Application <br/> Development
                     </h5>
                     <h5 className="text-[1.3rem] font-[700] ">
                       & Management<span></span>

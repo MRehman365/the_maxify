@@ -119,7 +119,7 @@
 }
 
 .element-banner::before {
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.5);;
   bottom: 0;
   content: "";
   left: 0;
@@ -130,6 +130,7 @@
   z-index: 1;
   /* height: 75%; */
 }
+
 
 .element-banner .element-banner-content {
   color: #fff;

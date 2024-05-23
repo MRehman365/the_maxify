@@ -48,7 +48,7 @@ const Contact = () => {
   return (
     <>
       {/* serive banner */}
-      <div className="element-banner pt-[25%] pb-[5%] service-banner">
+      <div className="element-banner pt-[15%] pb-[15%] service-banner">
         <div className="container-section">
           <div className="element-banner-content">
             <h1 className="heading-h1"> Contact Us</h1>

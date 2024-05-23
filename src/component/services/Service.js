@@ -18,7 +18,6 @@ const Service = () => {
       {/* serive banner */}
 
       <div className="element-banner lg:pt-[12%] lg:pb-[10%] sm:pt-[20%] sm:pb-[15%] service-banner">
-=======
       {/* <div className="element-banner pt-[15%] pb-[15%]  service-banner"> */}
         {/* <div className="element-banner sm:pt-[30%] sm:pb-[5%] lg:py-[200px] xl:py-[222px] service-banner"> */}
         <div className="container-section">

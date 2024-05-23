@@ -9,7 +9,7 @@ const AboutCompany = () => {
       <div className="element-banner lg:pt-[15%] lg:pb-[15%] sm:pt-[23%] sm:pb-[7%] about-company-banner">
         <div className="container-section">
           <div className="element-banner-content">
-            <h1 className="text-heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[56px]">
+            <h1 className="text-heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
               Driving Growth with Cutting-Edge Solutions
             </h1>
             <p className="para sm:hidden md:block">

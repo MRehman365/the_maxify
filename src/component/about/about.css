@@ -1,5 +1,6 @@
 .about-company-banner {
-  background-image: url("../../assets/about\ us\ banner.png");
+  /* background-image: url("../../assets/about\ us\ banner.png"); */
+  background-image: url(../../assets/aboutusbanner.png);
 }
 
 .img-box.about-company-img {
