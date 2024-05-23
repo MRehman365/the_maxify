@@ -1,5 +1,4 @@
 import React from "react";
-import WelcomeImg from "../../assets/OFFICE.png";
 import { FaCircleCheck } from "react-icons/fa6";
 import CountUp from "react-countup";
 import Shape5 from "../../assets/shape5.png";
@@ -61,7 +60,7 @@ const Welcome = () => {
             <div className="lg:col-span-6 sm:col-span-12 sm:mt-4 lg:mt-10">
               <div className="element-container lg:w-[100%] lg:h-[80%] lg:overflow-hidden lg:mt-[50px]">
                 <div className="img-box sm:mb-20 lg:mb-0">
-                  <img src={WelcomeImg} alt="" />
+                  <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462476/myCloud/OFFICE_zy0noi.png" alt="" />
                   {/* <div className="overlay-content">
                                         <div className="content">
                                             <div className='shapes'>

@@ -12,7 +12,6 @@ import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import FooterLogo from "../assets/d-logo.png";
 import { FaCheckDouble } from "react-icons/fa6";
 const Footer = () => {
   const navigate = useNavigate();
@@ -199,7 +198,7 @@ const Footer = () => {
                     </i>{" "}
                     Projects
                   </li>
-                  <li>
+                  <li onClick={() => navigate('/contact-us')}>
                     <i>
                       {/* <FaCheckDouble /> */}
                     </i>{" "}

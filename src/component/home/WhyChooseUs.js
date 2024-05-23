@@ -1,7 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import WhyChooseImg from "../../assets/why-us-1.png";
-import WhyChooseImg2 from "../../assets/why-us-2.png";
-
 import { FaUserFriends } from "react-icons/fa";
 import Img1 from "../../assets/img1.jpg";
 import { FaCheck } from "react-icons/fa6";
@@ -180,10 +177,10 @@ const WhyChooseUs = () => {
                 </h2>
                 <div className="img-box mt-8">
                   <figure className="img-box-bg">
-                    <img src={WhyChooseImg2} alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462516/myCloud/why-us-2_hm7mhc.png" alt="" />
                   </figure>
                   <figure className="image2">
-                    <img src={WhyChooseImg} alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462515/myCloud/why-us-1_fc1zih.png" alt="" />
                   </figure>
                 </div>
               </div>
