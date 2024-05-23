@@ -1,21 +1,4 @@
-import Img1 from "../assets/digital marketing banner image.png";
-import shardaUniversity from "../assets/sharda-university.png";
-import DelhiEyeCare from "../assets/Delhi-eye-care.png";
-import MyChhoteSchool from "../assets/mychhoteschool.png";
-import Ecommerce from "../assets/1714728390203_9gutvq_2_0.jpg";
-import HealthCare from "../assets/1714742637478_i6y61k_2_0.jpg";
-import education from "../assets/1714742535980_6mx8uu_2_0.jpg";
-import Finance from "../assets/banking and financial image....png";
-import AppDevelopment from "../assets/app development service banner.jpg";
-import Graphic from "../assets/graphic.jpg";
-import DigitalMarketing from "../assets/web development service banner.png";
-import S1 from "../assets/university internal image 2.png";
-import S2 from "../assets/hospital banner.png";
-import S3 from "../assets/play school internal image 2.png";
-import S4 from "../assets/s4.jpg";
-import abImg from "../assets/company.jpg";
-import leaderImg from "../assets/leadership image.png";
-import careerImg from "../assets/career image..png";
+
 export const NaveData = [
   // {
   //     url: "/",
@@ -38,18 +21,18 @@ export const NaveData = [
 
       {
         link: "/web-development/",
-        img: DigitalMarketing,
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462511/myCloud/web_development_service_banner_rtd6p6.jpg",
         names: "Web Development",
       },
 
       {
         link: "/application-development/",
-        img: AppDevelopment,
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462413/myCloud/app_development_service_banner_ez29ql.jpg",
         names: "App Development",
       },
       {
         link: "/digital-marketing/",
-        img: Img1,
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462428/myCloud/digital_marketing_banner_image_xouinj.png",
         names: "Digital Marketing",
       },
     ],
@@ -69,22 +52,22 @@ export const NaveData = [
       },
       {
         link: "/ecommerce-services/",
-        img: Ecommerce,
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462434/myCloud/ecom_sublda.jpg",
         names: "E-Commerce",
       },
       {
         link: "/health-care/",
-        img: HealthCare,
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462402/myCloud/1714742637478_i6y61k_2_0_fdaa8g.jpg",
         names: "Health Care",
       },
       {
         link: "/education/",
-        img: education,
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462404/myCloud/1714742535980_6mx8uu_2_0_qk4qm5.jpg",
         names: "Education",
       },
       {
         link: "/indian-army/",
-        img: Finance,
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462416/myCloud/banking_and_financial_image..._ipp7s8.png",
         names: "Banking & Finance",
       },
     ],
@@ -104,17 +87,17 @@ export const NaveData = [
       },
       {
         link: "/sharda-university/",
-        img: S1,
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462508/myCloud/university_internal_image_2_o2fgol.png",
         names: "Sharda University",
       },
       {
         link: "/eye-care/",
-        img: S2,
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462449/myCloud/hospital_banner_k2xber.png",
         names: "Delhi Eye Care",
       },
       {
         link: "/chhota-school/",
-        img: S3,
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462485/myCloud/play_school_internal_image_2_ftnld7.png",
         names: "Chhota School",
       },
     ],
@@ -136,18 +119,18 @@ export const NaveData = [
 
       {
         link: "/about-company/",
-        img: abImg,
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462424/myCloud/company_1_meagmf.jpg",
         names: "Company",
       },
 
       {
         link: "/leadership-team/",
-        img: leaderImg,
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462462/myCloud/leadership_image_1_km4pun.png",
         names: "Leadership Team",
       },
       {
         link: "/career/",
-        img: careerImg,
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462420/myCloud/career_image._phwggl.png",
         names: "Career",
       },
     ],

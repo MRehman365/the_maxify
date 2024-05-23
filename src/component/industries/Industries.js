@@ -1,12 +1,10 @@
 import React from "react";
-import Ecommerce from "../../assets/ecommerce.webp";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import "./industries.css";
 import { IndustriesData } from "./IndustriesData";
 import { useNavigate } from "react-router-dom";
 import OurSuccessStories from "../home/OurSuccessStories";
 import MetaData from "../../layout/MetaData";
-import img2 from "../../assets/1714720500199_arioaq_2_0.jpg";
 const Industries = () => {
   const navigate = useNavigate();
   return (

@@ -1,43 +1,19 @@
-import WelcomeImg from "../../assets/welcome-img.jpg";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import DotNetImg from "../../assets/microsoft_net_development-removebg-preview (4).png";
-import JavaImg from "../../assets/java_development-removebg-preview (1).png";
-import PhpImg from "../../assets/php_developer-removebg-preview (3).png";
-import MernImg from "../../assets/stock_development-removebg-preview (3).png";
 import { MdOutlineConstruction } from "react-icons/md";
-import appImg from "../../assets/1715169322133_h3x5ro_2_0.jpg";
-import webImg from "../../assets/1715151392526_a932l8_2_0.jpg";
-import digImg from "../../assets/1714548656867_h82h4v_2_0.jpg";
-import banner2 from "../../assets/university internal image 1.png";
-import banner3 from "../../assets/university internal image 2.png";
-import uniImg from "../../assets/university main banner.png";
-import schoolImg from "../../assets/play school banner.png";
-import schoolImg2 from "../../assets/playschool internal page image.png";
-import schoolImg3 from "../../assets/play school internal image 2.png";
-import hospitalImg from "../../assets/hospital main banner.png";
-import hospitalImg2 from "../../assets/hospital internal image2.png";
-import hospitalImg3 from "../../assets/hospital internal image 1.png";
-import logo1 from "../../assets/microsoft_net_development-removebg-preview (4).png";
-import logo2 from "../../assets/java_development-removebg-preview (1).png";
-import logo3 from "../../assets/php_developer-removebg-preview (3).png";
-import logo4 from "../../assets/JAVA-removebg-preview.png";
-import Unihigh from "../../assets/university banner.png";
-import schoolhigh from "../../assets/play school internal image 2.png";
-import hoshigh from "../../assets/hospital banner.png";
 export const SuccessData = [
   {
     url: "/sharda-university",
     name: "Sharda University",
     title2: "Uplifting The Digital Presence of Sharda University with Our Solutions",
     text: "Maxify web solutions was given the opportunity to increase visibility of the Sharda University website.",
-    img: uniImg,
-    img22:Unihigh,
-    logo1: logo1,
-    logo2: logo2,
-    logo3: logo3,
-    logo4: logo4,
-    img2: banner2,
-    img3: banner3,
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462508/myCloud/university_main_banner_mg1hn5.png",
+    img22: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462506/myCloud/university_banner_i2sfyj.png",
+    logo1: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462469/myCloud/microsoft_net_development-removebg-preview_4_tejmlq.png",
+    logo2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462458/myCloud/java_development-removebg-preview_1_olfdje.png",
+    logo3: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462480/myCloud/php_developer-removebg-preview_3_p7mlsk.png",
+    logo4: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462460/myCloud/JAVA-removebg-preview_nn4n43.png",
+    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462506/myCloud/university_internal_image_1_zwcz7d.png",
+    img3: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462508/myCloud/university_internal_image_2_o2fgol.png",
     name: "Application Development",
     icons: <MdOutlineConstruction />,
     title: "Empowering Excellence with The Right App Development Company",
@@ -106,14 +82,14 @@ export const SuccessData = [
     name: " Delhi Eye Care",
     title2: "Revamping and Enhancing The presence of Delhi Eye Care Website",
     text: "",
-    img: hospitalImg,
-    img22:hoshigh,
-    logo1: logo1,
-    logo2: logo2,
-    logo3: logo3,
-    logo4: logo4,
-    img2: hospitalImg2,
-    img3: hospitalImg3,
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462452/myCloud/hospital_main_banner_wfwfia.png",
+    img22:"https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462449/myCloud/hospital_banner_k2xber.png",
+    logo1: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462469/myCloud/microsoft_net_development-removebg-preview_4_tejmlq.png",
+    logo2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462458/myCloud/java_development-removebg-preview_1_olfdje.png",
+    logo3: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462480/myCloud/php_developer-removebg-preview_3_p7mlsk.png",
+    logo4: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462460/myCloud/JAVA-removebg-preview_nn4n43.png",
+    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462451/myCloud/hospital_internal_image2_tmgj1f.png",
+    img3: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462449/myCloud/hospital_internal_image_1_lsrigk.png",
     name: "Application Development",
     icons: <MdOutlineConstruction />,
     title: "Empowering Excellence with The Right App Development Company",
@@ -183,14 +159,14 @@ export const SuccessData = [
     name: "My Chhota School",
     title2: "Revolutionizing Education by Integrating AI in My Chhota School Website",
     text: "",
-    img: schoolImg,
-    img22:schoolhigh,
-    logo1: logo1,
-    logo2: logo2,
-    logo3: logo3,
-    logo4: logo4,
-    img2: schoolImg2,
-    img3: schoolImg3,
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462418/myCloud/banner_play_school_tpbnzw.png",
+    img22:"https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462485/myCloud/play_school_internal_image_2_ftnld7.png",
+    logo1: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462469/myCloud/microsoft_net_development-removebg-preview_4_tejmlq.png",
+    logo2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462458/myCloud/java_development-removebg-preview_1_olfdje.png",
+    logo3: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462480/myCloud/php_developer-removebg-preview_3_p7mlsk.png",
+    logo4: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462460/myCloud/JAVA-removebg-preview_nn4n43.png",
+    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462485/myCloud/play_school_internal_image_2_ftnld7.png",
+    img3: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/playschool_internal_page_image_ehwqag.png",
     name: "Application Development",
     icons: <MdOutlineConstruction />,
     title: "Empowering Excellence with The Right App Development Company",

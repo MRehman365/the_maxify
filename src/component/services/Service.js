@@ -6,10 +6,6 @@ import { ServiceData } from "./ServiceData";
 import { useNavigate } from "react-router-dom";
 import OurSuccessStories from "../home/OurSuccessStories";
 import MetaData from "../../layout/MetaData";
-import ServiceImg from "../../assets/service-img.png";
-import WebImg from "../../assets/1714554235083_29zv92_2_0.jpg";
-import ApplicationImg from "../../assets/mobile app.png";
-import DigitalImg from "../../assets/1714567529414_2n6b6f_2_0.jpg";
 const Service = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -58,14 +54,14 @@ const Service = () => {
                 </h5>
               </div>
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 img">
-                <img src={ApplicationImg} alt="" />
+                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462471/myCloud/mobile_app_yo4pfh.png" alt="Application Image" />
               </div>
             </div>
           </div>
           <div className="lg:col-span-12 md:col-span-12 sm:col-span-12">
             <div className="lg:grid lg:grid-cols-12 sm:flex sm:flex-col-reverse single-service-box">
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 img">
-                <img src={WebImg} alt="" />
+                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462401/myCloud/1714554235083_29zv92_2_0_xth8qs.jpg" alt="" />
               </div>
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 content">
                 <div className="border-line"></div>
@@ -101,7 +97,7 @@ const Service = () => {
                 </h5>
               </div>
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 img">
-                <img src={DigitalImg} alt="" />
+                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462402/myCloud/1714567529414_2n6b6f_2_0_uuislw.jpg" alt="" />
               </div>
             </div>
           </div>

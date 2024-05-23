@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./career.css";
-import CareerIcons from "../../assets/career.png";
 import MetaData from "../../layout/MetaData";
-import img2 from "../../assets/CAREER PAGE IMAGE.png";
 const Career = () => {
   const [selected, setSelected] = useState(null);
   const toggle = (i) => {
@@ -19,7 +17,7 @@ const Career = () => {
       <MetaData titles={`Maxify Career`} />
       {/* serive banner */}
       <div className="element-banner lg:pt-[15%] lg:pb-[15%] sm:pt-[23%] sm:pb-[7%] service-banner">
-        <img className="banner" src={img2} alt="jpg" />
+        <img className="banner" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462421/myCloud/CAREER_PAGE_IMAGE_sgnt2s.png" alt="jpg" />
         <div className="container-sectio lg:w-[70%] lg:mx-20 sm:w-[90%] sm:mx-5">
           <div className="element-banner-content ">
             <h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[56px]">
@@ -53,7 +51,7 @@ const Career = () => {
         <div className="grid grid-cols-12  gap-4 mat-50">
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
             <div className="career-box">
-              <img src={CareerIcons} alt="" />
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462421/myCloud/career_rbakkv.png"alt="" />
               <h5 className="heading-h5">Innovation at its Best</h5>
               <p className="para">
                 We are committed to drive excellence, and we believe to be going
@@ -64,7 +62,7 @@ const Career = () => {
           </div>
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
             <div className="career-box">
-              <img src={CareerIcons} alt="" />
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462421/myCloud/career_rbakkv.png"alt="" />
               <h5 className="heading-h5">Growth Opportunities</h5>
               <p className="para">
                 Maxify team makes sure our team members grow exponentially from
@@ -76,7 +74,7 @@ const Career = () => {
           </div>
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
             <div className="career-box">
-              <img src={CareerIcons} alt="" />
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462421/myCloud/career_rbakkv.png"alt="" />
               <h5 className="heading-h5">Real-Time Scenario</h5>
               <p className="para">
                 The projects we work on are the ones that will add more value to
@@ -87,7 +85,7 @@ const Career = () => {
           </div>
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
             <div className="career-box">
-              <img src={CareerIcons} alt="" />
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462421/myCloud/career_rbakkv.png"alt="" />
               <h5 className="heading-h5">Diverse Perspective</h5>
               <p className="para">
                 Coming from different backgrounds makes us different, what
@@ -99,7 +97,7 @@ const Career = () => {
           </div>
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
             <div className="career-box">
-              <img src={CareerIcons} alt="" />
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462421/myCloud/career_rbakkv.png"alt="" />
               <h5 className="heading-h5">Work-Life Balance</h5>
               <p className="para">
                 We believe in maintain a healthy and balanced lifestyle where
