@@ -157,7 +157,6 @@ const Navbar = () => {
                                   toggle(i);
                                   navigate(data.link);
                                   handleMouseLeave();
-                                  handleClick();
                                 }}
                               >
                                 <img
@@ -259,7 +258,7 @@ const Navbar = () => {
                                     onClick={() => {
                                       navigate(item.url);
                                       handleMouseLeave();
-                                      handleClick();
+                                      
                                     }}
                                   >
                                     {data?.dText?.b}
@@ -273,6 +272,7 @@ const Navbar = () => {
                                   toggle(i);
                                   navigate(data.link);
                                   handleMouseLeave();
+                                  handleClick();
                                 }}
                               >
                                 <img

@@ -32,9 +32,9 @@ export default function Slider() {
               {/* <div className="slider-overlay">
 
                             </div> */}
-              <div className="home-slider-content">
+              <div className="home-slider-content sm:mt-14">
                 <h1 className="heading-h1"> We are Maxify</h1>
-                <p className="para ">
+                <p className="para sm:hidden md:block ">
                   We provide cutting-edge digital services to elevate your
                   business.
                 </p>
