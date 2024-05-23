@@ -46,8 +46,7 @@ const LeadershipTeam = () => {
           <div className="lg:col-span-5 xl:col-span-6 sm:col-span-12 lg:mt-20 sm:mt-0">
             <div className="element-container lg:w-[100%] xl:h-[100%] 2xl:h-[100%] lg:overflow-hidden">
               <div className="img-box about-leadership-main">
-                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462514/myCloud/welcome-img_1_w9k7l7.jpg" alt="" />
-                <img className="w-full" src={AboutCompanyImg} alt="" />
+                <img className="w-full" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462514/myCloud/welcome-img_1_w9k7l7.jpg" alt="" />
               </div>
             </div>
           </div>
