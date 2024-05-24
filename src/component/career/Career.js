@@ -51,8 +51,8 @@ const Career = () => {
           </p>
         </div>
         <div className="grid grid-cols-12  gap-4 mat-50">
-          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
-            <div className="career-box">
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12 ">
+            <div className="career-box h-[20rem]">
               <img src={CareerIcons} alt="" />
               <h5 className="heading-h5">Innovation at its Best</h5>
               <p className="para">
@@ -62,8 +62,8 @@ const Career = () => {
               </p>
             </div>
           </div>
-          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
-            <div className="career-box">
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12 ">
+            <div className="career-box h-[20rem]">
               <img src={CareerIcons} alt="" />
               <h5 className="heading-h5">Growth Opportunities</h5>
               <p className="para">
@@ -74,8 +74,8 @@ const Career = () => {
               </p>
             </div>
           </div>
-          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
-            <div className="career-box">
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12 ">
+            <div className="career-box h-[20rem]">
               <img src={CareerIcons} alt="" />
               <h5 className="heading-h5">Real-Time Scenario</h5>
               <p className="para">
@@ -85,8 +85,8 @@ const Career = () => {
               </p>
             </div>
           </div>
-          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
-            <div className="career-box">
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12 ">
+            <div className="career-box h-[20rem]">
               <img src={CareerIcons} alt="" />
               <h5 className="heading-h5">Diverse Perspective</h5>
               <p className="para">
@@ -97,8 +97,8 @@ const Career = () => {
               </p>
             </div>
           </div>
-          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
-            <div className="career-box">
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12 ">
+            <div className="career-box h-[20rem]">
               <img src={CareerIcons} alt="" />
               <h5 className="heading-h5">Work-Life Balance</h5>
               <p className="para">

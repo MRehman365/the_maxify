@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./about.css";
 import AboutCompanyImg from "../../assets/about us page 1.png";
 import EthosImg from "../../assets/ethos-img.webp";
 import MetaData from "../../layout/MetaData";
+import ContactForm from "../ContactForm";
 const AboutCompany = () => {
+  const [showForm, setShowForm] = useState(false);
   return (
     <>
       <MetaData titles={`Maxify Abouts Us`} />
+      <div>
       {/* banner */}
       <div className="element-banner lg:pt-[15%] lg:pb-[15%] sm:pt-[23%] sm:pb-[7%] about-company-banner">
         <div className="container-section">
@@ -51,7 +54,7 @@ const AboutCompany = () => {
                 the digital world.
               </p>
 
-              <button class="custom-btn btn-16 mt-8">
+              <button class="custom-btn btn-16 mt-8" onClick={()=>setShowForm(!showForm)}>
                 <span>Read More</span>{" "}
               </button>
             </div>
@@ -118,6 +121,15 @@ const AboutCompany = () => {
         </div>
       </div>
 
+
+      {showForm ? (
+          <div className="fixed top-[13%] lg:left-[15%] sm:left-[5%] z-[100] lg:w-[70%] sm:w-[90%]">
+            <ContactForm showForm={showForm} setShowForm={setShowForm} />
+          </div>
+        ) : (
+          ""
+        )}
+
       {/* Our essence
        */}
 
@@ -169,6 +181,7 @@ const AboutCompany = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

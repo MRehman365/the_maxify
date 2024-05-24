@@ -72,13 +72,13 @@
   color: #3d3b40;
   max-height: 0;
   overflow: hidden;
-  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+  transition: all 1s cubic-bezier(0, 1, 0, 1);
 }
 
 .job-section .content.show {
   height: auto;
   max-height: 999px;
-  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+  transition: all 0.8s cubic-bezier(1, 0, 1, 0);
   line-height: 1.5;
   padding-top: 0px;
   padding-bottom: 10px;

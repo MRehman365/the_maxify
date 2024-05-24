@@ -35,7 +35,7 @@ const IndustriesDetails = ({
         </div>
       </div>
       <div className="container-section mat-50">
-        <div className="grid grid-cols-12  gap-4">
+        <div className="grid grid-cols-12  gap-10">
           <div className="lg:col-span-7 xl:col-span-6 sm:col-span-12">
             <div className="border-line"></div>
             <div className="element-container">
@@ -51,8 +51,8 @@ const IndustriesDetails = ({
             </div>
           </div>
           {/* <!-- ... --> */}
-          <div className="lg:col-span-5 xl:col-span-6 sm:col-span-12 lg:mt-5 sm:mt-0">
-            <div className="element-container lg:w-[100%] xl:h-[70%] lg:overflow-hidden">
+          <div className="lg:col-span-5 xl:col-span-6 sm:col-span-12 xl:mt-20 sm:mt-0">
+            <div className="element-container lg:w-[100%] xl:h-[75%] lg:overflow-hidden">
               <div className="img-box">
                 <img className="w-full" src={img} alt="" />
               </div>
