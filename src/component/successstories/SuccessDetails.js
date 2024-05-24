@@ -83,7 +83,7 @@ const SuccessDetails = ({ title,
 
             {/* Success Goal  */}
 
-            <div className="container-section mat-100">
+            <div className="container-section mt-4">
 
 
                 <div className="grid grid-cols-12  gap-6">
@@ -121,7 +121,7 @@ const SuccessDetails = ({ title,
 
             {/*  */}
 
-            <div className='mt-3 result'>
+            <div className='mt-0 result'>
                 <h2 className='heading-h2 para' style={{  }}>The Result</h2>
                 <div className='content-result'>
                 <li className='para'>{headingp1}</li>

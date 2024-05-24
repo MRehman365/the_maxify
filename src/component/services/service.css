@@ -149,7 +149,7 @@
 }
 
 .element-banner.service-banner {
-  background-image: url("../../assets/service\ web.png");
+  background-image: url("https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462495/myCloud/service_web_ydimck.png");
   /* height: 250px; */
 }
 
@@ -159,11 +159,11 @@
 }
 
 .industry-banner {
-  background-image: url("../../assets/1714720500199_arioaq_2_0.jpg");
+  background-image: url("https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462402/myCloud/1714720500199_arioaq_2_0_mxl1rf.jpg");
   /* height: 250px; */
 }
 .success-banner {
-  background-image: url("../../assets/MOBILITY.png");
+  background-image: url("https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462471/myCloud/MOBILITY_oz1ehu.png");
   /* height: 250px; */
 }
 

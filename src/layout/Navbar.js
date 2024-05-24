@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import { Link, useNavigate } from "react-router-dom";
-import Logo from "../assets/logo.png";
 import { IoIosArrowDown } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
 import { FaBars } from "react-icons/fa";
@@ -94,7 +93,7 @@ const Navbar = () => {
       <header className={x.join(" ")}>
         <div className="navbar-main-box">
           <div className="logo" onClick={() => navigate("/")}>
-            <img loading="lazy" src={Logo} alt="" />
+            <img loading="lazy" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462466/myCloud/logo_zxu5hn.png" alt="" />
           </div>
           <nav className="navigation">
             <ul className="lg:flex hidden font-[500] text-[1rem] items-center gap-8 leading-5 navmanu">

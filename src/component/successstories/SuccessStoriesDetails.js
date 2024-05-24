@@ -1,13 +1,7 @@
 import React, { useEffect } from "react";
-
-import WelcomeImg from "../../assets/welcome-img.jpg";
 import { useNavigate } from "react-router-dom";
 import OurSuccessStories from "../home/OurSuccessStories";
 import "./success.css";
-import success1 from "../../assets/university internal image 2.png";
-import success2 from "../../assets/hospital banner.png";
-import success3 from "../../assets/play school internal image 2.png";
-import Img2 from "../../assets/img2.jpg";
 import MetaData from "../../layout/MetaData";
 
 const SuccessStoriesDetails = ({
@@ -74,7 +68,7 @@ const SuccessStoriesDetails = ({
           {/* <div className="success-conten flex gap-10 mt-4"> */}
           <div className="first-success">
             <div className="image-success">
-              <img src={success1} alt="" />
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462508/myCloud/university_internal_image_2_o2fgol.png" alt="" />
             </div>
             <div className="success-content">
               <h2 onClick={handleClick}>
@@ -90,7 +84,7 @@ const SuccessStoriesDetails = ({
 
           <div className="first-success">
             <div className="image-success">
-              <img src={success2} alt="" />
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462449/myCloud/hospital_banner_k2xber.png" alt="" />
             </div>
             <div className="success-content">
               <h2 onClick={handleClick2}>
@@ -106,7 +100,7 @@ const SuccessStoriesDetails = ({
 
           <div className="first-success">
             <div className="image-success">
-              <img src={success3} alt="" />
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462485/myCloud/play_school_internal_image_2_ftnld7.png" alt="" />
             </div>
             <div className="success-content">
               <h2 onClick={handleClick3}>
@@ -121,7 +115,7 @@ const SuccessStoriesDetails = ({
             </div>
           </div>
         </div>
-        <button className="btn-success">See More</button>
+        {/* <button className="btn-success">See More</button> */}
       </div>
 
       <OurSuccessStories />

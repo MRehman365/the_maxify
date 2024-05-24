@@ -1,29 +1,16 @@
-import WelcomeImg from "../../assets/welcome-img.jpg";
-import Ecommerce from "../../assets/1714728390203_9gutvq_2_0.jpg";
-import Education from "../../assets/1714742535980_6mx8uu_2_0.jpg";
-import Healthcare from "../../assets/1714742637478_i6y61k_2_0.jpg";
-import Banking from "../../assets/1714742717118_genmm1_2_0.jpg";
-// import ecomImg from "../../assets/1714728390203_9gutvq_2_0.jpg";
-import ecomImg from "../../assets/ecom.jpg";
-import healthImg from "../../assets/1714742637478_i6y61k_2_0.jpg";
-import finImg from "../../assets/1714742717118_genmm1_2_0.jpg";
-import eduImg from "../../assets/1714742535980_6mx8uu_2_0.jpg";
-import ecomcont from "../../assets/ECOMMERCE (1).png";
-import educont from "../../assets/EDUCATION.png";
-import fincont from "../../assets/BANKING AND FINANCIAL CONTAINER IMAGE (3).png";
-import healthcont from "../../assets/health container image (2).png";
+
 export const IndustriesData = [
   {
     name: "eCommerce Services",
     url: "/ecommerce-services",
-    img: ecomcont,
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462436/myCloud/ECOMMERCE_1_k0ocx8.png",
     img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462198/myCloud/ecom_z78g6j.jpg",
     title2: "E-commerce and Retail Services To The Best",
     text: "Creating personalized shopping experiences and driving sales with AI-powered insights",
     industriesHeading: "Personalize experiences, boost sales",
     industriesText:
       "Creating personalized shopping experiences and driving sales with AI-powered insights",
-    industriesImg: Ecommerce,
+    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462401/myCloud/1714728390203_9gutvq_2_0_aqbzyo.jpg",
     title:
       "Empowering and Scaling Your Retail and e-commerce Businesses Through Our Experience Led Solutions ",
     description1:
@@ -61,14 +48,14 @@ export const IndustriesData = [
   {
     name: "Health Care",
     url: "/health-care",
-    img: healthcont,
-    img2: healthImg,
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462443/myCloud/health_container_image_2_oxnsml.png",
+    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462402/myCloud/1714742637478_i6y61k_2_0_fdaa8g.jpg",
     title2: "Transforming Healthcare with Innovative Technology",
     text: "Improving efficiency, through application development and digital transformation in healthcare industry",
     industriesHeading: " Improve outcomes, optimize operations",
     industriesText:
       "Enhancing patient care and operational efficiency through advanced digital solutions",
-    industriesImg: Healthcare,
+    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462402/myCloud/1714742637478_i6y61k_2_0_fdaa8g.jpg",
     title:
       "Leading The Change with Innovative Solutions and Expertise to revolutionize Healthcare Industry ",
     description1:
@@ -114,14 +101,14 @@ export const IndustriesData = [
   {
     name: "Education",
     url: "/education",
-    img: educont,
-    img2: eduImg,
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462439/myCloud/EDUCATION_itpuzn.png",
+    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462404/myCloud/1714742535980_6mx8uu_2_0_qk4qm5.jpg",
     title2: "Explore Educational Solutions with Maxify Web Solutions",
     text: "Empowering Learning Through Technology",
     industriesHeading: "Empower learning, enhance outcomes",
     industriesText:
       "Empowering learning institutions with innovative tools for student engagement and performance tracking",
-    industriesImg: Education,
+    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462404/myCloud/1714742535980_6mx8uu_2_0_qk4qm5.jpg",
     title: "Transforming Education with Innovative Solutions",
     description1:
       "In today's digital age, traditional methods of teaching and learning are evolving, and we're at the forefront of this transformation. Our mission is to empower educators, students, and institutions with cutting-edge educational solutions that enhance learning outcomes and drive innovation. We understand the diverse needs of the education sector. We offer a comprehensive suite of services tailored to meet the unique requirements of our clients. Whether you're looking to develop a custom learning management system, create interactive e-learning modules, or implement virtual classroom solutions, we have the expertise and experience to bring your vision to life. Our team of experienced developers, designers, and educational experts works closely with clients to understand their goals and objectives. We leverage the latest technologies and methodologies to deliver high-quality solutions that are scalable, user-friendly, and cost-effective. From mobile apps to web platforms, we provide end-to-end development services that optimize the learning experience for all stakeholders.",
@@ -146,24 +133,24 @@ export const IndustriesData = [
           "We believe that everyone deserves the right to education which is why in project guidance services for applications and websites we try to focus on this. The learner-centered software we create guarantees that all students learn in the best way possible — irrespective of their differences — while availing more learning opportunities",
       },
 
-      {
-        heading: "Feedback and Assessment",
-        content:
-          " Our strong app and website design service which has effective evaluation and response tools. With our software features like machine-graded tests, we help teachers gauge how well learners are doing in class thus enabling them to give quick responses to enable them keep on improving themselves. ",
-      },
+      // {
+      //   heading: "Feedback and Assessment",
+      //   content:
+      //     " Our strong app and website design service which has effective evaluation and response tools. With our software features like machine-graded tests, we help teachers gauge how well learners are doing in class thus enabling them to give quick responses to enable them keep on improving themselves. ",
+      // },
     ],
   },
   {
     name: "Finance",
-    url: "/indian-army",
-    img: fincont,
-    img2: finImg,
+    url: "/banking-finance",
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462414/myCloud/BANKING_AND_FINANCIAL_CONTAINER_IMAGE_3_qwtfdg.png",
+    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462402/myCloud/1714742717118_genmm1_2_0_ygwrnp.jpg",
     title2: "Empowering Financial World Through Next-Gen Development Services",
     text: "Transforming With Cutting-Edge Technology Solutions",
     industriesHeading: "Ensure security, unlock new revenue streams",
     industriesText:
       "Ensuring security and compliance while unlocking new revenue streams with blockchain technology",
-    industriesImg: Banking,
+    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462402/myCloud/1714742717118_genmm1_2_0_ygwrnp.jpg",
     title:
       "Revolutionizing Financial Operations with Tailored Web and App Development Services ",
     description1:

@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import SvgImg from "../../assets/Consulting-Services-Icon.svg";
 const HomeService = () => {
   return (
     <>
@@ -28,12 +27,12 @@ const HomeService = () => {
                     </h5>
                   </div>
                   <div className="img">
-                    <img src={SvgImg} alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462425/myCloud/Consulting-Services-Icon_zgggrd.svg" alt="" />
                   </div>
                 </div>
                 <div className="home-service-back-content">
                   <figure className="back-icons">
-                    <img src={SvgImg} alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462425/myCloud/Consulting-Services-Icon_zgggrd.svg" alt="" />
                   </figure>
                   <h5 className="text-[1.3rem] font-[700] ">
                     Website Design & Development
@@ -83,12 +82,12 @@ const HomeService = () => {
                     </h5>
                   </div>
                   <div className="img">
-                    <img src={SvgImg} alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462425/myCloud/Consulting-Services-Icon_zgggrd.svg" alt="" />
                   </div>
                 </div>
                 <div className="home-service-back-content">
                   <figure className="back-icons">
-                    <img src={SvgImg} alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462425/myCloud/Consulting-Services-Icon_zgggrd.svg" alt="" />
                   </figure>
                   <h5 className="text-[1.3rem] font-[700] ">
                     Application Development & Management
@@ -138,12 +137,12 @@ const HomeService = () => {
                     </h5>
                   </div>
                   <div className="img">
-                    <img src={SvgImg} alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462425/myCloud/Consulting-Services-Icon_zgggrd.svg" alt="" />
                   </div>
                 </div>
                 <div className="home-service-back-content">
                   <figure className="back-icons">
-                    <img src={SvgImg} alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462425/myCloud/Consulting-Services-Icon_zgggrd.svg" alt="" />
                   </figure>
                   <h5 className="text-[1.3rem] font-[700] ">
                     Digital Marketing & Advertising

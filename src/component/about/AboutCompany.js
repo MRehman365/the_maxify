@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "./about.css";
-import AboutCompanyImg from "../../assets/about us page 1.png";
-import EthosImg from "../../assets/ethos-img.webp";
 import MetaData from "../../layout/MetaData";
 import ContactForm from "../ContactForm";
 const AboutCompany = () => {
@@ -63,7 +61,7 @@ const AboutCompany = () => {
           <div className="lg:col-span-5 md:col-span-6 sm:col-span-12">
             <div className="element-container">
               <div className="img-box about-company-img">
-                <img src={AboutCompanyImg} alt="" />
+                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462410/myCloud/about_us_page_1_cepnfn.png" alt="" />
               </div>
             </div>
           </div>
@@ -76,7 +74,7 @@ const AboutCompany = () => {
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
             <div className="element-container">
               <div className="img-box ">
-                <img src={EthosImg} alt="" />
+                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462440/myCloud/ethos-img_fh4sku.webp" alt="" />
               </div>
             </div>
           </div>

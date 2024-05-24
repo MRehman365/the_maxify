@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "./career.css";
-import CareerIcons from "../../assets/career.png";
 import MetaData from "../../layout/MetaData";
-import img2 from "../../assets/CAREER PAGE IMAGE.png";
+import { RxTimer } from "react-icons/rx";
+import { BsGraphUpArrow } from "react-icons/bs";
+import { CiAlarmOn } from "react-icons/ci";
+import { PiFediverseLogoLight } from "react-icons/pi";
+import { MdBalance } from "react-icons/md";
+import { MdKeyboardArrowUp } from "react-icons/md";
+import { MdKeyboardArrowDown } from "react-icons/md";
 const Career = () => {
   const [selected, setSelected] = useState(null);
   const toggle = (i) => {
@@ -19,7 +24,7 @@ const Career = () => {
       <MetaData titles={`Maxify Career`} />
       {/* serive banner */}
       <div className="element-banner lg:pt-[15%] lg:pb-[15%] sm:pt-[23%] sm:pb-[7%] service-banner">
-        <img className="banner" src={img2} alt="jpg" />
+        <img className="banner" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462421/myCloud/CAREER_PAGE_IMAGE_sgnt2s.png" alt="jpg" />
         <div className="container-sectio lg:w-[70%] lg:mx-20 sm:w-[90%] sm:mx-5">
           <div className="element-banner-content ">
             <h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
@@ -51,9 +56,15 @@ const Career = () => {
           </p>
         </div>
         <div className="grid grid-cols-12  gap-4 mat-50">
+<<<<<<< HEAD
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12 ">
             <div className="career-box h-[20rem]">
               <img src={CareerIcons} alt="" />
+=======
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
+            <div className="career-box">
+              <CiAlarmOn className="icon"/>
+>>>>>>> 610011b0131380d1cc086e33259ece257576fa0f
               <h5 className="heading-h5">Innovation at its Best</h5>
               <p className="para">
                 We are committed to drive excellence, and we believe to be going
@@ -62,9 +73,15 @@ const Career = () => {
               </p>
             </div>
           </div>
+<<<<<<< HEAD
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12 ">
             <div className="career-box h-[20rem]">
               <img src={CareerIcons} alt="" />
+=======
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
+            <div className="career-box">
+            <BsGraphUpArrow className="icon"/>
+>>>>>>> 610011b0131380d1cc086e33259ece257576fa0f
               <h5 className="heading-h5">Growth Opportunities</h5>
               <p className="para">
                 Maxify team makes sure our team members grow exponentially from
@@ -74,9 +91,15 @@ const Career = () => {
               </p>
             </div>
           </div>
+<<<<<<< HEAD
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12 ">
             <div className="career-box h-[20rem]">
               <img src={CareerIcons} alt="" />
+=======
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
+            <div className="career-box">
+            <RxTimer className="icon"/>
+>>>>>>> 610011b0131380d1cc086e33259ece257576fa0f
               <h5 className="heading-h5">Real-Time Scenario</h5>
               <p className="para">
                 The projects we work on are the ones that will add more value to
@@ -85,9 +108,15 @@ const Career = () => {
               </p>
             </div>
           </div>
+<<<<<<< HEAD
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12 ">
             <div className="career-box h-[20rem]">
               <img src={CareerIcons} alt="" />
+=======
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
+            <div className="career-box">
+            <PiFediverseLogoLight className="icon"/>
+>>>>>>> 610011b0131380d1cc086e33259ece257576fa0f
               <h5 className="heading-h5">Diverse Perspective</h5>
               <p className="para">
                 Coming from different backgrounds makes us different, what
@@ -97,9 +126,15 @@ const Career = () => {
               </p>
             </div>
           </div>
+<<<<<<< HEAD
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12 ">
             <div className="career-box h-[20rem]">
               <img src={CareerIcons} alt="" />
+=======
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
+            <div className="career-box">
+            <MdBalance className="icon"/>
+>>>>>>> 610011b0131380d1cc086e33259ece257576fa0f
               <h5 className="heading-h5">Work-Life Balance</h5>
               <p className="para">
                 We believe in maintain a healthy and balanced lifestyle where
@@ -125,7 +160,7 @@ const Career = () => {
                 <div className="item " key={i}>
                   <div className="title" onClick={() => toggle(i)}>
                     <h2>{item.title}</h2>
-                    <span>{selected === i ? "-" : "+"}</span>
+                    <span>{selected === i ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}</span>
                   </div>
                   <div className={selected === i ? "content show" : "content"}>
                     <ul>
