@@ -84,11 +84,7 @@
 .job-section .content.show {
   height: auto;
   max-height: 999px;
-<<<<<<< HEAD
-  transition: all 0.8s cubic-bezier(1, 0, 1, 0);
-=======
   transition: all 0.5s linear;
->>>>>>> 610011b0131380d1cc086e33259ece257576fa0f
   line-height: 1.5;
   padding-top: 0px;
   padding-bottom: 10px;

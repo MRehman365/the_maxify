@@ -44,7 +44,7 @@ const IndustriesDetails = ({
               <p className="para1 sm:text-base lg:text-base mt-6 text-justify">{description2}</p>
               <button
                 class="custom-btn btn-16 mt-8"
-                onClick={() => navigate("/contact")}
+                onClick={() => navigate("/contact-us")}
               >
                 <span>CONTACT US</span>{" "}
               </button>

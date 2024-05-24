@@ -54,7 +54,7 @@ const ServicesDetails = ({
                 </p>
 
                 <button class="custom-btn btn-16 mt-8" onClick={()=>setShowForm(!showForm)}>
-                  <span>Read More</span>{" "}
+                  <span>Contact us</span>{" "}
                 </button>
               </div>
             </div>
