@@ -6,6 +6,8 @@ import { BsGraphUpArrow } from "react-icons/bs";
 import { CiAlarmOn } from "react-icons/ci";
 import { PiFediverseLogoLight } from "react-icons/pi";
 import { MdBalance } from "react-icons/md";
+import { MdKeyboardArrowUp } from "react-icons/md";
+import { MdKeyboardArrowDown } from "react-icons/md";
 const Career = () => {
   const [selected, setSelected] = useState(null);
   const toggle = (i) => {
@@ -128,7 +130,7 @@ const Career = () => {
                 <div className="item " key={i}>
                   <div className="title" onClick={() => toggle(i)}>
                     <h2>{item.title}</h2>
-                    <span>{selected === i ? "-" : "+"}</span>
+                    <span>{selected === i ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}</span>
                   </div>
                   <div className={selected === i ? "content show" : "content"}>
                     <ul>
