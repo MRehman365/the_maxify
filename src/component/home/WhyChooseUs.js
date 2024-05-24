@@ -67,8 +67,7 @@ const WhyChooseUs = () => {
   //       );
   //     } else {
   //     }
-  //   }
-
+  //  
   //   function sortArray(array) {
   //     setTimeout(() => {
   //       const firstElem = array.shift();
