@@ -20,12 +20,12 @@ const LeadershipTeam = () => {
       </div>
 
       <div className="container-section-2 mat-50">
-        <div className="grid grid-cols-12  gap-4">
-          <div className="lg:col-span-7 xl:col-span-6 sm:col-span-12">
+        <div className="grid grid-cols-12  gap-5">
+          <div className="lg:col-span-8 xl:col-span-6 sm:col-span-12">
             <div className="element-container">
               <div className="border-line"></div>
               <h3 className="heading-h3 ">Meet our team</h3>
-              <p className="para mt-6">
+              <p className="par text-[1.1rem] text-justify mt-6">
                 Our Maxify leaders embody a rich tapestry of experience,
                 expertise and vision that propels us to move forward and bring
                 unwavering dedication and zeal to pursue our dreams bringing
@@ -43,17 +43,25 @@ const LeadershipTeam = () => {
             </div>
           </div>
           {/* <!-- ... --> */}
+<<<<<<< HEAD
+          <div className="lg:col-span-4 xl:col-span-6 sm:col-span-12 lg:mt-10 sm:mt-0 lg:ml-20">
+            <div className="element-container sm:w-full lg:w-[80%] xl:h-[70%] 2xl:h-[70%]">
+              {/* <div className="img-box about-leadership-main"> */}
+                <img className="w-full xl:h-[100%] 2xl:h-[100%]" src={AboutCompanyImg} alt="" />
+              {/* </div> */}
+=======
           <div className="lg:col-span-5 xl:col-span-6 sm:col-span-12 lg:mt-20 sm:mt-0">
             <div className="element-container lg:w-[100%] xl:h-[100%] 2xl:h-[100%] lg:overflow-hidden">
               <div className="img-box about-leadership-main">
                 <img className="w-full" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462514/myCloud/welcome-img_1_w9k7l7.jpg" alt="" />
               </div>
+>>>>>>> 610011b0131380d1cc086e33259ece257576fa0f
             </div>
           </div>
         </div>
       </div>
 
-      <div className="container-section-2 mat-100">
+      <div className="container-section-2 mat-25">
         <h4 className="text-heading-h4 left-line">Management Team</h4>
         <div className="grid grid-cols-12  gap-4 mat-50">
           <div className="lg:col-span-3 md:col-span-6 sm:col-span-12">

@@ -13,14 +13,15 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { FaCheckDouble } from "react-icons/fa6";
+import ContactForm from "../component/ContactForm";
 const Footer = () => {
   const navigate = useNavigate();
   return (
     <>
       <div className="container-section mat-50">
         <div className="footer-contact-section sm:py-20 lg:py-10 lg:px-20 sm:px-5">
-          <div className="grid grid-cols-12 gap-[5%]">
-            <div className="lg:col-span-6  md:col-span-6 sm:col-span-12">
+          <div className="lg:grid lg:grid-cols-12 gap-[5%] sm:flex sm:flex-col-reverse">
+            <div className="lg:col-span-6 md:col-span-6 sm:col-span-12">
               <div className="map lg:w-full sm:w-[100%] h-[300px] lg:mt-10 sm:mt-5">
                 <div className="overflow-hidden">
                   <iframe
@@ -63,7 +64,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:col-span-6  md:col-span-6 sm:col-span-12">
+            <div className="lg:col-span-6 md:col-span-6 sm:col-span-12">
               <div className="mb-5">
                 <h3 className="heading-h3">Time to break the ice?</h3>
                 <p className="para">We would love to hear from you.</p>
@@ -128,6 +129,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        {/* <ContactForm/> */}
+
+
       </div>
 
       <footer className="">

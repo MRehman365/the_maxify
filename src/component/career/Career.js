@@ -56,9 +56,15 @@ const Career = () => {
           </p>
         </div>
         <div className="grid grid-cols-12  gap-4 mat-50">
+<<<<<<< HEAD
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12 ">
+            <div className="career-box h-[20rem]">
+              <img src={CareerIcons} alt="" />
+=======
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
             <div className="career-box">
               <CiAlarmOn className="icon"/>
+>>>>>>> 610011b0131380d1cc086e33259ece257576fa0f
               <h5 className="heading-h5">Innovation at its Best</h5>
               <p className="para">
                 We are committed to drive excellence, and we believe to be going
@@ -67,9 +73,15 @@ const Career = () => {
               </p>
             </div>
           </div>
+<<<<<<< HEAD
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12 ">
+            <div className="career-box h-[20rem]">
+              <img src={CareerIcons} alt="" />
+=======
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
             <div className="career-box">
             <BsGraphUpArrow className="icon"/>
+>>>>>>> 610011b0131380d1cc086e33259ece257576fa0f
               <h5 className="heading-h5">Growth Opportunities</h5>
               <p className="para">
                 Maxify team makes sure our team members grow exponentially from
@@ -79,9 +91,15 @@ const Career = () => {
               </p>
             </div>
           </div>
+<<<<<<< HEAD
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12 ">
+            <div className="career-box h-[20rem]">
+              <img src={CareerIcons} alt="" />
+=======
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
             <div className="career-box">
             <RxTimer className="icon"/>
+>>>>>>> 610011b0131380d1cc086e33259ece257576fa0f
               <h5 className="heading-h5">Real-Time Scenario</h5>
               <p className="para">
                 The projects we work on are the ones that will add more value to
@@ -90,9 +108,15 @@ const Career = () => {
               </p>
             </div>
           </div>
+<<<<<<< HEAD
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12 ">
+            <div className="career-box h-[20rem]">
+              <img src={CareerIcons} alt="" />
+=======
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
             <div className="career-box">
             <PiFediverseLogoLight className="icon"/>
+>>>>>>> 610011b0131380d1cc086e33259ece257576fa0f
               <h5 className="heading-h5">Diverse Perspective</h5>
               <p className="para">
                 Coming from different backgrounds makes us different, what
@@ -102,9 +126,15 @@ const Career = () => {
               </p>
             </div>
           </div>
+<<<<<<< HEAD
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12 ">
+            <div className="career-box h-[20rem]">
+              <img src={CareerIcons} alt="" />
+=======
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
             <div className="career-box">
             <MdBalance className="icon"/>
+>>>>>>> 610011b0131380d1cc086e33259ece257576fa0f
               <h5 className="heading-h5">Work-Life Balance</h5>
               <p className="para">
                 We believe in maintain a healthy and balanced lifestyle where
