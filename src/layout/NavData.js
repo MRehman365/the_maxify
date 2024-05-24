@@ -66,7 +66,7 @@ export const NaveData = [
         names: "Education",
       },
       {
-        link: "/indian-army/",
+        link: "/banking-finance/",
         img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462416/myCloud/banking_and_financial_image..._ipp7s8.png",
         names: "Banking & Finance",
       },

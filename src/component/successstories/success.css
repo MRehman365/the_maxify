@@ -12,7 +12,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 17px;
+  gap: 4px;
 }
 
 .success-stories-middle-section .img-box-1 img {
@@ -126,7 +126,7 @@
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   width: 90%;
   padding-left: 5%;
 }
@@ -169,7 +169,8 @@
 }
 .highlight li {
   width: 95%;
-  font-size: 20px;
+  font-size: 1.2rem;
+  text-align: justify;
   color: #cccccc;
 }
 .highlight li:hover {
@@ -241,14 +242,14 @@
   
 }
 .top-content h2{
-  font-size: 40px;
+  font-size: 31px;
   color: #000;
   font-weight: bold;
 
 
 }
 .top-content p{
-  font-size: 20px;
+  font-size: 1rem;
 }
 .top-content button{
   height: 60px;
@@ -309,10 +310,10 @@
   cursor: pointer;
   background-color: white;
   width: 80%;
-  font-size: 25px;
+  font-size: 1.3rem;
   font-weight: bold;
   text-align: left;
-  margin-top: -100px;
+  margin-top: -70px;
   margin-left: -20%;
   z-index: 1;
   transition: 0.5s;
@@ -324,7 +325,7 @@
   height: 160px;
   background-color: rgb(255, 255, 255);
   width: 80%;
-  font-size: 20px;
+  font-size: 1rem;
   margin-top: 0px;
   margin-left: -20%;
 }

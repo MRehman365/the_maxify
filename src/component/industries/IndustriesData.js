@@ -133,16 +133,16 @@ export const IndustriesData = [
           "We believe that everyone deserves the right to education which is why in project guidance services for applications and websites we try to focus on this. The learner-centered software we create guarantees that all students learn in the best way possible — irrespective of their differences — while availing more learning opportunities",
       },
 
-      {
-        heading: "Feedback and Assessment",
-        content:
-          " Our strong app and website design service which has effective evaluation and response tools. With our software features like machine-graded tests, we help teachers gauge how well learners are doing in class thus enabling them to give quick responses to enable them keep on improving themselves. ",
-      },
+      // {
+      //   heading: "Feedback and Assessment",
+      //   content:
+      //     " Our strong app and website design service which has effective evaluation and response tools. With our software features like machine-graded tests, we help teachers gauge how well learners are doing in class thus enabling them to give quick responses to enable them keep on improving themselves. ",
+      // },
     ],
   },
   {
     name: "Finance",
-    url: "/indian-army",
+    url: "/banking-finance",
     img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462414/myCloud/BANKING_AND_FINANCIAL_CONTAINER_IMAGE_3_qwtfdg.png",
     img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462402/myCloud/1714742717118_genmm1_2_0_ygwrnp.jpg",
     title2: "Empowering Financial World Through Next-Gen Development Services",

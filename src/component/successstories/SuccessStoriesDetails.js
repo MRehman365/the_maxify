@@ -115,7 +115,7 @@ const SuccessStoriesDetails = ({
             </div>
           </div>
         </div>
-        <button className="btn-success">See More</button>
+        {/* <button className="btn-success">See More</button> */}
       </div>
 
       <OurSuccessStories />

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const OurSuccessStories = () => {
   return (
     <>
-      <div className="gray-section">
+      <div className="gray-section mt-5">
         <div className="container-section">
           <h3 className="success-heading text-center para success-text  text mb-2">
           Industries Solutions and Expertise
