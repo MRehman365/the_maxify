@@ -27,12 +27,12 @@ const HomeService = () => {
                     </h5>
                   </div>
                   <div className="img">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716620946/api_noynn3.png" alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637330/myCloud/api_c4usbl.png" alt="" />
                   </div>
                 </div>
                 <div className="home-service-back-content">
                   <figure className="back-icons">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716620946/api_noynn3.png" alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637330/myCloud/api_c4usbl.png" alt="" />
                   </figure>
                   <h5 className="text-[1.3rem] font-[700] ">
                     Website Design & Development
@@ -82,12 +82,12 @@ const HomeService = () => {
                     </h5>
                   </div>
                   <div className="img">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716620946/app-development_nosnug.png" alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637332/myCloud/app-development_iqsdi6.png" alt="" />
                   </div>
                 </div>
                 <div className="home-service-back-content">
                   <figure className="back-icons">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716620946/app-development_nosnug.png" alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637332/myCloud/app-development_iqsdi6.png" alt="" />
                   </figure>
                   <h5 className="text-[1.3rem] font-[700] ">
                     Application Development & Management
@@ -137,12 +137,12 @@ const HomeService = () => {
                     </h5>
                   </div>
                   <div className="img">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716620946/digital-campaign_uqmpfe.png" alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637327/myCloud/digital-campaign_wudbkk.png" alt="" />
                   </div>
                 </div>
                 <div className="home-service-back-content">
                   <figure className="back-icons">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716620946/digital-campaign_uqmpfe.png" alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637327/myCloud/digital-campaign_wudbkk.png" alt="" />
                   </figure>
                   <h5 className="text-[1.3rem] font-[700] ">
                     Digital Marketing & Advertising

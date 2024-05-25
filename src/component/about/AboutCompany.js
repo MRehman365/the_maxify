@@ -74,7 +74,7 @@ const AboutCompany = () => {
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
             <div className="element-container">
               <div className="img-box ">
-                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716631315/success_story_image_swcets.png" alt="" />
+                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637325/myCloud/success_story_image_gnsyai.png" alt="" />
               </div>
             </div>
           </div>

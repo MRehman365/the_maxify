@@ -32,7 +32,7 @@ export const NaveData = [
       },
       {
         link: "/digital-marketing/",
-        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462428/myCloud/digital_marketing_banner_image_xouinj.png",
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716640517/myCloud/digital_marketing-banner._csltxj.png",
         names: "Digital Marketing",
       },
     ],
@@ -57,12 +57,12 @@ export const NaveData = [
       },
       {
         link: "/health-care/",
-        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462402/myCloud/1714742637478_i6y61k_2_0_fdaa8g.jpg",
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716640516/myCloud/1716639237138_qrckr0_2_0_nx6afv.jpg",
         names: "Health Care",
       },
       {
         link: "/education/",
-        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462404/myCloud/1714742535980_6mx8uu_2_0_qk4qm5.jpg",
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637226/myCloud/education_service_image_ayf1ii.png",
         names: "Education",
       },
       {

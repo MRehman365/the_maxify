@@ -47,7 +47,7 @@ export const ServiceData = [
   {
     url: "/web-development",
     img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462510/myCloud/web_development_wmnybw.png",
-    img:  "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462405/myCloud/1715151392526_a932l8_2_0_wax4jn.jpg",
+    img:  "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637224/myCloud/web_develop.banner_focxsi.png",
     title2: "Maxifying Your Web Presence",
     text: "Establish Your Business Presence with the Best Web Development Company",
     name: "Web development",
@@ -90,7 +90,7 @@ export const ServiceData = [
   },
   {
     url: "/digital-marketing",
-    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462399/myCloud/1714548656867_h82h4v_2_0_fl6qnd.jpg",
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716640517/myCloud/digital_marketing-banner._csltxj.png",
     img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462476/myCloud/OFFICE_zy0noi.png",
     title2: "Connecting Your Business World Wide",
     text: "Connect Your Business with Your Audience With Our Digital Marketing Services",
