@@ -102,7 +102,7 @@ export const IndustriesData = [
     name: "Education",
     url: "/education",
     img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462439/myCloud/EDUCATION_itpuzn.png",
-    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637226/myCloud/education_service_image_ayf1ii.png",
+    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716663118/myCloud/education_banner_nrueoz.png",
     title2: "Explore Educational Solutions with Maxify Web Solutions",
     text: "Empowering Learning Through Technology",
     industriesHeading: "Empower learning, enhance outcomes",
