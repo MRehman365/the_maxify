@@ -8,7 +8,7 @@ const LeadershipTeam = () => {
       <MetaData titles={`Maxify Industries Leadership Team`} />
       {/* banner */}
       <div className="element-banner lg:pt-[15%] lg:pb-[15%] sm:pt-[23%] sm:pb-[7%]  about-company-banner">
-        <img className="banner" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462462/myCloud/leadership_image_uoi3xx.png" alt="jpg" />
+        <img className="banner" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716664410/myCloud/leadership_banner_fgnkqi.png" alt="jpg" />
         <div className="container-section ">
           <div className="element-banner-content lg:w-[60%]">
             <h1 className="text-heading- sm:text-[24px] font-[600] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">

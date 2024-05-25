@@ -5,7 +5,7 @@ export const ServiceData = [
     url: "/application-development",
     title2: "Result Driven App Development",
     text: "Propel to new heights for App Development with Maxify Industries",
-    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462406/myCloud/1715169322133_h3x5ro_2_0_iepl1u.jpg",
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716628270/myCloud/mobile_app_banner_wlbpcl.png",
     img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462407/myCloud/1715154300452_bjeoh5_2_0_fftxas.jpg",
     name: "Application Development",
     icons: <MdOutlineConstruction />,

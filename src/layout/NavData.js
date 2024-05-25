@@ -125,7 +125,7 @@ export const NaveData = [
 
       {
         link: "/leadership-team/",
-        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462462/myCloud/leadership_image_1_km4pun.png",
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716664410/myCloud/leadership_banner_fgnkqi.png",
         names: "Leadership Team",
       },
       {
