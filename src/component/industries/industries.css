@@ -121,3 +121,24 @@ button:focus {
   background: #3d3b40;
   z-index: 1;
 }
+.custom-shape-divider-top-1716619031 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* overflow: hidden; */
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1716619031 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100%;
+  z-index: 2;
+}
+
+.custom-shape-divider-top-1716619031 .shape-fill {
+  fill: #0e0e0e;
+}

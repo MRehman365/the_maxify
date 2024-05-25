@@ -8,7 +8,7 @@ const HomeService = () => {
         <div className="container-section py-10">
           <h3 className="heading-h3 text-center text-white">Our services</h3>
           <div className="border-line text-center m-auto my-2"></div>
-          <p className="para text-white text-center">
+          <p className="para text-center" style={{color:"white"}}>
             Entrust Us with Your Business Needs, We Have Got It All Covered
             Here.
           </p>
@@ -27,12 +27,12 @@ const HomeService = () => {
                     </h5>
                   </div>
                   <div className="img">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462425/myCloud/Consulting-Services-Icon_zgggrd.svg" alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716620946/api_noynn3.png" alt="" />
                   </div>
                 </div>
                 <div className="home-service-back-content">
                   <figure className="back-icons">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462425/myCloud/Consulting-Services-Icon_zgggrd.svg" alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716620946/api_noynn3.png" alt="" />
                   </figure>
                   <h5 className="text-[1.3rem] font-[700] ">
                     Website Design & Development
@@ -82,12 +82,12 @@ const HomeService = () => {
                     </h5>
                   </div>
                   <div className="img">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462425/myCloud/Consulting-Services-Icon_zgggrd.svg" alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716620946/app-development_nosnug.png" alt="" />
                   </div>
                 </div>
                 <div className="home-service-back-content">
                   <figure className="back-icons">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462425/myCloud/Consulting-Services-Icon_zgggrd.svg" alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716620946/app-development_nosnug.png" alt="" />
                   </figure>
                   <h5 className="text-[1.3rem] font-[700] ">
                     Application Development & Management
@@ -137,12 +137,12 @@ const HomeService = () => {
                     </h5>
                   </div>
                   <div className="img">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462425/myCloud/Consulting-Services-Icon_zgggrd.svg" alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716620946/digital-campaign_uqmpfe.png" alt="" />
                   </div>
                 </div>
                 <div className="home-service-back-content">
                   <figure className="back-icons">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462425/myCloud/Consulting-Services-Icon_zgggrd.svg" alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716620946/digital-campaign_uqmpfe.png" alt="" />
                   </figure>
                   <h5 className="text-[1.3rem] font-[700] ">
                     Digital Marketing & Advertising

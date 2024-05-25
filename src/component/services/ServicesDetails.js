@@ -71,7 +71,7 @@ const ServicesDetails = ({
         </div>
 
         {/* service related technology  */}
-        <div className="gray-section mat-50">
+        <div className="blue-section mt-2">
           <div className="container-section ">
             <div className="grid grid-cols-12  gap-4">
               <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">

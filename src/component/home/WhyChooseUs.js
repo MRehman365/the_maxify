@@ -88,41 +88,41 @@ const WhyChooseUs = () => {
             <div className="lg:col-span-6 md:col-span-6 sm:col-span-12">
              
              <div className="why-choose-card lg:mt-20">
-             <h6 className="text-white sm:text-center  lg:text-start mb-3">
+             <h6 className="text-white sm:text-center text-[30px] heading-h2 lg:text-start mb-3">
                   WHY CHOOSE US
                 </h6>
                 <div class="mx-auto mt-16 max-w-2xl text-white sm:mt-10 md:mt-10 lg:mt-20 lg:max-w-4xl">
-  <dl class="space-y-10 lg:space-y-16">
-    <div class="relative flex flex-col pl-16">
+  <dl class="space-y-10 lg:space-y-5">
+    <div class="relative why-container flex flex-col pl-16">
       <dt class="text-base font-semibold leading-7 text-900 flex items-center">
-        <div class="flex sm:relative sm:right-12 h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+        <div class="flex sm:hidden md:flex sm:relative  sm:right-12 h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
           <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
           </svg>
         </div>
-        <span class="ml-4 sm:relative sm:right-14">Tailored Web Solutions</span>
+        <span class="ml-4 sm:relative sm:right-4 md:right-14 ">Tailored Web Solutions</span>
       </dt>
       <dd class="mt-2 text-base leading-7 text-600">We specialize in the development of websites to help solve your unique business problems.</dd>
     </div>
-    <div class="relative flex flex-col pl-16">
+    <div class="relative why-container flex flex-col pl-16">
       <dt class="text-base font-semibold leading-7 text-900 flex items-center">
-        <div class="flex sm:relative sm:right-12 h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+        <div class="flex sm:hidden md:flex sm:relative  sm:right-12 h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
           <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
           </svg>
         </div>
-        <span class="ml-4 sm:relative sm:right-14">Innovative Product Applications</span>
+        <span class="ml-4 sm:relative sm:right-4 md:right-14">Innovative Product Applications</span>
       </dt>
       <dd class="mt-2 text-base leading-7 text-600">From web app design development, we have the best product engineering services to enhance your customer experience, increasing brand awareness and driving sales.</dd>
     </div>
-    <div class="relative flex flex-col pl-16">
+    <div class="relative why-container flex flex-col pl-16">
       <dt class="text-base font-semibold leading-7 text-900 flex items-center">
-        <div class="flex sm:relative sm:right-12 h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+        <div class="flex sm:hidden md:flex sm:relative  sm:right-12 h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
           <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
           </svg>
         </div>
-        <span class="ml-4 sm:relative sm:right-14">Seamless Digital Transformation</span>
+        <span class="ml-4 sm:relative sm:right-4 md:right-14">Seamless Digital Transformation</span>
       </dt>
       <dd class="mt-2 text-base leading-7 text-600">With our customized digital marketing services, you will get everything you need to elevate your business standards with our endless marketing service endeavors.</dd>
     </div>
@@ -144,9 +144,9 @@ const WhyChooseUs = () => {
            </div>
             <div className="lg:col-span-6 md:col-span-6 sm:col-span-12">
               <div className="element-container">
-                <h6 className="text-white sm:text-center lg:text-start mb-3">
+                {/* <h6 className="text-white sm:text-center lg:text-start mb-3">
                   WHY CHOOSE US
-                </h6>
+                </h6> */}
                 <h2 className="heading-h2 text-white">
                   Get Significant Boost To Your Business With Our Seamless
                   Professionals
