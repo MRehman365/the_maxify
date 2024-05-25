@@ -67,7 +67,7 @@ export const NaveData = [
       },
       {
         link: "/banking-finance/",
-        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716623737/myCloud/banking_and_financial_image__lhbyeh.png",
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716660061/myCloud/1716647422042_g2k503_2_0_1_pogatj.jpg",
         names: "Banking & Finance",
       },
     ],
@@ -97,7 +97,7 @@ export const NaveData = [
       },
       {
         link: "/chhota-school/",
-        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462485/myCloud/play_school_internal_image_2_ftnld7.png",
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716660061/myCloud/chota_school_banner_rg7kby.png",
         names: "Chhota School",
       },
     ],
@@ -130,7 +130,7 @@ export const NaveData = [
       },
       {
         link: "/career/",
-        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462420/myCloud/career_image._phwggl.png",
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716660061/myCloud/career_banner_image_vkx7em.png",
         names: "Career",
       },
     ],

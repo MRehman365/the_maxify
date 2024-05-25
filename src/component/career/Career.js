@@ -24,7 +24,7 @@ const Career = () => {
       <MetaData titles={`Maxify Career`} />
       {/* serive banner */}
       <div className="element-banner lg:pt-[15%] lg:pb-[15%] sm:pt-[23%] sm:pb-[7%] service-banner">
-        <img className="banner" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462421/myCloud/CAREER_PAGE_IMAGE_sgnt2s.png" alt="jpg" />
+        <img className="banner" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716660061/myCloud/career_banner_image_vkx7em.png" alt="jpg" />
         <div className="container-sectio lg:w-[70%] lg:mx-20 sm:w-[90%] sm:mx-5">
           <div className="element-banner-content ">
             <h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">

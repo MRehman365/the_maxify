@@ -108,7 +108,7 @@ export const IndustriesData = [
     industriesHeading: "Empower learning, enhance outcomes",
     industriesText:
       "Empowering learning institutions with innovative tools for student engagement and performance tracking",
-    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462404/myCloud/1714742535980_6mx8uu_2_0_qk4qm5.jpg",
+    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637226/myCloud/education_service_image_ayf1ii.png",
     title: "Transforming Education with Innovative Solutions",
     description1:
       "In today's digital age, traditional methods of teaching and learning are evolving, and we're at the forefront of this transformation. Our mission is to empower educators, students, and institutions with cutting-edge educational solutions that enhance learning outcomes and drive innovation. We understand the diverse needs of the education sector. We offer a comprehensive suite of services tailored to meet the unique requirements of our clients. Whether you're looking to develop a custom learning management system, create interactive e-learning modules, or implement virtual classroom solutions, we have the expertise and experience to bring your vision to life. Our team of experienced developers, designers, and educational experts works closely with clients to understand their goals and objectives. We leverage the latest technologies and methodologies to deliver high-quality solutions that are scalable, user-friendly, and cost-effective. From mobile apps to web platforms, we provide end-to-end development services that optimize the learning experience for all stakeholders.",
@@ -144,7 +144,7 @@ export const IndustriesData = [
     name: "Finance",
     url: "/banking-finance",
     img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462414/myCloud/BANKING_AND_FINANCIAL_CONTAINER_IMAGE_3_qwtfdg.png",
-    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462402/myCloud/1714742717118_genmm1_2_0_ygwrnp.jpg",
+    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716660061/myCloud/1716647422042_g2k503_2_0_1_pogatj.jpg",
     title2: "Empowering Financial World Through Next-Gen Development Services",
     text: "Transforming With Cutting-Edge Technology Solutions",
     industriesHeading: "Ensure security, unlock new revenue streams",
