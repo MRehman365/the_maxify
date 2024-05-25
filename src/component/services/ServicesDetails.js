@@ -61,7 +61,7 @@ const ServicesDetails = ({
             {/* <!-- ... --> */}
 
             <div className="lg:col-span-5 xl:col-span-6 sm:col-span-12 lg:mt-5 sm:mt-0">
-              <div className="element-container lg:w-[100%] xl:h-[70%] lg:overflow-hidden">
+              <div className="element-container sm:w-full sm:h-full lg:w-[70%] xl:h-[70%] lg:overflow-hidden lg:ml-20 lg:mt-20">
                 <div className="img">
                   <img className="w-full" src={img2} alt="" />
                 </div>

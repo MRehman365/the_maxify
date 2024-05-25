@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./footer.css";
 import { IoCallSharp } from "react-icons/io5";
 import { FaFacebookF } from "react-icons/fa";
@@ -16,6 +16,35 @@ import { FaCheckDouble } from "react-icons/fa6";
 import ContactForm from "../component/ContactForm";
 const Footer = () => {
   const navigate = useNavigate();
+
+  const initialFormState = {
+    firstName: '',
+    lastName: '',
+    contactNumber: '',
+    companyEmail: '',
+    company: '',
+    message: '',
+  };
+
+  const [formData, setFormData] = useState(initialFormState);
+
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
+  };
+
+  const handleClick = () => {
+    console.log(formData);
+    setFormData(initialFormState); // Reset the form fields
+  };
+
+
+
+
   return (
     <>
       <div className="container-section mat-50">
@@ -65,68 +94,73 @@ const Footer = () => {
               </div>
             </div>
             <div className="lg:col-span-6 md:col-span-6 sm:col-span-12">
-              <div className="mb-5">
-                <h3 className="heading-h3">Time to break the ice?</h3>
-                <p className="para">We would love to hear from you.</p>
-              </div>
-              <div className="footer-contact-form">
-                <div className="">
-                  <input
-                    className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
-                    type="text"
-                    placeholder="First Name"
-                    name=""
-                    id=""
-                  />
-                </div>
-                <div>
-                  <input
-                    className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
-                    type="text"
-                    placeholder="Last Name"
-                    name=""
-                    id=""
-                  />
-                </div>
-                <div className=" w-full">
-                  <input
-                    className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
-                    type="text"
-                    placeholder="Contact Number"
-                    name=""
-                    id=""
-                  />
-                </div>
-                <div>
-                  <input
-                    className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
-                    type="text"
-                    placeholder="Company Email"
-                    name=""
-                    id=""
-                  />
-                </div>
-                <div>
-                  <input
-                    className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
-                    type="text"
-                    placeholder="Company"
-                    name=""
-                    id=""
-                  />
-                </div>
-
-                <textarea
-                  className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
-                  name=""
-                  id=""
-                  placeholder="Message"
-                  cols="30"
-                  rows="5"
-                ></textarea>
-                <button>SUBMIT</button>
-              </div>
-            </div>
+      <div className="mb-5">
+        <h3 className="heading-h3">Time to break the ice?</h3>
+        <p className="para">We would love to hear from you.</p>
+      </div>
+      <div className="footer-contact-form">
+        <div>
+          <input
+            className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
+            type="text"
+            placeholder="First Name"
+            name="firstName"
+            value={formData.firstName}
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          <input
+            className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
+            type="text"
+            placeholder="Last Name"
+            name="lastName"
+            value={formData.lastName}
+            onChange={handleChange}
+          />
+        </div>
+        <div className="w-full">
+          <input
+            className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
+            type="text"
+            placeholder="Contact Number"
+            name="contactNumber"
+            value={formData.contactNumber}
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          <input
+            className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
+            type="text"
+            placeholder="Company Email"
+            name="companyEmail"
+            value={formData.companyEmail}
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          <input
+            className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
+            type="text"
+            placeholder="Company"
+            name="company"
+            value={formData.company}
+            onChange={handleChange}
+          />
+        </div>
+        <textarea
+          className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
+          name="message"
+          placeholder="Message"
+          cols="30"
+          rows="5"
+          value={formData.message}
+          onChange={handleChange}
+        ></textarea>
+        <button onClick={handleClick}>SUBMIT</button>
+      </div>
+    </div>
           </div>
         </div>
         {/* <ContactForm/> */}
@@ -135,20 +169,10 @@ const Footer = () => {
       </div>
 
       <footer className="">
-        {/* <div className="" id='stars'></div>
-                <div className="" id='stars2'></div>
-                <div className="" id='stars3'></div> */}
+        
         <div className="container-section">
           <div className="grid grid-cols-12">
-            {/* <div className="lg:col-span-3  md:col-span-6 sm:col-span-12">
-                            <div className="footer-content">
-                                <h3 className="heading-h3">Maxify Web Solution</h3>
-                                <p className="para text-white">
-                                Our team of experienced professionals is dedicated to delivering high-quality services that drive success. Partner with Maxify to transform your vision into reality and achieve sustainable growth.
-                                </p>
-
-                            </div>
-                        </div> */}
+            
             <div className="lg:col-span-3  md:col-span-6 sm:col-span-12">
               <div className="footer-content">
                 <h2 className="heading-h5">Services</h2>
@@ -190,12 +214,7 @@ const Footer = () => {
                     </i>{" "}
                     About{" "}
                   </li>
-                  {/* <li>
-                    <i>
-                      <FaCheckDouble />
-                    </i>{" "}
-                    Blog{" "}
-                  </li> */}
+                
                   <li onClick={() => navigate('/success/')}>
                     <i>
                       {/* <FaCheckDouble /> */}

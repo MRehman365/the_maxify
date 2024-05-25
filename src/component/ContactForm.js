@@ -1,8 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import { MdClose } from "react-icons/md";
 // import "../footer.css";
 
 const ContactForm = ({showForm, setShowForm}) => {
+
+  const initialFormState = {
+    firstName: '',
+    lastName: '',
+    contactNumber: '',
+    companyEmail: '',
+    company: '',
+    message: '',
+  };
+
+  const [formData, setFormData] = useState(initialFormState);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
+  };
+
+  const handleClick = () => {
+    console.log(formData);
+    setFormData(initialFormState); // Reset the form fields
+  };
+
+
+
   return (
     <div>
       <div className="footer-contact-section sm:py-20 lg:py-10 lg:px-20 sm:px-5">
@@ -67,14 +94,18 @@ const ContactForm = ({showForm, setShowForm}) => {
                   className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
                   type="text"
                   placeholder="First Name"
-                  name=""
+                  name="firstName"
+                  value={formData.firstName}
+                  onChange={handleChange}
                   id=""
                 />
                 <input
                   className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
                   type="text"
                   placeholder="Last Name"
-                  name=""
+                  name="lastName"
+                  value={formData.lastName}
+                  onChange={handleChange}
                   id=""
                 />
               </div>
@@ -84,14 +115,18 @@ const ContactForm = ({showForm, setShowForm}) => {
                   className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
                   type="text"
                   placeholder="Contact Number"
-                  name=""
+                  name="contactNumber"
+                  value={formData.contactNumber}
+                  onChange={handleChange}
                   id=""
                 />
                 <input
                   className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
                   type="text"
                   placeholder="Company Email"
-                  name=""
+                  name="companyEmail"
+                  value={formData.companyEmail}
+                  onChange={handleChange}
                   id=""
                 />
               </div>
@@ -101,20 +136,24 @@ const ContactForm = ({showForm, setShowForm}) => {
                   className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
                   type="text"
                   placeholder="Company"
-                  name=""
+                  name="company"
+                  value={formData.company}
+                  onChange={handleChange}
                   id=""
                 />
               </div>
 
               <textarea
                 className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
-                name=""
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
                 id=""
                 placeholder="Message"
                 cols="30"
                 rows="5"
               ></textarea>
-              <button>SUBMIT</button>
+              <button onClick={handleClick}>SUBMIT</button>
             </div>
           </div>
         </div>

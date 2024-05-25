@@ -6,7 +6,7 @@ export const SuccessData = [
     name: "Sharda University",
     title2: "Uplifting The Digital Presence of Sharda University with Our Solutions",
     text: "Maxify web solutions was given the opportunity to increase visibility of the Sharda University website.",
-    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462508/myCloud/university_main_banner_mg1hn5.png",
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716626728/myCloud/university_main_banner_mg1hn5_bnobmc.png",
     img22: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462506/myCloud/university_banner_i2sfyj.png",
     logo1: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462469/myCloud/microsoft_net_development-removebg-preview_4_tejmlq.png",
     logo2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462458/myCloud/java_development-removebg-preview_1_olfdje.png",

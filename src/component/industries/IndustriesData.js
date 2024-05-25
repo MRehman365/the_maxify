@@ -10,7 +10,7 @@ export const IndustriesData = [
     industriesHeading: "Personalize experiences, boost sales",
     industriesText:
       "Creating personalized shopping experiences and driving sales with AI-powered insights",
-    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462401/myCloud/1714728390203_9gutvq_2_0_aqbzyo.jpg",
+    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716621219/myCloud/shopping_internal_image_a7yhq1.png",
     title:
       "Empowering and Scaling Your Retail and e-commerce Businesses Through Our Experience Led Solutions ",
     description1:
@@ -102,7 +102,7 @@ export const IndustriesData = [
     name: "Education",
     url: "/education",
     img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462439/myCloud/EDUCATION_itpuzn.png",
-    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462404/myCloud/1714742535980_6mx8uu_2_0_qk4qm5.jpg",
+    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716625943/myCloud/about_us_banner-Recovered_ipa4yd_drhhrh.png",
     title2: "Explore Educational Solutions with Maxify Web Solutions",
     text: "Empowering Learning Through Technology",
     industriesHeading: "Empower learning, enhance outcomes",
@@ -150,7 +150,7 @@ export const IndustriesData = [
     industriesHeading: "Ensure security, unlock new revenue streams",
     industriesText:
       "Ensuring security and compliance while unlocking new revenue streams with blockchain technology",
-    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462402/myCloud/1714742717118_genmm1_2_0_ygwrnp.jpg",
+    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716625605/myCloud/banking_and_financial_image__1_nwjjfk.png",
     title:
       "Revolutionizing Financial Operations with Tailored Web and App Development Services ",
     description1:

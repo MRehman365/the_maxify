@@ -42,12 +42,6 @@ const Welcome = () => {
                   heights.
                 </p>
                 <p className="para para-red mt-4"></p>
-                {/* <ul className='grid grid-cols-12 mt-4'>
-                                    <li className='col-span-6 flex items-center mb-1'><span className='mr-1 para-red'><FaCircleCheck /></span> Nsectetur cing elit.</li>
-                                    <li className='col-span-6 flex items-center mb-1'><span className='mr-1 para-red'><FaCircleCheck /></span> Nsectetur cing elit.</li>
-                                    <li className='col-span-6 flex items-center mb-1'><span className='mr-1 para-red'><FaCircleCheck /></span> Nsectetur cing elit.</li>
-                                    <li className='col-span-6 flex items-center mb-1'><span className='mr-1 para-red'><FaCircleCheck /></span> Nsectetur cing elit.</li>
-                                </ul> */}
                 <button
                   class="custom-btn btn-16 mt-8"
                   onClick={() => navigate("/services")}
@@ -58,58 +52,15 @@ const Welcome = () => {
             </div>
             {/* <!-- ... --> */}
             <div className="lg:col-span-6 sm:col-span-12 sm:mt-4 lg:mt-10">
-              <div className="element-container lg:w-[100%] lg:h-[80%] lg:overflow-hidden lg:mt-[50px]">
+              <div className="element-container lg:w-[80%] lg:h-[70%] lg:overflow-hidden lg:mt-[50px] sm:mt-10 2xl:mt-10 lg:ml-20">
                 <div className="img-box sm:mb-20 lg:mb-0">
-                  <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462476/myCloud/OFFICE_zy0noi.png" alt="" />
-                  {/* <div className="overlay-content">
-                                        <div className="content">
-                                            <div className='shapes'>
-                                                <img src={Shape5} alt="" />
-                                                <span><FaUsersGear /></span>
-                                            </div>
-                                            <div className='flex welcome-counter flex-col justify-center items-center mt-3'>
-                                                <CountUp delay={2} end={89000} />
-                                                <p className='para'>Satisfied Clients</p>
-                                            </div>
-                                        </div>
-
-                                    </div> */}
+                  <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716624450/myCloud/1716623974614_owuxdh_2_0_ptyhfi.jpg" alt="" />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      {/* mission section */}
-      {/* <div className="container-section mat-100">
-                <div className="grid grid-cols-12  gap-4">
-                    <div className='lg:col-span-4 md:col-span-6 sm:col-span-12'>
-                        <div className="mission-box">
-                            <img src={OurMission} alt="" />
-                            <div className='cont'> <h5 className="heading-h5">Our Mission</h5>
-                                <p className="para mt-1">Lorem is free text no use by other agencies.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='lg:col-span-4 md:col-span-6 sm:col-span-12'>
-                        <div className="mission-box">
-                            <img src={OurMission} alt="" />
-                            <div className='cont'> <h5 className="heading-h5">Our Vission</h5>
-                                <p className="para mt-1">Lorem is free text no use by other agencies.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='lg:col-span-4 md:col-span-6 sm:col-span-12'>
-                        <div className="mission-box">
-                            <img src={OurMission} alt="" />
-                            <div className='cont'> <h5 className="heading-h5">Our Values</h5>
-                                <p className="para mt-1">Lorem is free text no use by other agencies.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
     </>
   );
 };
