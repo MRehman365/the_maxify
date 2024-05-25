@@ -42,15 +42,15 @@ const Service = () => {
                 <p className="para uppercase">
                   Tailored Mobile App Development Services
                 </p>
-                {/* <h5 className="sevices-text ">
+                <h5 className="sevices-text ">
                   Top-Notch Mobile App Development Services that suit your
                   business needs the most. Commitment, creativity and
                   consistency are the strategies we adhere by to match your
-                  expectations and demands.
-                </h5> */}
-                <h5 className="sevices-text ">
-                Further leading to an increase in targeted potential users by leveraging them with fine dashboards and easy to navigate buttons. We bring the best brand exposure to users by delivering delightful experiences, building trust and loyalty by delivering high-end performance.
+                  expectations and demands.Further leading to an increase in targeted potential users by leveraging them with fine dashboards and easy to navigate buttons. We bring the best brand exposure to users by delivering delightful experiences, building trust and loyalty by delivering high-end performance.
                 </h5>
+                {/* <h5 className="sevices-text ">
+                Further leading to an increase in targeted potential users by leveraging them with fine dashboards and easy to navigate buttons. We bring the best brand exposure to users by delivering delightful experiences, building trust and loyalty by delivering high-end performance.
+                </h5> */}
               </div>
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 img">
                 <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462471/myCloud/mobile_app_yo4pfh.png" alt="Application Image" />
@@ -67,17 +67,17 @@ const Service = () => {
                 <p className="para uppercase ">
                   Customized Web Development Services
                 </p>
-                {/* <h5 className="sevices-text ">
+                <h5 className="sevices-text ">
                   {" "}
                   Our Web Development Services offers comprehensive solution
                   that brings your vision to life. Having expertise in website
                   development, we believe in delivering solutions that takes
-                  your business to new heights.
-                </h5> */}
-                <h5 className="sevices-text ">
+                  your business to new heights. With tremendous change in the business industry, we stand out in the high-paced environment and by giving flexibility and pushing boundaries to give users a seamless experience and pushing your brand value to new heights.
+                </h5>
+                {/* <h5 className="sevices-text ">
                   {" "}
                   With tremendous change in the business industry, we stand out in the high-paced environment and by giving flexibility and pushing boundaries to give users a seamless experience and pushing your brand value to new heights.
-                </h5>
+                </h5> */}
               </div>
             </div>
           </div>
@@ -86,14 +86,14 @@ const Service = () => {
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 content">
                 <div className="border-line"></div>
                 <p className="para uppercase">Best Digital Marketing Agency</p>
-                {/* <h5 className="sevices-text">
+                <h5 className="sevices-text">
                   Being the best digital marketing agency, we provide custom
                   SEO, SMO, PPC, and other marketing services that helps you in
-                  growing your business.
-                </h5> */}
-                <h5 className="sevices-text">
-                To attract new users to the platform and increase their retention rate we develop marketing strategies according to the platform and the type of industry we are serving. We serve custom digital marketing services by understanding your market and goals and execute strategies.
+                  growing your business. To attract new users to the platform and increase their retention rate we develop marketing strategies according to the platform and the type of industry we are serving. We serve custom digital marketing services by understanding your market and goals and execute strategies.
                 </h5>
+                {/* <h5 className="sevices-text">
+                To attract new users to the platform and increase their retention rate we develop marketing strategies according to the platform and the type of industry we are serving. We serve custom digital marketing services by understanding your market and goals and execute strategies.
+                </h5> */}
               </div>
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 img">
                 <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462402/myCloud/1714567529414_2n6b6f_2_0_uuislw.jpg" alt="" />

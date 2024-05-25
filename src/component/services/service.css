@@ -173,6 +173,15 @@
   /* max-height: 100%; */
   width: 100%;
 }
+.red-section {
+  border-radius: 30% 0% 0% 0%;
+  background-color: slategrey;
+  padding: 50px 0;
+}
+.blue-section {
+  background-color: #525ceb36;
+  padding: 50px 0;
+}
 @media (max-width: 1050px) {
   .element-banner .element-banner-content {
     color: #fff;
@@ -200,7 +209,10 @@
     width: 100%;
     z-index: 1;
   }
-  .element-banner-content h1{
+  .red-section {
+    border-radius: 0% 0% 0% 0%;
+    background-color: slategrey;
+    padding: 50px 0;
   }
 }
 
@@ -209,6 +221,7 @@
   background-color: #cccccc;
   padding: 50px 0;
 }
+
 
 .service-related-technology {
   padding: 20px;
