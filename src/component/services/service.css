@@ -163,7 +163,7 @@
   /* height: 250px; */
 }
 .success-banner {
-  background-image: url("https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462471/myCloud/MOBILITY_oz1ehu.png");
+  background-image: url("https://res.cloudinary.com/djkkjx9ry/image/upload/v1716663119/myCloud/success_story_banner_kgwtpj.png");
   /* height: 250px; */
 }
 
@@ -174,8 +174,12 @@
   width: 100%;
 }
 .red-section {
-  border-radius: 30% 0% 0% 0%;
-  background-color: slategrey;
+  color: white;
+  background: url("https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637326/myCloud/Service-Section-bg_qzmznj.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
   padding: 50px 0;
 }
 .blue-section {

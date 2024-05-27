@@ -95,36 +95,30 @@ const WhyChooseUs = () => {
   <dl class="space-y-10 lg:space-y-5">
     <div class="relative why-container flex flex-col pl-16">
       <dt class="text-base font-semibold leading-7 text-900 flex items-center">
-        <div class="flex sm:hidden md:flex sm:relative  sm:right-12 h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-          <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
-          </svg>
+        <div class="flex md:flex sm:relative h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+          <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716630879/digital_solution_m3oe1b.png" alt="" />
         </div>
-        <span class="ml-4 sm:relative sm:right-4 md:right-14 ">Tailored Web Solutions</span>
+        <span class="ml-4 sm:relative sm:right-0   ">Tailored Web Solutions</span>
       </dt>
-      <dd class="mt-2 text-base leading-7 text-600">We specialize in the development of websites to help solve your unique business problems.</dd>
+      <dd class="mt-2 ml-14  text-base leading-7 text-600">We specialize in the development of websites to help solve your unique business problems.</dd>
     </div>
     <div class="relative why-container flex flex-col pl-16">
       <dt class="text-base font-semibold leading-7 text-900 flex items-center">
-        <div class="flex sm:hidden md:flex sm:relative  sm:right-12 h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-          <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
-          </svg>
+        <div class="flex md:flex sm:relative h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+        <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/product_engineering.jpg_rbl3fi.png" alt="" />
         </div>
-        <span class="ml-4 sm:relative sm:right-4 md:right-14">Innovative Product Applications</span>
+        <span class="ml-4 sm:relative sm:right-0">Innovative Product Applications</span>
       </dt>
-      <dd class="mt-2 text-base leading-7 text-600">From web app design development, we have the best product engineering services to enhance your customer experience, increasing brand awareness and driving sales.</dd>
+      <dd class="mt-2 ml-14 text-base leading-7 text-600">From web app design development, we have the best product engineering services to enhance your customer experience, increasing brand awareness and driving sales.</dd>
     </div>
     <div class="relative why-container flex flex-col pl-16">
       <dt class="text-base font-semibold leading-7 text-900 flex items-center">
-        <div class="flex sm:hidden md:flex sm:relative  sm:right-12 h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-          <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
-          </svg>
+        <div class="flex sm:flex md:flex sm:relative h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+        <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716630879/digital_transformation_kyvely.png" alt="" />
         </div>
-        <span class="ml-4 sm:relative sm:right-4 md:right-14">Seamless Digital Transformation</span>
+        <span class="ml-4 sm:relative sm:right-0">Seamless Digital Transformation</span>
       </dt>
-      <dd class="mt-2 text-base leading-7 text-600">With our customized digital marketing services, you will get everything you need to elevate your business standards with our endless marketing service endeavors.</dd>
+      <dd class="mt-2 ml-14  text-base leading-7 text-600">With our customized digital marketing services, you will get everything you need to elevate your business standards with our endless marketing service endeavors.</dd>
     </div>
     <div class="relative flex flex-col pl-16 sm:hidden md:hidden">
       <dt class="text-base font-semibold leading-5 text-900 flex items-center">

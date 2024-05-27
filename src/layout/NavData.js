@@ -32,7 +32,7 @@ export const NaveData = [
       },
       {
         link: "/digital-marketing/",
-        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462428/myCloud/digital_marketing_banner_image_xouinj.png",
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716640517/myCloud/digital_marketing-banner._csltxj.png",
         names: "Digital Marketing",
       },
     ],
@@ -57,17 +57,17 @@ export const NaveData = [
       },
       {
         link: "/health-care/",
-        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462402/myCloud/1714742637478_i6y61k_2_0_fdaa8g.jpg",
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716640516/myCloud/1716639237138_qrckr0_2_0_nx6afv.jpg",
         names: "Health Care",
       },
       {
         link: "/education/",
-        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462404/myCloud/1714742535980_6mx8uu_2_0_qk4qm5.jpg",
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637226/myCloud/education_service_image_ayf1ii.png",
         names: "Education",
       },
       {
         link: "/banking-finance/",
-        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716623737/myCloud/banking_and_financial_image__lhbyeh.png",
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716660061/myCloud/1716647422042_g2k503_2_0_1_pogatj.jpg",
         names: "Banking & Finance",
       },
     ],
@@ -97,7 +97,7 @@ export const NaveData = [
       },
       {
         link: "/chhota-school/",
-        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462485/myCloud/play_school_internal_image_2_ftnld7.png",
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716660061/myCloud/chota_school_banner_rg7kby.png",
         names: "Chhota School",
       },
     ],
@@ -125,12 +125,12 @@ export const NaveData = [
 
       {
         link: "/leadership-team/",
-        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462462/myCloud/leadership_image_1_km4pun.png",
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716664410/myCloud/leadership_banner_fgnkqi.png",
         names: "Leadership Team",
       },
       {
         link: "/career/",
-        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462420/myCloud/career_image._phwggl.png",
+        img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716660061/myCloud/career_banner_image_vkx7em.png",
         names: "Career",
       },
     ],

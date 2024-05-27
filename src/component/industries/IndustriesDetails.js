@@ -63,9 +63,9 @@ const IndustriesDetails = ({
 
       {/* Our Custom eCommerce Development Services */}
       
-      <div className="red-section  sm:mt-10 xl:mt-0">
+      <div className="red-section lg:mt-32  sm:mt-10 xl:mt-0">
         <div className="container-section">
-          <div className="border-line text-center m-auto"></div>
+          <div className="border-line sm:hidden md:block text-center m-auto"></div>
           <h3 className="heading-h3 text-center">
             Our Custom {name}
           </h3>
