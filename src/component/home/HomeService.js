@@ -30,7 +30,7 @@ const HomeService = () => {
                     <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637330/myCloud/api_c4usbl.png" alt="" />
                   </div>
                 </div>
-                <div className="home-service-back-content">
+                <Link to="/web-development" className="home-service-back-content">
                   <figure className="back-icons">
                     <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637330/myCloud/api_c4usbl.png" alt="" />
                   </figure>
@@ -67,7 +67,7 @@ const HomeService = () => {
                       </Link>
                     </li>
                   </ul>
-                </div>
+                </Link>
               </div>
             </div>
             <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
@@ -85,7 +85,7 @@ const HomeService = () => {
                     <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637332/myCloud/app-development_iqsdi6.png" alt="" />
                   </div>
                 </div>
-                <div className="home-service-back-content">
+                <Link to="/application-development" className="home-service-back-content">
                   <figure className="back-icons">
                     <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637332/myCloud/app-development_iqsdi6.png" alt="" />
                   </figure>
@@ -122,7 +122,7 @@ const HomeService = () => {
                       </Link>
                     </li>
                   </ul>
-                </div>
+                </Link>
               </div>
             </div>
             <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
@@ -140,7 +140,7 @@ const HomeService = () => {
                     <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637327/myCloud/digital-campaign_wudbkk.png" alt="" />
                   </div>
                 </div>
-                <div className="home-service-back-content">
+                <Link to='/digital-marketing' className="home-service-back-content">
                   <figure className="back-icons">
                     <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637327/myCloud/digital-campaign_wudbkk.png" alt="" />
                   </figure>
@@ -183,7 +183,7 @@ const HomeService = () => {
                       </Link>
                     </li>
                   </ul>
-                </div>
+                </Link>
               </div>
             </div>
           </div>

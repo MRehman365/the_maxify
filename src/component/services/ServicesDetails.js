@@ -30,7 +30,7 @@ const ServicesDetails = ({
     <>
       <MetaData titles={`Maxify Industries ${name}`} />
       <div className="relative">
-        <div className="element-banner lg:pt-[15%] lg:pb-[12%] md:pt-[25%] md:pb-[10%] sm:pt-[24%] sm:pb-[11%] ">
+        <div className="element-banner lg:pt-[17%] lg:pb-[15%] md:pt-[25%] md:pb-[10%] sm:pt-[24%] sm:pb-[11%] ">
           <img className="banner" src={img} alt="jpg" />
           <div className="container-section">
             <div className="element-banner-content sm:w-full md:w-[60%] lg:w-[50%]">
@@ -61,7 +61,7 @@ const ServicesDetails = ({
             {/* <!-- ... --> */}
 
             <div className="lg:col-span-5 xl:col-span-6 sm:col-span-12 lg:mt-5 sm:mt-0">
-              <div className="element-container sm:w-full sm:h-full lg:w-[70%] xl:h-[70%] lg:overflow-hidden lg:ml-20 lg:mt-20">
+              <div className="element-container sm:w-full sm:h-full lg:w-[70%] xl:h-[70%] lg:overflow-hidden lg:ml-20 lg:mt-10">
                 <div className="img">
                   <img className="w-full" src={img2} alt="" />
                 </div>

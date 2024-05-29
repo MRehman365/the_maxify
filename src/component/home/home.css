@@ -548,8 +548,11 @@
 
 #whiye {
   height: 100%;
+  width: 100%;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  /* background-image: url("https://res.cloudinary.com/djkkjx9ry/image/upload/v1716797451/myCloud/why_choose_us_ulcrfw.png"); */
   /* overflow: hidden; */
+  object-fit: cover;
 }
 
 #stars {

@@ -60,7 +60,7 @@ const AboutCompany = () => {
           {/* <!-- ... --> */}
           <div className="lg:col-span-5 md:col-span-6 sm:col-span-12">
             <div className="element-container">
-              <div className="img-box about-company-img">
+              <div className="img-box about-company-im sm:w-full sm:h-full 2xl:w-[80%] 2xl:ml-20">
                 <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462410/myCloud/about_us_page_1_cepnfn.png" alt="" />
               </div>
             </div>

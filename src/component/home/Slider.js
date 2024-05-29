@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState, useEffect } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -7,11 +7,26 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import Slider1 from "../../assets/slider1.jpg";
-import Vedio from "../../assets/videos.mp4";
-// import requi#525CEB modules
+// import Vedio from "../../assets/videos.mp4";
+// import required modules
 import { Navigation } from "swiper/modules";
 
 export default function Slider() {
+  const homeVideo =
+    "https://res.cloudinary.com/djkkjx9ry/video/upload/v1716566117/myCloud/videos_mudjus.mp4";
+  const homeBanner =
+    "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716809151/myCloud/home_page_main_banner_x1j1ga.png";
+  const [video, setVideo] = useState(homeBanner);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setVideo(homeVideo);
+    }, 10000);
+
+    // Clean up the timer on component unmount
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
       <div className="home-slider-section">
@@ -19,19 +34,19 @@ export default function Slider() {
           <SwiperSlide>
             <div className="home-slider-container">
               <div className="home-slider-img1">
-                {/* <img src={Slider1} alt="" /> */}
-                <video autoPlay muted loop>
-                  <source
-                    className="brightness-50"
-                    src={Vedio}
-                    type="video/mp4"
-                  />
-                  Your browser does not support the video tag.
-                </video>
+                {video === homeBanner ? (
+                  <img src={homeBanner} alt="Banner" />
+                ) : (
+                  <video autoPlay muted loop>
+                    <source
+                      className="brightness-50"
+                      src={homeVideo}
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                )}
               </div>
-              {/* <div className="slider-overlay">
-
-                            </div> */}
               <div className="home-slider-content sm:mt-14">
                 <h1 className="heading-h1"> We are Maxify</h1>
                 <p className="para sm:hidden md:block ">
@@ -42,7 +57,6 @@ export default function Slider() {
               </div>
             </div>
           </SwiperSlide>
-          {/* <SwiperSlide>Slide 2</SwiperSlide> */}
         </Swiper>
       </div>
     </>

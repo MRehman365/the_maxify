@@ -83,7 +83,7 @@ const WhyChooseUs = () => {
                 <div className="" id='stars2'></div>
                 <div className="" id='stars3'></div> */}
         <div className="container-section">
-          <div className="grid grid-cols-12 sm:flex sm:flex-col sm:flex-col-reverse md:mt-10 lg:flex-row gap-4">
+          <div className="grid grid-cols-12 sm:flex sm:flex-col-reverse md:mt-10 lg:flex-row lg:gap-20">
             {/* <!-- ... --> */}
             <div className="lg:col-span-6 md:col-span-6 sm:col-span-12">
              
@@ -132,7 +132,7 @@ const WhyChooseUs = () => {
       <dd class="mt-2 text-base leading-7 text-600">With our customized digital marketing services, you will get everything you need to elevate your business standards with our endless marketing service endeavors.</dd>
     </div>
   </dl>
-</div>
+                </div>
 
              </div>
            </div>
@@ -150,7 +150,7 @@ const WhyChooseUs = () => {
                     <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462516/myCloud/why-us-2_hm7mhc.png" alt="" />
                   </figure>
                   <figure className="image2">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462515/myCloud/why-us-1_fc1zih.png" alt="" />
+                    <img className="rounded-lg" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716797451/myCloud/why_choose_us_ulcrfw.png" alt="" />
                   </figure>
                 </div>
               </div>

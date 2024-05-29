@@ -20,6 +20,7 @@ import { SuccessData } from './component/successstories/SuccessData';
 import Contact from './component/contact/Contact';
 import SuccessStoriesDetails from './component/successstories/SuccessStoriesDetails';
 import Career from './component/career/Career';
+import WhatsAppButton from './component/WhatsAppButton';
 function App() {
   return (
     <>
@@ -116,6 +117,7 @@ function App() {
         <Route path='/career/' element={<Career />} />
       </Routes>
       <Footer />
+      <WhatsAppButton/>
     </>
   );
 }
