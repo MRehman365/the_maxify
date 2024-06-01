@@ -337,7 +337,7 @@ const Footer = () => {
                     </Link>
                   </span>
                   <span>
-                    <Link to="" target="_blank">
+                    <Link to="https://www.instagram.com/maxifywebsolutions?igsh=MXZranE1enVrOXZrMA==" target="_blank">
                       <IoLogoInstagram />
                     </Link>
                   </span>
