@@ -9,7 +9,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const ThankYouPage = ({showPopup, setShowPopup}) => {
   return (
-    <div className=" bg-white pb-6">
+    <div className=" bg-white border pb-6">
       <div className="flex justify-end heading-1">
       <span className="text-2xl cursor-pointer pr-5 pt-5" onClick={()=>setShowPopup(!showPopup)}><RiCloseCircleFill /></span>
       </div>
