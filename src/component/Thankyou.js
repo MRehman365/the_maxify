@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import thumb from "../assets/vecteezy_thumb-up-like-icon-emoji-sticker_27386542.png"
 import { RiCloseCircleFill } from "react-icons/ri";
+import { RiFacebookBoxFill } from "react-icons/ri";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 
 const ThankYouPage = ({showPopup, setShowPopup}) => {
@@ -22,6 +25,11 @@ const ThankYouPage = ({showPopup, setShowPopup}) => {
             <Link to="/">
               <button className="go-home" onClick={()=>setShowPopup(!showPopup)}>go home</button>
             </Link>
+            <div className="social-icon">
+              <a href=""><RiFacebookBoxFill className="facebook" /></a>
+              <a href=""><FaInstagramSquare className="facebook"/></a>
+              <a href=""><FaSquareXTwitter className="facebook"/></a>
+            </div>
           </div>
           {/* <div className="footer-like">
             <p>

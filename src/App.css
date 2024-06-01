@@ -301,6 +301,20 @@ body {
   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
   animation: hearts 15s linear 0s infinite ;
 }
+
+.social-icon{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.social-icon a{
+}
+.facebook{
+  height: 30px;
+  width: 30px;
+  color: #5892ff;
+  
+}
 @keyframes hearts {
     0% {
       color: #525ceb;

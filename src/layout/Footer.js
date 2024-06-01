@@ -42,7 +42,7 @@ const Footer = () => {
 
   const [formData, setFormData] = useState(initialFormState);
   const [errors, setErrors] = useState(initialErrorState);
-  const [showPopup, setShowPopup] = useState(false)
+  const [showPopup, setShowPopup] = useState(true)
 
 
   const handleChange = (e) => {
@@ -227,7 +227,7 @@ const Footer = () => {
 
       {/* thank you popup */}
 
-    {showPopup ? ( <div className="fixed lg:top-[25%] sm:top-[20%] lg:left-[25%] sm:left-[5%] z-[9999] bg-yellow-500 rounded-lg">
+    {showPopup ? ( <div className="fixed flex justify-center lg:top-[25%] sm:top-[20%] lg:left-[32%] sm:left-[0%] md:left-[20%] md:top-[20%] z-[9999] bg-yellow-500 rounded-lg">
       <ThankYouPage showPopup={showPopup} setShowPopup={setShowPopup} />
     </div>):("")}
     
