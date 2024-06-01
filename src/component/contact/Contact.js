@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./contact.css";
 import axios from "axios";
 const Contact = () => {
@@ -45,10 +45,13 @@ const Contact = () => {
       console.log("Form submitted:", data);
     } catch (error) {}
   };
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
   return (
     <>
       {/* serive banner */}
-      <div className="element-banner pt-[15%] pb-[15%] service-banner">
+      <div className="element-banner lg:pt-[15%] lg:pb-[15%] sm:pt-[30%] sm:pb-[18%] service-banner">
         <div className="container-section">
           <div className="element-banner-content">
             <h1 className="heading-h1"> Contact Us</h1>

@@ -42,13 +42,13 @@ const SuccessStoriesDetails = ({
           </div>
         </div>
       </div>
-      <div className="width">
-        <div className="top-content">
-          <h2>
+      <div className="widt w-[90%] mx-auto relative flex flex-col">
+        <div className="top-content lg:p-[30px] sm:p-0">
+          <h2 className="sm:text-[23px] font-[600] sm:leading-[30px] lg:text-3xl text-gray-600">
             Achieve Success By Unlocking Your Potential with Maxify Web
             Solutions
           </h2>
-          <p>
+          <p className="para text-base">
             We are the ones turning your business into success and your goals.
             We believe that success is not just a goal but it is a destination
             filled with compassion, hard work, dedication. Either you are a

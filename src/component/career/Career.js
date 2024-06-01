@@ -16,14 +16,14 @@ const Career = () => {
     }
     setSelected(i);
   };
-  // useEffect(() => {
-  //     window.scrollTo({ top: 0, behavior: "smooth" })
-  // })
+  useEffect(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" })
+  })
   return (
     <>
       <MetaData titles={`Maxify Career`} />
       {/* serive banner */}
-      <div className="element-banner lg:pt-[15%] lg:pb-[15%] sm:pt-[23%] sm:pb-[7%] service-banner">
+      <div className="element-banner lg:pt-[15%] lg:pb-[15%] sm:pt-[30%] sm:pb-[18%] service-banner">
         <img className="banner" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716660061/myCloud/career_banner_image_vkx7em.png" alt="jpg" />
         <div className="container-sectio lg:w-[70%] lg:mx-20 sm:w-[90%] sm:mx-5">
           <div className="element-banner-content ">
@@ -41,7 +41,7 @@ const Career = () => {
           <h3 className="heading-h3">
             Maxify Web Solution - Your next career destination
           </h3>
-          <p className="para">
+          <p className="para text-justify">
             We believe in creating a workspace where everyone thrives and has
             the right to communicate and share their ideas. We are seeking
             innovative and young minds that can contribute to the leading

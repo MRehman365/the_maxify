@@ -14,6 +14,8 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { FaCheckDouble } from "react-icons/fa6";
 import ContactForm from "../component/ContactForm";
+import axios from 'axios';
+import ThankYouPage from "../component/Thankyou";
 const Footer = () => {
   const navigate = useNavigate();
 
@@ -26,7 +28,21 @@ const Footer = () => {
     message: '',
   };
 
+  const initialErrorState = {
+    firstName: '',
+    lastName: '',
+    contactNumber: '',
+    companyEmail: '',
+    company: '',
+    message: '',
+  };
+  
+
+
+
   const [formData, setFormData] = useState(initialFormState);
+  const [errors, setErrors] = useState(initialErrorState);
+  const [showPopup, setShowPopup] = useState(false)
 
 
   const handleChange = (e) => {
@@ -37,18 +53,56 @@ const Footer = () => {
     }));
   };
 
-  const handleClick = () => {
-    console.log(formData);
+  const handleClick = async () => {
+    const newErrors = {};
+
+    // Basic validation checks
+    if (!formData.firstName) newErrors.firstName = 'First Name is required';
+    if (!formData.lastName) newErrors.lastName = 'Last Name is required';
+    if (!formData.contactNumber) newErrors.contactNumber = 'Contact Number is required';
+    if (!formData.companyEmail) newErrors.companyEmail = 'Company Email is required';
+    if (!formData.company) newErrors.company = 'Company is required';
+    // if (!formData.message) newErrors.message = 'Message is required';
+
+    // Email validation (basic regex for example purposes)
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (formData.companyEmail && !emailRegex.test(formData.companyEmail)) {
+      newErrors.companyEmail = 'Invalid email format';
+    }
+
+    // If there are any errors, update the errors state and return early
+    if (Object.keys(newErrors).length > 0) {
+      setErrors(newErrors);
+      return;
+    }
+
+    try {
+      const response = await axios.post('http://localhost:500/contact', formData, {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+
+      if (response.status === 200) {
+        console.log('Form submitted successfully');
+        // Optionally handle successful response here
+      } else {
+        console.error('Form submission failed');
+        // Optionally handle failed response here
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
+
     setFormData(initialFormState); // Reset the form fields
+    setShowPopup(!showPopup)
   };
-
-
 
 
   return (
     <>
-      <div className="container-section mat-50">
-        <div className="footer-contact-section sm:py-20 lg:py-10 lg:px-20 sm:px-5">
+      <div className="container-section mat-50 relative">
+        <div className="footer-contact-section sm:py-10 lg:py-10 lg:px-20 sm:px-5">
           <div className="lg:grid lg:grid-cols-12 gap-[5%] sm:flex sm:flex-col-reverse">
             <div className="lg:col-span-6 md:col-span-6 sm:col-span-12">
               <div className="map lg:w-full sm:w-[100%] h-[300px] lg:mt-10 sm:mt-5">
@@ -94,79 +148,90 @@ const Footer = () => {
               </div>
             </div>
             <div className="lg:col-span-6 md:col-span-6 sm:col-span-12">
-      <div className="mb-5">
+       <div className="mb-5">
         <h3 className="heading-h3">Time to break the ice?</h3>
         <p className="para">We would love to hear from you.</p>
       </div>
       <div className="footer-contact-form">
-        <div>
-          <input
-            className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
-            type="text"
-            placeholder="First Name"
-            name="firstName"
-            value={formData.firstName}
-            onChange={handleChange}
-          />
-        </div>
-        <div>
-          <input
-            className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
-            type="text"
-            placeholder="Last Name"
-            name="lastName"
-            value={formData.lastName}
-            onChange={handleChange}
-          />
-        </div>
-        <div className="w-full">
-          <input
-            className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
-            type="text"
-            placeholder="Contact Number"
-            name="contactNumber"
-            value={formData.contactNumber}
-            onChange={handleChange}
-          />
-        </div>
-        <div>
-          <input
-            className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
-            type="text"
-            placeholder="Company Email"
-            name="companyEmail"
-            value={formData.companyEmail}
-            onChange={handleChange}
-          />
-        </div>
-        <div>
-          <input
-            className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
-            type="text"
-            placeholder="Company"
-            name="company"
-            value={formData.company}
-            onChange={handleChange}
-          />
-        </div>
-        <textarea
+      <div>
+        <input
           className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
-          name="message"
-          placeholder="Message"
-          cols="30"
-          rows="5"
-          value={formData.message}
+          type="text"
+          placeholder="First Name"
+          name="firstName"
+          value={formData.firstName}
           onChange={handleChange}
-        ></textarea>
-        <button onClick={handleClick}>SUBMIT</button>
+        />
+        {errors.firstName && <p className="text-red-500 pb-5">{errors.firstName}</p>}
       </div>
+      <div>
+        <input
+          className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
+          type="text"
+          placeholder="Last Name"
+          name="lastName"
+          value={formData.lastName}
+          onChange={handleChange}
+        />
+        {errors.lastName && <p className="text-red-500 pb-5">{errors.lastName}</p>}
+      </div>
+      <div className="w-full">
+        <input
+          className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
+          type="text"
+          placeholder="Contact Number"
+          name="contactNumber"
+          value={formData.contactNumber}
+          onChange={handleChange}
+        />
+        {errors.contactNumber && <p className="text-red-500 pb-5">{errors.contactNumber}</p>}
+      </div>
+      <div>
+        <input
+          className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
+          type="text"
+          placeholder="Company Email"
+          name="companyEmail"
+          value={formData.companyEmail}
+          onChange={handleChange}
+        />
+        {errors.companyEmail && <p className="text-red-500 pb-5">{errors.companyEmail}</p>}
+      </div>
+      <div>
+        <input
+          className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
+          type="text"
+          placeholder="Company"
+          name="company"
+          value={formData.company}
+          onChange={handleChange}
+        />
+        {errors.company && <p className="text-red-500 pb-5">{errors.company}</p>}
+      </div>
+      <textarea
+        className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
+        name="message"
+        placeholder="Message"
+        cols="30"
+        rows="5"
+        value={formData.message}
+        onChange={handleChange}
+      ></textarea>
+      {/* {errors.message && <p className="text-red-500 pb-5">{errors.message}</p>} */}
+      <button onClick={handleClick}>SUBMIT</button>
+    </div>
     </div>
           </div>
         </div>
-        {/* <ContactForm/> */}
-
-
       </div>
+
+      {/* thank you popup */}
+
+    {showPopup ? ( <div className="fixed lg:top-[25%] sm:top-[20%] lg:left-[25%] sm:left-[5%] z-[9999] bg-yellow-500 rounded-lg">
+      <ThankYouPage showPopup={showPopup} setShowPopup={setShowPopup} />
+    </div>):("")}
+    
+
 
       <footer className="">
         

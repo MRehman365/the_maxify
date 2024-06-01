@@ -15,7 +15,7 @@ const Industries = () => {
         {/* <div className="element-banner industry-banner sm:pt-[30%] sm:pb-[5%] lg:py-[200px] xl:py-[222px] service-banner"> */}
         <div className="container-section ">
           <div className="element-banner-content sm:w-full md:w-[70%]">
-            <h1 className="heading- sm:text-[20px] font-[600] sm:leading-[32px] lg:leading-[60px] lg:text-[40px] text-white">
+            <h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[40px] text-white">
               Explore the Dynamic World of Industries with Maxify Web Solutions
             </h1>
             <p className="para sm:hidden md:block">
@@ -28,10 +28,10 @@ const Industries = () => {
       {/* service container */}
       <div className="container-section mat-50 mab-50">
         <div className="border-line"></div>
-        <h3 className="heading-h3">
+        <h3 className="heading- sm:text-[23px] font-[600] sm:leading-[30px] lg:text-3xl text-gray-600">
           Delivering Digital Excellence Across Industries
         </h3>
-        <p className="para">
+        <p className="para mt-5">
           We employ our expertise, capabilities and insights into curating
           world-class digital solutions for various industries across the globe.
         </p>

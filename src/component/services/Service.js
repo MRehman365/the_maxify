@@ -37,7 +37,7 @@ const Service = () => {
         <div className="grid grid-cols-12  gap-6">
           <div className="lg:col-span-12 md:col-span-12 sm:col-span-12">
             <div className="grid grid-cols-12 single-service-box">
-              <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 content">
+              <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 content lg:p-10 sm:p-0">
                 <Link to="/web-development">
                 <div className="border-line"></div>
                 <p className="para uppercase">
@@ -61,7 +61,7 @@ const Service = () => {
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 img">
                 <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462401/myCloud/1714554235083_29zv92_2_0_xth8qs.jpg" alt="" />
               </div>
-              <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 content">
+              <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 content lg:p-10 sm:p-0">
                 <Link to="/application-development">
                 <div className="border-line"></div>
                 <p className="para uppercase ">
@@ -80,7 +80,7 @@ const Service = () => {
           </div>
           <div className="lg:col-span-12 md:col-span-12 sm:col-span-12">
             <div className="grid grid-cols-12 single-service-box">
-              <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 content">
+              <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 content lg:p-10 sm:p-0">
                 <div className="border-line"></div>
                 <Link to="/digital-marketing">
                 

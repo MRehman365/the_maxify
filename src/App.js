@@ -21,6 +21,7 @@ import Contact from './component/contact/Contact';
 import SuccessStoriesDetails from './component/successstories/SuccessStoriesDetails';
 import Career from './component/career/Career';
 import WhatsAppButton from './component/WhatsAppButton';
+import ThankYouPage from './component/Thankyou';
 function App() {
   return (
     <>
@@ -28,6 +29,7 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/services/' element={<Service />} />
+
 
         {ServiceData.map((item, i) => (
           <Fragment key={i}>

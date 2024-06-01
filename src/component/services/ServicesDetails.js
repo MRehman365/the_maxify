@@ -30,7 +30,7 @@ const ServicesDetails = ({
     <>
       <MetaData titles={`Maxify Industries ${name}`} />
       <div className="relative">
-        <div className="element-banner lg:pt-[17%] lg:pb-[15%] md:pt-[25%] md:pb-[10%] sm:pt-[24%] sm:pb-[11%] ">
+        <div className="element-banner lg:pt-[17%] lg:pb-[15%] md:pt-[25%] md:pb-[10%] sm:pt-[30%] sm:pb-[18%] ">
           <img className="banner" src={img} alt="jpg" />
           <div className="container-section">
             <div className="element-banner-content sm:w-full md:w-[60%] lg:w-[50%]">
@@ -41,14 +41,15 @@ const ServicesDetails = ({
             </div>
           </div>
         </div>
-        <div className="w-[90%] mx-auto mt-14">
+        <div className="w-[90%] mx-auto lg:mt-14 sm:mt-10">
           <div className="grid grid-cols-12 sm:gap-3 lg:gap-[5%]">
             <div className="lg:col-span-7 xl:col-span-6 sm:col-span-12">
-              <div className="border-line"></div>
+              {/* <div className="border-line"></div> */}
               <div className="element-container">
-                <h3 className="heading-h3 sm:text-xl font-[600] lg:text-3xl text-gray-600">
+                <h3 className="heading- sm:text-[23px] font-[600] sm:leading-[30px] lg:text-3xl text-[#1a1a1a] sm:text-center lg:text-start">
                   {title}
                 </h3>
+              
                 <p className="para1 sm:text-base lg:text-base mt-6 text-justify">
                   {description}
                 </p>
@@ -103,7 +104,7 @@ const ServicesDetails = ({
         </div>
 
         {showForm ? (
-          <div className="fixed top-[13%] lg:left-[15%] sm:left-[5%] z-[100] lg:w-[70%] sm:w-[90%]">
+          <div className="absolute top-[3%] lg:left-[15%] sm:left-[5%] z-[100] lg:w-[70%] sm:w-[90%]">
             <ContactForm showForm={showForm} setShowForm={setShowForm} />
           </div>
         ) : (

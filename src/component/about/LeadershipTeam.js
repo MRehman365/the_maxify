@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import MetaData from "../../layout/MetaData";
 const LeadershipTeam = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
   return (
     <>
       <MetaData titles={`Maxify Industries Leadership Team`} />
       {/* banner */}
-      <div className="element-banner lg:pt-[15%] lg:pb-[15%] sm:pt-[23%] sm:pb-[7%]  about-company-banner">
+      <div className="element-banner lg:pt-[15%] lg:pb-[15%] sm:pt-[30%] sm:pb-[18%]  about-company-banner">
         <img className="banner" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716664410/myCloud/leadership_banner_fgnkqi.png" alt="jpg" />
         <div className="container-section ">
           <div className="element-banner-content lg:w-[60%]">
@@ -53,12 +56,72 @@ const LeadershipTeam = () => {
         </div>
       </div>
 
-      <div className="container-section-2 mat-25">
-        <h4 className="text-heading-h4 left-line">Management Team</h4>
+      <div className="container-section-2 mat-0 sm:mt-20">
+        <h4 className="text-heading-h4 left-line sm:mt-10 lg:mt-0">Management Team</h4>
+        <div className="grid grid-cols-12  gap-4 mat-50">
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
+            <div className="leadership-box">
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="w-full lg:h-[25rem] sm:h-[21rem]" />
+              <div className="content">
+                <p className="para">
+                  <b>Rameshwar Vyas</b>
+                </p>
+                <p className="para">Chief Executive Officer</p>
+                <div className="leader-loaction">
+                  <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462456/myCloud/india-logo_uaybm2.jpg" alt="" />
+                  <Link href="">
+                    <FaLinkedinIn />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
+            <div className="leadership-box">
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="w-full lg:h-[25rem] sm:h-[21rem]" />
+              <div className="content">
+                <p className="para">
+                  <b>Rameshwar Vyas</b>
+                </p>
+                <p className="para">Chief Executive Officer</p>
+                <div className="leader-loaction">
+                  <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462456/myCloud/india-logo_uaybm2.jpg" alt="" />
+                  <Link href="">
+                    <FaLinkedinIn />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
+            <div className="leadership-box">
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="w-full lg:h-[25rem] sm:h-[21rem]" />
+              <div className="content">
+                <p className="para">
+                  <b>Rameshwar Vyas</b>
+                </p>
+                <p className="para">Chief Executive Officer</p>
+                <div className="leader-loaction">
+                  <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462456/myCloud/india-logo_uaybm2.jpg" alt="" />
+                  <Link href="">
+                    <FaLinkedinIn />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+         
+        
+        
+        </div>
+      </div>
+      <div className="container-section-2 mat-100">
+        <h4 className="text-heading-h4 left-line">Developer Team</h4>
         <div className="grid grid-cols-12  gap-4 mat-50">
           <div className="lg:col-span-3 md:col-span-6 sm:col-span-12">
             <div className="leadership-box">
-              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="profiles-img" />
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="profiles-img h-[]" />
               <div className="content">
                 <p className="para">
                   <b>Rameshwar Vyas</b>
@@ -75,7 +138,7 @@ const LeadershipTeam = () => {
           </div>
           <div className="lg:col-span-3 md:col-span-6 sm:col-span-12">
             <div className="leadership-box">
-              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="profiles-img" />
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="profiles-img h-[]" />
               <div className="content">
                 <p className="para">
                   <b>Rameshwar Vyas</b>
@@ -92,7 +155,7 @@ const LeadershipTeam = () => {
           </div>
           <div className="lg:col-span-3 md:col-span-6 sm:col-span-12">
             <div className="leadership-box">
-              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="profiles-img" />
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="profiles-img h-[]" />
               <div className="content">
                 <p className="para">
                   <b>Rameshwar Vyas</b>
@@ -109,7 +172,7 @@ const LeadershipTeam = () => {
           </div>
           <div className="lg:col-span-3 md:col-span-6 sm:col-span-12">
             <div className="leadership-box">
-              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="profiles-img" />
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="profiles-img h-[]" />
               <div className="content">
                 <p className="para">
                   <b>Rameshwar Vyas</b>
@@ -124,57 +187,7 @@ const LeadershipTeam = () => {
               </div>
             </div>
           </div>
-          <div className="lg:col-span-3 md:col-span-6 sm:col-span-12">
-            <div className="leadership-box">
-              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="profiles-img" />
-              <div className="content">
-                <p className="para">
-                  <b>Rameshwar Vyas</b>
-                </p>
-                <p className="para">Chief Executive Officer</p>
-                <div className="leader-loaction">
-                  <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462456/myCloud/india-logo_uaybm2.jpg" alt="" />
-                  <Link href="">
-                    <FaLinkedinIn />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="lg:col-span-3 md:col-span-6 sm:col-span-12">
-            <div className="leadership-box">
-              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="profiles-img" />
-              <div className="content">
-                <p className="para">
-                  <b>Rameshwar Vyas</b>
-                </p>
-                <p className="para">Chief Executive Officer</p>
-                <div className="leader-loaction">
-                  <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462456/myCloud/india-logo_uaybm2.jpg" alt="" />
-                  <Link href="">
-                    <FaLinkedinIn />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="lg:col-span-3 md:col-span-6 sm:col-span-12">
-            <div className="leadership-box">
-              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="profiles-img" />
-              <div className="content">
-                <p className="para">
-                  <b>Rameshwar Vyas</b>
-                </p>
-                <p className="para">Chief Executive Officer</p>
-                <div className="leader-loaction">
-                  <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462456/myCloud/india-logo_uaybm2.jpg" alt="" />
-                  <Link href="">
-                    <FaLinkedinIn />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
+        
         </div>
       </div>
     </>

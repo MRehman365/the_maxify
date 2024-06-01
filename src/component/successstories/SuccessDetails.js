@@ -46,11 +46,11 @@ const SuccessDetails = ({
   return (
     <>
       <MetaData titles={`Maxify ${name}`} />
-      <div className="element-banner lg:pt-[15%] lg:pb-[15%] md:pt-[17%] md:pb-[18%] sm:pt-[23%] sm:pb-[7%] ">
+      <div className="element-banner lg:pt-[15%] lg:pb-[15%] md:pt-[17%] md:pb-[18%] sm:pt-[30%] sm:pb-[18%] ">
         <img className="banner brightness-75" src={img} alt="jpg" />
-        <div className="container-sectio sm:w-[90%] sm:mx-10 lg:w-[60%] lg:mx-20">
+        <div className="container-sectio sm:w-[90%] sm:mx-auto lg:w-[60%] lg:mx-20">
           <div className="element-banner-content">
-            <h1 className="sm:text-[24px] font-[600] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[40px] text-white">
+            <h1 className="sm:text-[20px] font-[600] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[40px] text-white">
               {" "}
               {title2}{" "}
             </h1>
@@ -95,7 +95,7 @@ const SuccessDetails = ({
                   <img src={img2} alt="" />
                 </div>
                 <div className="img-box-2">
-                  <img src={img3} alt="" />
+                  <img className="" src={img3} alt="" />
                 </div>
               </div>
             </div>
@@ -128,11 +128,11 @@ const SuccessDetails = ({
 
       {/*  */}
 
-      <div className="mt-0 result">
+      <div className="lg:mt-0 sm:mt-5 result">
         <h2 className="heading-h2 para" style={{}}>
           The Result
         </h2>
-        <div className="content-result">
+        <div className="content-result lg:mt-5 sm:mt-0">
           <li className="para">{headingp1}</li>
           <p className="para">{description3}</p>
           <li className="para">{headingp2}</li>
@@ -162,7 +162,7 @@ const SuccessDetails = ({
                     </div> */}
           <div className="technologies-data mt-10">
             <p>Languages:</p>
-            <div className="tec-im flex md:flex-row sm:flex-col md;gap-5">
+            <div className="tec-im flex md:flex-row sm:flex-col gap-5">
               <img src={logo3} alt="" />
               <img src={logo4} alt="" />
             </div>

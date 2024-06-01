@@ -131,7 +131,7 @@
   }
 }
 
-@media screen and (max-width: 480px) and (min-width: 350px) {
+@media screen and (max-width: 480px) and (min-width: 330px) {
   .home-slider-container .home-slider-content .heading-h1 {
     font-size: 26px;
     line-height: 29px;
@@ -359,10 +359,10 @@
     z-index: 5;
   }
   .heading-h3 {
-    margin-top: 29px;
+    margin-top: 6px;
     font-size: 19px;
     font-weight: 600;
-    line-height: 27px;
+    line-height: 35px;
   }
   .why-choose-card .slider-wrap .slider {
     position: absolute;
@@ -375,4 +375,12 @@
     font-weight: 700;
     line-height: 50px;
   }
+
+  .success-stories-middle-section .img-box-2 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width: 66%;
+    height: 68%;
+}
 }

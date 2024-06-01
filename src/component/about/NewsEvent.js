@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import News1 from "../../assets/news-1.jpg";
 import { NewsData } from "./NewsData";
 import MetaData from "../../layout/MetaData";
 const NewsEvent = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
   return (
     <>
       <MetaData titles={`Maxify IndustriesNews Events `} />

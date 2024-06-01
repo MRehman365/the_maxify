@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import { Link, useNavigate } from "react-router-dom";
 import { IoIosArrowDown } from "react-icons/io";
-import { RxCross2 } from "react-icons/rx";
 import { FaBars } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
 import { NaveData } from "./NavData";
@@ -11,13 +10,13 @@ const Navbar = () => {
   const navigate = useNavigate();
   const [scrolled, setScrolled] = useState(false);
 
-  const [open, setOpen] = useState(false);
-  const handleClickOpen = (i) => {
-    if (open === i) {
-      return setOpen(true);
-    }
-    setOpen(i);
-  };
+  // const [open, setOpen] = useState(false);
+  // const handleClickOpen = (i) => {
+  //   if (open === i) {
+  //     return setOpen(true);
+  //   }
+  //   setOpen(i);
+  // };
   // console.log("object", auth)
   const [selected, setSelected] = useState(null);
   const toggle = (i) => {
@@ -128,7 +127,7 @@ const Navbar = () => {
                       >
                         <div
                           className={
-                            i == 1
+                            i === 1
                               ? "xl:ml-[15%] lg:ml-[5%] drop-menu"
                               : "ml-[10%] xl:ml-[20%] drop-menu"
                           }
@@ -208,7 +207,7 @@ const Navbar = () => {
             </ul>
             <ul
               className={`
-              lg:hidden bg-[#3d3b40] gap- fixed w-full top-0 overflow-y-auto bottom-0 py-10 px-10 mt-16
+              lg:hidden bg-[#3d3b40] gap- fixed w-full top-0 overflow-y-auto bottom-0 py-10 px-10 mt-[60px]
                     duration-500 ${click ? "right-0 z-50 " : "right-[-100%]"}`}
             >
               {NaveData.map((item, i) => (
@@ -242,7 +241,7 @@ const Navbar = () => {
                       >
                         <div
                           className={
-                            i == 1
+                            i === 1
                               ? "xl:ml-[15%] lg:ml-[5%] drop-menu"
                               : "ml-[10%] xl:ml-[20%] drop-menu"
                           }

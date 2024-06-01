@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { MdClose } from "react-icons/md";
+import axios from 'axios'
+import ThankYouPage from "./Thankyou";
 // import "../footer.css";
 
-const ContactForm = ({showForm, setShowForm}) => {
+const ContactForm = ({showForm, setShowForm, }) => {
 
   const initialFormState = {
     firstName: '',
@@ -13,7 +15,24 @@ const ContactForm = ({showForm, setShowForm}) => {
     message: '',
   };
 
+ 
+  const initialErrorState = {
+    firstName: '',
+    lastName: '',
+    contactNumber: '',
+    companyEmail: '',
+    company: '',
+    message: '',
+  };
+  
+
+
+
   const [formData, setFormData] = useState(initialFormState);
+  const [errors, setErrors] = useState(initialErrorState);
+  const [showPopup, setShowPopup] = useState(false)
+
+  console.log("object", showPopup)
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -23,64 +42,72 @@ const ContactForm = ({showForm, setShowForm}) => {
     }));
   };
 
-  const handleClick = () => {
-    console.log(formData);
-    setFormData(initialFormState); // Reset the form fields
+  const handleClick = async () => {
+    const newErrors = {};
+
+    // Basic validation checks
+    if (!formData.firstName) newErrors.firstName = 'First Name is required';
+    if (!formData.lastName) newErrors.lastName = 'Last Name is required';
+    if (!formData.contactNumber) newErrors.contactNumber = 'Contact Number is required';
+    if (!formData.companyEmail) newErrors.companyEmail = 'Company Email is required';
+    if (!formData.company) newErrors.company = 'Company is required';
+    // if (!formData.message) newErrors.message = 'Message is required';
+
+    // Email validation (basic regex for example purposes)
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (formData.companyEmail && !emailRegex.test(formData.companyEmail)) {
+      newErrors.companyEmail = 'Invalid email format';
+    }
+
+    // If there are any errors, update the errors state and return early
+    if (Object.keys(newErrors).length > 0) {
+      setErrors(newErrors);
+      return;
+    }
+
+    try {
+      const response = await axios.post('http://localhost:500/contact', formData, {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+
+      if (response.status === 200) {
+        console.log('Form submitted successfully');
+        setFormData(initialFormState); // Reset the form fields
+      
+      // Close the form and open the popup
+      // setShowForm(false);
+ 
+      
+      
+        // Optionally handle successful response here
+      } else {
+        console.error('Form submission failed');
+        // Optionally handle failed response here
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
+    setShowPopup(true);
+    // setShowForm(false);
+
+    console.log("objectssssssss", showPopup)
+
+  
   };
 
 
 
   return (
-    <div>
-      <div className="footer-contact-section sm:py-20 lg:py-10 lg:px-20 sm:px-5">
+    <div className="relative">
+      <div className="footer-contact-section sm:py-10 lg:py-10 lg:px-20 sm:px-5">
         <div className="lg:grid lg:grid-cols-12 gap-[5%] sm:flex sm:flex-col-reverse">
-          {/* <div className="lg:col-span-6 md:col-span-6 sm:col-span-12">
-              <div className="map lg:w-full sm:w-[100%] h-[300px] lg:mt-10 sm:mt-5">
-                <div className="overflow-hidden">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d437.94898951084804!2d77.31535415943979!3d28.58201447114941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8cb2844875948653%3A0x31a70beb6225a223!2sMaxify%20Web%20Solutions%20pvt%20ltd!5e0!3m2!1sen!2sin!4v1716287100411!5m2!1sen!2sin"
-                    width="100%"
-                    height={350}
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                  />
-                </div>
-              </div>
-              <div className="contenct mt-14">
-                <h5 className="text-lg font-[600]">Company Address</h5>
-                <div className="mt-5 ml-5">
-                  <ul className="text-base text-gray-600">
-                    <li>
-                      <strong>Maxify web solution pvt. ltd</strong>
-                      <br />
-                      The Viste Centre
-                      <br />
-                      Office No - F-02
-                      <br />
-                      Block- D, Sector 2, Red FM Road
-                      <br />
-                      Noida, Uttar Pradesh 201301
-                      <br />
-                      Telephone:<a href="tel:+91">+442084322870</a>
-                      <br />
-                      E-mail:
-                      <a href="mailto:info@mindtreeitsolutions.com">
-                        info@mindtreeitsolutions.com
-                      </a>
-                      <a href="mailto:mail@companyname.com">
-                        <br />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div> */}
+       
           <div className="lg:col-span-12 md:col-span-12 sm:col-span-12">
             <div className="mb-5 flex justify-between">
               <div>
-                <h3 className="heading-h3">Time to break the ice?</h3>
+                <h3 className="heading-h3 sm:hidden lg:block">Time to break the ice?</h3>
                 <p className="para">We would love to hear from you.</p>
               </div>
               <div className="text-3xl font-[700] cursor-pointer" onClick={()=>setShowForm(!showForm)}>
@@ -89,7 +116,8 @@ const ContactForm = ({showForm, setShowForm}) => {
             </div>
 
             <div className="footer-contact-form">
-              <div className="flex justify-between gap-[5%]">
+              <div className="flex sm:flex-col lg:flex-row justify-between gap-[5%]">
+                <div className="w-full">
                 <input
                   className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
                   type="text"
@@ -99,6 +127,9 @@ const ContactForm = ({showForm, setShowForm}) => {
                   onChange={handleChange}
                   id=""
                 />
+                  {errors.firstName && <p className="text-red-500 pb-5">{errors.firstName}</p>}
+                </div>
+                <div className="w-full">
                 <input
                   className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
                   type="text"
@@ -108,9 +139,12 @@ const ContactForm = ({showForm, setShowForm}) => {
                   onChange={handleChange}
                   id=""
                 />
+                  {errors.firstName && <p className="text-red-500 pb-5">{errors.lastName}</p>}
+                </div>
               </div>
 
-              <div className="flex justify-between gap-[5%]">
+              <div className="flex sm:flex-col lg:flex-row justify-between gap-[5%]">
+                <div className="w-full">
                 <input
                   className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
                   type="text"
@@ -120,6 +154,9 @@ const ContactForm = ({showForm, setShowForm}) => {
                   onChange={handleChange}
                   id=""
                 />
+                     {errors.contactNumber && <p className="text-red-500 pb-5">{errors.contactNumber}</p>}
+                </div>
+                <div className="w-full">
                 <input
                   className="w-full rounded-md py-0 bg-gray-200 placeholder-black text-md"
                   type="text"
@@ -129,7 +166,10 @@ const ContactForm = ({showForm, setShowForm}) => {
                   onChange={handleChange}
                   id=""
                 />
-              </div>
+                {errors.companyEmail && <p className="text-red-500 pb-5">{errors.companyEmail}</p>}
+              
+                </div>
+               </div>
 
               <div>
                 <input
@@ -141,6 +181,7 @@ const ContactForm = ({showForm, setShowForm}) => {
                   onChange={handleChange}
                   id=""
                 />
+                   {errors.company && <p className="text-red-500 pb-5">{errors.company}</p>}
               </div>
 
               <textarea
@@ -150,14 +191,19 @@ const ContactForm = ({showForm, setShowForm}) => {
                 onChange={handleChange}
                 id=""
                 placeholder="Message"
-                cols="30"
-                rows="5"
+                cols="10"
+                rows="2"
               ></textarea>
+                {/* {errors.message && <p className="text-red-500 pb-5">{errors.message}</p>} */}
               <button onClick={handleClick}>SUBMIT</button>
             </div>
           </div>
         </div>
       </div>
+
+      {showPopup?( <div className="fixed top-[25%] left-[25%] z-[9999] bg-black rounded-lg">
+      <ThankYouPage showPopup={showPopup} setShowPopup={setShowPopup} />
+    </div>):("")}
     </div>
   );
 };
