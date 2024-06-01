@@ -305,6 +305,25 @@ body {
   font-weight: 600;
 }
 
+.heart{
+  color: #525ceb;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: hearts 15s linear 0s infinite ;
+}
+@keyframes hearts {
+    0% {
+      color: #525ceb;
+
+    }
+    50% {
+      color: red;
+
+    }
+    100% {
+      color: #525ceb;
+    }
+}
+
 @media (min-width: 360px) {
   .heading-1 {
     /* font-size: 4.5em; */
@@ -323,8 +342,8 @@ body {
     height: initial;
     max-width: 620px;
     margin: 0 auto;
-    margin-top: 50px;
-    box-shadow: 4px 8px 40px 8px rgba(88, 146, 255, 0.2);
+    margin-top: 25px;
+    box-shadow: 0px 0px 17px 5px rgba(88, 146, 255, 0.2);
   }
 }
 
