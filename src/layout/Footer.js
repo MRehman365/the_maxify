@@ -42,7 +42,7 @@ const Footer = () => {
 
   const [formData, setFormData] = useState(initialFormState);
   const [errors, setErrors] = useState(initialErrorState);
-  const [showPopup, setShowPopup] = useState(true)
+  const [showPopup, setShowPopup] = useState(false)
 
 
   const handleChange = (e) => {
