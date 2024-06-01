@@ -39,7 +39,7 @@ const IndustriesDetails = ({
           <div className="lg:col-span-7 xl:col-span-6 sm:col-span-12">
             {/* <div className="border-line"></div> */}
             <div className="element-container">
-              <h3 className="heading- sm:text-[20px] font-[600] sm:leading-[30px] lg:text-3xl text-[#1a1a1a] sm:text-center lg:text-start">{title}</h3>
+              <h3 className="heading- poppins-medium sm:text-[18px]  sm:leading-[30px] lg:text-3xl text-[#1a1a1a] sm:text-center lg:text-start">{title}</h3>
               <p className="para1 sm:text-base lg:text-base mt-6 text-justify">{description1}</p>
               <p className="para1 sm:text-base lg:text-base mt-6 text-justify">{description2}</p>
               <button

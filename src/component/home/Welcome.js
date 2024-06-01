@@ -10,7 +10,7 @@ const Welcome = () => {
   return (
     <>
             
-      <div className="welcome-section mt-[50px]">
+      <div className="welcome-section mt-[30px]">
         <div className="container-section">
           <div className="grid grid-cols-12  gap-[5%]">
             <div className="lg:col-span-6 sm:col-span-12">
