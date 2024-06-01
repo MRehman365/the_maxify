@@ -46,7 +46,7 @@ const ServicesDetails = ({
             <div className="lg:col-span-7 xl:col-span-6 sm:col-span-12">
               {/* <div className="border-line"></div> */}
               <div className="element-container">
-                <h3 className="heading- sm:text-[23px] font-[600] sm:leading-[30px] lg:text-3xl text-[#1a1a1a] sm:text-center lg:text-start">
+                <h3 className="heading- poppins-medium sm:text-[21px] sm:leading-[30px] lg:text-3xl text-[#1a1a1a] sm:text-center lg:text-start">
                   {title}
                 </h3>
               

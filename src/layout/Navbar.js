@@ -90,7 +90,7 @@ const Navbar = () => {
     <>
       {/* */}
       <header className={x.join(" ")}>
-        <div className="navbar-main-box">
+        <div className={` lg:hover:bg-[#3d3b40] ${click? "sm:bg-[#3d3b40]":""}  navbar-main-box`}>
           <div className="logo" onClick={() => navigate("/")}>
             <img loading="lazy" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462466/myCloud/logo_zxu5hn.png" alt="" />
           </div>

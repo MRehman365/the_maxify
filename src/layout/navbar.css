@@ -20,7 +20,7 @@
   justify-content: space-between;
   align-items: center;
   /* background-color: #ffffff30; */
-  background-color: transparent;
+  /* background-color: transparent; */
   /* background-color: #3D3B40; */
   box-shadow: 0 10px 60px rgba(0, 0, 0, 0.15);
   transition: all 0.2s ease;
@@ -31,7 +31,7 @@
 }
 
 .navbar-main-box:hover {
-  background-color: #3d3b40;
+  /* background-color: #3d3b40; */
 }
 
 .scrolled {
