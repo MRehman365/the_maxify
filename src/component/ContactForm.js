@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { MdClose } from "react-icons/md";
 import axios from 'axios'
 import ThankYouPage from "./Thankyou";
+import { Fade,  Flip, Slide } from "react-awesome-reveal";
 // import "../footer.css";
 
 const ContactForm = ({showForm, setShowForm, }) => {
@@ -115,6 +116,7 @@ const ContactForm = ({showForm, setShowForm, }) => {
               </div>
             </div>
 
+            
             <div className="footer-contact-form">
               <div className="flex sm:flex-col lg:flex-row justify-between gap-[5%]">
                 <div className="w-full">

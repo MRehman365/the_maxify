@@ -4,10 +4,8 @@ import Img1 from "../../assets/img1.jpg";
 import { FaCheck } from "react-icons/fa6";
 import CountUp from "react-countup";
 import "./animation.css";
+import { Fade } from "react-awesome-reveal";
 import { TweenMax, Cubic } from "gsap"; // Assuming GSAP is installed and imported properly
-import profile1 from "../../assets/product engineering.jpg.png";
-import profile2 from "../../assets/digital solution.png";
-import profile3 from "../../assets/digital transformation.png";
 
 const WhyChooseUs = () => {
   const cardsRef = useRef(null);
@@ -91,6 +89,7 @@ const WhyChooseUs = () => {
              <h6 className="text-white sm:text-center text-[30px] heading-h2 lg:text-start mb-3">
                   WHY CHOOSE US
                 </h6>
+    <Fade duration={2000} delay={200}>
                 <div class="mx-auto mt-16 max-w-2xl text-white sm:mt-10 md:mt-10 lg:mt-20 lg:max-w-4xl">
   <dl class="space-y-10 lg:space-y-5">
     <div class="relative why-container flex flex-col pl-16">
@@ -132,7 +131,8 @@ const WhyChooseUs = () => {
       <dd class="mt-2 text-base leading-7 text-600">With our customized digital marketing services, you will get everything you need to elevate your business standards with our endless marketing service endeavors.</dd>
     </div>
   </dl>
-                </div>
+      
+                </div></Fade>
 
              </div>
            </div>

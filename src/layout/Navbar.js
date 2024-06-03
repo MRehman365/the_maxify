@@ -6,6 +6,7 @@ import { FaBars } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
 import { NaveData } from "./NavData";
 import "./navbar.css";
+import {  Bounce } from "react-awesome-reveal";
 const Navbar = () => {
   const navigate = useNavigate();
   const [scrolled, setScrolled] = useState(false);
@@ -88,12 +89,15 @@ const Navbar = () => {
 
   return (
     <>
+    
       {/* */}
       <header className={x.join(" ")}>
         <div className={` lg:hover:bg-[#3d3b40] ${click? "sm:bg-[#3d3b40]":""}  navbar-main-box`}>
+          <Bounce duration={1000} >
           <div className="logo" onClick={() => navigate("/")}>
             <img loading="lazy" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462466/myCloud/logo_zxu5hn.png" alt="" />
           </div>
+           </Bounce>
           <nav className="navigation">
             <ul className="lg:flex hidden font-[500] text-[1rem] items-center gap-8 leading-5 navmanu">
               {NaveData.map((item, i) => (

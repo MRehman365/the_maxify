@@ -5,21 +5,24 @@ import Shape5 from "../../assets/shape5.png";
 import { FaUsersGear } from "react-icons/fa6";
 import OurMission from "../../assets/our-mission.jpg";
 import { useNavigate } from "react-router-dom";
+import { Fade,  Flip, Slide } from "react-awesome-reveal";
 const Welcome = () => {
   const navigate = useNavigate();
   return (
-    <>
-            
+    <>     
       <div className="welcome-section mt-[30px]">
         <div className="container-section">
           <div className="grid grid-cols-12  gap-[5%]">
             <div className="lg:col-span-6 sm:col-span-12">
               <div className="element-container">
+              <Flip direction="verticle" duration={2000} delay={500} triggerOnce>
                 <h6 className="text mb-2">WELCOME TO MAXIFY</h6>
                 <div className="welcome"></div>
                 <h2 className="heading-h3 text">
                   Simplifying, Strengthening Business Worldwide
                 </h2>
+                </Flip>
+                <Slide direction="left" duration={1500} delay={500} triggerOnce>
                 <p className="text-[#595959] text-[1rem]   mt-6 text-justify">
                 {/* <p className="text-[#595959] sm:text-[1rem] lg:text-[1rem] xl:text-[1.5rem]  mt-6 "> */}
                   Maxify is the right platform for all your development and
@@ -41,6 +44,7 @@ const Welcome = () => {
                   growth. Let us help you maximize your potential and reach new
                   heights.
                 </p>
+                </Slide>
                 <p className="para para-red mt-4"></p>
                 <button
                   class="custom-btn btn-16 mt-8"
@@ -52,11 +56,13 @@ const Welcome = () => {
             </div>
             {/* <!-- ... --> */}
             <div className="lg:col-span-6 sm:col-span-12 sm:mt-4 lg:mt-10">
+            {/* <Slide direction="right" duration={1500} delay={500} triggerOnce> */}
               <div className="element-container lg:w-[80%] lg:h-[70%] lg:overflow-hidden lg:mt-[50px] sm:mt-10 2xl:mt-10 lg:ml-20">
                 <div className="img-box sm:mb-20 lg:mb-0">
                   <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716624450/myCloud/1716623974614_owuxdh_2_0_ptyhfi.jpg" alt="" />
                 </div>
               </div>
+              {/* </Slide> */}
             </div>
           </div>
         </div>

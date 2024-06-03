@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Fade,  Flip, Slide } from "react-awesome-reveal";
 
 // Import Swiper styles
 import "swiper/css";
@@ -70,11 +71,11 @@ export default function Slider() {
             
             </div>
             <div className="home-slider-content sm:mt-14">
-              <h1 className="heading-h1"> We are Maxify</h1>
-              <p className="para sm:hidden md:block ">
+              <Fade direction="left" delay={200} triggerOnce><h1 className="heading-h1"> We are Maxify</h1></Fade>
+              <Fade direction="right" delay={200} triggerOnce><p className="para sm:hidden md:block ">
                 We provide cutting-edge digital services to elevate your
                 business.
-              </p>
+              </p></Fade>
               {/* <button class="custom-btn btn-16">Read More</button> */}
             </div>
           </div>

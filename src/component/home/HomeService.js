@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { IoIosArrowRoundForward } from "react-icons/io";
+import { Fade } from "react-awesome-reveal";
 const HomeService = () => {
   return (
     <>
+      
       <div className="black-section mt-10 bg-gray-100">
         <div className="container-section py-10">
           <h3 className="heading-h3 text-center text-white">Our services</h3>
@@ -15,7 +16,8 @@ const HomeService = () => {
 
           <div className="grid grid-cols-12 mat-50 gap-6">
             <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
-              <div className="home-services-box">
+              <div className="home-services-box"  >
+            <Fade duration={2000}>
                 <div className="content">
                   <div>
                     <h5 className="text-[1.3rem] font-[700] ">
@@ -30,6 +32,7 @@ const HomeService = () => {
                     <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637330/myCloud/api_c4usbl.png" alt="" />
                   </div>
                 </div>
+              </Fade>
                 <Link to="/web-development" className="home-service-back-content">
                   <figure className="back-icons">
                     <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637330/myCloud/api_c4usbl.png" alt="" />
@@ -72,6 +75,7 @@ const HomeService = () => {
             </div>
             <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
               <div className="home-services-box">
+              <Fade delay={500}>
                 <div className="content">
                   <div>
                     <h5 className="text-[1.3rem] font-[700] ">
@@ -85,6 +89,7 @@ const HomeService = () => {
                     <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637332/myCloud/app-development_iqsdi6.png" alt="" />
                   </div>
                 </div>
+              </Fade>
                 <Link to="/application-development" className="home-service-back-content">
                   <figure className="back-icons">
                     <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637332/myCloud/app-development_iqsdi6.png" alt="" />
@@ -126,6 +131,7 @@ const HomeService = () => {
               </div>
             </div>
             <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
+              <Fade delay={1000}>
               <div className="home-services-box">
                 <div className="content">
                   <div>
@@ -185,6 +191,7 @@ const HomeService = () => {
                   </ul>
                 </Link>
               </div>
+              </Fade>
             </div>
           </div>
         </div>

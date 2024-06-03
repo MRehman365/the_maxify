@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Fade } from "react-awesome-reveal";
 const OurSuccessStories = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const OurSuccessStories = () => {
           </p>
           <div className="grid grid-cols-12 mat-50">
             <div className="lg:col-span-4 md:col-span-4 sm:col-span-6">
+              <Fade direction="left">
               <div className="home-success-stories one">
                 <Link>
                   <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462446/myCloud/healthcare_image-removebg-preview_1_ai1l2q.png" alt="" />
@@ -23,8 +25,10 @@ const OurSuccessStories = () => {
                   </div>
                 </Link>
               </div>
+              </Fade>
             </div>
             <div className="lg:col-span-4 md:col-span-4 sm:col-span-6">
+              <Fade delay={200} direction="down">
               <div className="home-success-stories two">
                 <Link>
                   <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462457/myCloud/industrial_image-removebg-preview_2_fqnihh.png" alt="" />
@@ -33,8 +37,10 @@ const OurSuccessStories = () => {
                   </div>
                 </Link>
               </div>
+              </Fade>
             </div>
             <div className="lg:col-span-4 md:col-span-4 sm:col-span-6">
+            <Fade delay={400} direction="right">
               <div className="home-success-stories three">
                 <Link>
                   <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462465/myCloud/life_science_image-removebg-preview_2_swusqx.png" alt="" />
@@ -43,8 +49,10 @@ const OurSuccessStories = () => {
                   </div>
                 </Link>
               </div>
+              </Fade>
             </div>
             <div className="lg:col-span-4 md:col-span-4 sm:col-span-6">
+            <Fade delay={600} direction="left">
               <div className="home-success-stories four">
                 <Link>
                   <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462416/myCloud/banking_and_financial_image-removebg-preview_ebymof.png" alt="" />
@@ -53,8 +61,10 @@ const OurSuccessStories = () => {
                   </div>
                 </Link>
               </div>
+              </Fade>
             </div>
             <div className="lg:col-span-4 md:col-span-4 sm:col-span-6">
+            <Fade delay={800} direction="down">
               <div className="home-success-stories five">
                 <Link>
                   <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462502/myCloud/telecom_and__media-removebg-preview_2_ow2fsq.png" alt="" />
@@ -63,8 +73,10 @@ const OurSuccessStories = () => {
                   </div>
                 </Link>
               </div>
+              </Fade>
             </div>
             <div className="lg:col-span-4 md:col-span-4 sm:col-span-6">
+            <Fade delay={1000} direction="right">
               <div className="home-success-stories six">
                 <Link>
                   <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462502/myCloud/software_and_hi-tech-removebg-preview_2_z7jznc.png" alt="" />
@@ -73,6 +85,7 @@ const OurSuccessStories = () => {
                   </div>
                 </Link>
               </div>
+              </Fade>
             </div>
           </div>
         </div>
