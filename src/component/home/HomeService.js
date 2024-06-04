@@ -17,7 +17,7 @@ const HomeService = () => {
           <div className="grid grid-cols-12 mat-50 gap-6">
             <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
               <div className="home-services-box"  >
-            <Fade duration={2000}>
+            <Fade duration={1000} delay={500} direction="left">
                 <div className="content">
                   <div>
                     <h5 className="text-[1.3rem] font-[700] ">
@@ -75,7 +75,7 @@ const HomeService = () => {
             </div>
             <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
               <div className="home-services-box">
-              <Fade delay={500}>
+              <Fade duration={1000} delay={500} direction="up">
                 <div className="content">
                   <div>
                     <h5 className="text-[1.3rem] font-[700] ">
@@ -131,7 +131,7 @@ const HomeService = () => {
               </div>
             </div>
             <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
-              <Fade delay={1000}>
+              <Fade duration={1000} delay={500} direction="right">
               <div className="home-services-box">
                 <div className="content">
                   <div>

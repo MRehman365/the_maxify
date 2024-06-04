@@ -64,7 +64,7 @@ const OurSuccessStories = () => {
               </Fade>
             </div>
             <div className="lg:col-span-4 md:col-span-4 sm:col-span-6">
-            <Fade delay={800} direction="down">
+            <Fade delay={800} direction="up">
               <div className="home-success-stories five">
                 <Link>
                   <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462502/myCloud/telecom_and__media-removebg-preview_2_ow2fsq.png" alt="" />

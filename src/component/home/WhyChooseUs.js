@@ -85,11 +85,11 @@ const WhyChooseUs = () => {
             {/* <!-- ... --> */}
             <div className="lg:col-span-6 md:col-span-6 sm:col-span-12">
              
-             <div className="why-choose-card lg:mt-20">
+             <div className="why-choose-card lg:mt-20"><Fade direction="down">
              <h6 className="text-white sm:text-center text-[30px] heading-h2 lg:text-start mb-3">
                   WHY CHOOSE US
-                </h6>
-    <Fade duration={2000} delay={200}>
+                </h6></Fade>
+    <Fade duration={1000} direction="left" delay={200}>
                 <div class="mx-auto mt-16 max-w-2xl text-white sm:mt-10 md:mt-10 lg:mt-20 lg:max-w-4xl">
   <dl class="space-y-10 lg:space-y-5">
     <div class="relative why-container flex flex-col pl-16">
@@ -141,18 +141,18 @@ const WhyChooseUs = () => {
                 {/* <h6 className="text-white sm:text-center lg:text-start mb-3">
                   WHY CHOOSE US
                 </h6> */}
-                <h2 className="heading-h2 text-white">
+               <Fade direction="down"> <h2 className="heading-h2 text-white">
                   Get Significant Boost To Your Business With Our Seamless
                   Professionals
-                </h2>
-                <div className="img-box mt-8">
+                </h2></Fade>
+                <Fade direction="right"><div className="img-box mt-8">
                   <figure className="img-box-bg">
                     <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462516/myCloud/why-us-2_hm7mhc.png" alt="" />
                   </figure>
                   <figure className="image2">
                     <img className="rounded-lg" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716797451/myCloud/why_choose_us_ulcrfw.png" alt="" />
                   </figure>
-                </div>
+                </div></Fade>
               </div>
             </div>
           

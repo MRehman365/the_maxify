@@ -15,14 +15,14 @@ const Welcome = () => {
           <div className="grid grid-cols-12  gap-[5%]">
             <div className="lg:col-span-6 sm:col-span-12">
               <div className="element-container">
-              <Flip direction="verticle" duration={2000} delay={500} triggerOnce>
+              <Fade direction="down" duration={1000} >
                 <h6 className="text mb-2">WELCOME TO MAXIFY</h6>
                 <div className="welcome"></div>
                 <h2 className="heading-h3 text">
                   Simplifying, Strengthening Business Worldwide
                 </h2>
-                </Flip>
-                <Slide direction="left" duration={1500} delay={500} triggerOnce>
+                </Fade>
+                <Fade duration={1000}>
                 <p className="text-[#595959] text-[1rem]   mt-6 text-justify">
                 {/* <p className="text-[#595959] sm:text-[1rem] lg:text-[1rem] xl:text-[1.5rem]  mt-6 "> */}
                   Maxify is the right platform for all your development and
@@ -44,14 +44,15 @@ const Welcome = () => {
                   growth. Let us help you maximize your potential and reach new
                   heights.
                 </p>
-                </Slide>
+                </Fade>
                 <p className="para para-red mt-4"></p>
                 <button
                   class="custom-btn btn-16 mt-8"
                   onClick={() => navigate("/services")}
-                >
-                  <span>Our Services</span>{" "}
+                ><Fade duration={1000} triggerOnce>
+                  <span>Our Services</span>{" "}</Fade>
                 </button>
+                
               </div>
             </div>
             {/* <!-- ... --> */}
