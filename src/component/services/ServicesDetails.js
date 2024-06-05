@@ -5,6 +5,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import OurSuccessStories from "../home/OurSuccessStories";
 import MetaData from "../../layout/MetaData";
 import ContactForm from "../ContactForm";
+import { Fade } from "react-awesome-reveal";
 // import img2 from '../../assets/1715154300452_bjeoh5_2_0.jpg'
 
 const ServicesDetails = ({
@@ -34,10 +35,10 @@ const ServicesDetails = ({
           <img className="banner" src={img} alt="jpg" />
           <div className="container-section">
             <div className="element-banner-content sm:w-full md:w-[60%] lg:w-[50%]">
-              <h1 className="heading-  sm:text-[24px] font-[600] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[40px] text-white">
+            <Fade direction="down"> <h1 className="heading-  sm:text-[24px] font-[600] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[40px] text-white">
                 {title2}{" "}
-              </h1>
-              <p className="para sm:hidden md:block">{text}</p>
+              </h1></Fade>
+              <Fade direction="up"><p className="para sm:hidden md:block">{text}</p></Fade>
             </div>
           </div>
         </div>
@@ -45,14 +46,14 @@ const ServicesDetails = ({
           <div className="grid grid-cols-12 sm:gap-3 lg:gap-[5%]">
             <div className="lg:col-span-7 xl:col-span-6 sm:col-span-12">
               {/* <div className="border-line"></div> */}
-              <div className="element-container">
-                <h3 className="heading- poppins-medium sm:text-[21px] sm:leading-[30px] lg:text-3xl text-[#1a1a1a] sm:text-center lg:text-start">
+              <div className="element-container"><Fade direction="down">
+                <h3 className="heading- poppins-medium sm:text-[18px] sm:leading-[27px] lg:text-2xl text-[#1a1a1a] sm:text-center lg:text-start">
                   {title}
-                </h3>
+                </h3></Fade>
               
-                <p className="para1 sm:text-base lg:text-base mt-6 text-justify">
+                <Fade ><p className="para1 sm:text-base lg:text-base mt-6 text-justify">
                   {description}
-                </p>
+                </p></Fade>
 
                 <button class="custom-btn btn-16 mt-8" onClick={()=>setShowForm(!showForm)}>
                   <span>Contact us</span>{" "}
@@ -77,8 +78,8 @@ const ServicesDetails = ({
             <div className="grid grid-cols-12  gap-4">
               <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
                 <div className="border-line"></div>
-                <h3 className="heading-h3">{technologyTitle}</h3>
-                <p className="para mt-3">{technologydescription}</p>
+                <Fade direction="down"><h3 className="heading-h3">{technologyTitle}</h3></Fade>
+                <Fade direction="up"><p className="para mt-3">{technologydescription}</p></Fade>
               </div>
               <div className="lg:col-span-8 md:col-span-6 sm:col-span-12">
                 <div className="grid grid-cols-12  gap-4">
@@ -87,14 +88,14 @@ const ServicesDetails = ({
                       className="lg:col-span-6 md:col-span-12 sm:col-span-12"
                       key={i}
                     >
-                      <div className="service-related-technology">
+                     <Fade duration={1000}><div className="service-related-technology">
                         <img src={data.technologyImg} alt="" />
                         <h5 className="heading-h5">{data.technologyName}</h5>
                         <p>{data.technologyAbout}</p>
                         <div className="arrow-icons">
                           <IoIosArrowRoundForward />
                         </div>
-                      </div>
+                      </div></Fade> 
                     </div>
                   ))}
                 </div>

@@ -6,6 +6,7 @@ import { ServiceData } from "./ServiceData";
 import { Link, useNavigate } from "react-router-dom";
 import OurSuccessStories from "../home/OurSuccessStories";
 import MetaData from "../../layout/MetaData";
+import { Fade } from "react-awesome-reveal";
 const Service = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -22,13 +23,13 @@ const Service = () => {
         {/* <div className="element-banner sm:pt-[30%] sm:pb-[5%] lg:py-[200px] xl:py-[222px] service-banner"> */}
         <div className="container-section">
           <div className="element-banner-content">
-            <h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[56px] text-white">
+           <Fade direction="down"><h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[56px] text-white">
               Maxify Services
-            </h1>
-            <p className="para lg:w-[50%] md:w-[60%] sm:w-[90%]">
+            </h1></Fade> 
+            <Fade direction="up"><p className="para lg:w-[50%] md:w-[60%] sm:w-[90%]">
               Maxifying Your Business Requirements with our tailored solutions
               to the table to beat the odds
-            </p>
+            </p></Fade>
           </div>
         </div>
       </div>
@@ -36,7 +37,7 @@ const Service = () => {
       <div className="container-section mat-50 mab-50">
         <div className="grid grid-cols-12  gap-6">
           <div className="lg:col-span-12 md:col-span-12 sm:col-span-12">
-            <div className="grid grid-cols-12 single-service-box">
+           <Fade duration={1000}> <div className="grid grid-cols-12 single-service-box">
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 content lg:p-10 sm:p-0">
                 <Link to="/web-development">
                 <div className="border-line"></div>
@@ -54,10 +55,10 @@ const Service = () => {
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 img">
                 <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462471/myCloud/mobile_app_yo4pfh.png" alt="Application Image" />
               </div>
-            </div>
+            </div></Fade>
           </div>
           <div className="lg:col-span-12 md:col-span-12 sm:col-span-12">
-            <div className="lg:grid lg:grid-cols-12 sm:flex sm:flex-col-reverse single-service-box">
+          <Fade duration={1000}><div className="lg:grid lg:grid-cols-12 sm:flex sm:flex-col-reverse single-service-box">
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 img">
                 <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462401/myCloud/1714554235083_29zv92_2_0_xth8qs.jpg" alt="" />
               </div>
@@ -76,10 +77,10 @@ const Service = () => {
                 </h5>
                 </Link>
               </div>
-            </div>
+            </div></Fade>
           </div>
           <div className="lg:col-span-12 md:col-span-12 sm:col-span-12">
-            <div className="grid grid-cols-12 single-service-box">
+          <Fade duration={1000}><div className="grid grid-cols-12 single-service-box">
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 content lg:p-10 sm:p-0">
                 <div className="border-line"></div>
                 <Link to="/digital-marketing">
@@ -95,7 +96,7 @@ const Service = () => {
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 img">
                 <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462402/myCloud/1714567529414_2n6b6f_2_0_uuislw.jpg" alt="" />
               </div>
-            </div>
+            </div></Fade>
         </div>
         </div>
       </div>

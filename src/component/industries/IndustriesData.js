@@ -12,7 +12,7 @@ export const IndustriesData = [
       "Creating personalized shopping experiences and driving sales with AI-powered insights",
     industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716621219/myCloud/shopping_internal_image_a7yhq1.png",
     title:
-      "Empowering and Scaling Your Retail and e-commerce Businesses Through Our Experience Led Solutions ",
+      "Empowering  Your e-commerce Businesses Through Our Experience Led Solutions",
     description1:
       "Build scalable, agile retail and e-commerce stores that increase sales, customer loyalty, and business ROI with Maxify Web Solutions, a multi-award-winning e-commerce development agency. With more than 5 years of implementation experience and strong combination of strategic partnerships with various clients we provide the greatest innovation and customization for B2B, B2C, and B2B2C business models. You can discover solutions. Having professional consultants and architects across all technology disciplines, the company excels in successfully delivering complex retail and e-commerce solutions in an accelerated time-to-market environment. Globally, we serve as the trusted e-commerce partner of choice for some of the largest retail and e-commerce brands, reinventing e-retail and transforming data into actionable strategies to help customers across all touchpoints. We're helping you improve your experience.",
     description2:

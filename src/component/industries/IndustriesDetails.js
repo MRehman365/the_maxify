@@ -4,6 +4,7 @@ import WelcomeImg from "../../assets/welcome-img.jpg";
 import { useNavigate } from "react-router-dom";
 import OurSuccessStories from "../home/OurSuccessStories";
 import MetaData from "../../layout/MetaData";
+import { Fade,Bounce } from "react-awesome-reveal";
 const IndustriesDetails = ({
   title,
   name,
@@ -27,10 +28,10 @@ const IndustriesDetails = ({
         <img className="banner" src={img2} alt="jpg" />
         <div className="container-section">
           <div className="element-banner-content w-[55%]">
-            <h1 className=" sm:text-[24px] font-[600] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[40px] text-white">
+            <Fade direction="down"><h1 className=" sm:text-[24px] font-[600] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[40px] text-white">
               {title2}
-            </h1>
-            <p className="para sm:hidden md:block">{text}</p>
+            </h1></Fade>
+            <Fade direction="up"><p className="para sm:hidden md:block">{text}</p></Fade>
           </div>
         </div>
       </div>
@@ -39,7 +40,7 @@ const IndustriesDetails = ({
           <div className="lg:col-span-7 xl:col-span-6 sm:col-span-12">
             {/* <div className="border-line"></div> */}
             <div className="element-container">
-              <h3 className="heading- poppins-medium sm:text-[18px]  sm:leading-[30px] lg:text-3xl text-[#1a1a1a] sm:text-center lg:text-start">{title}</h3>
+            <Fade direction="down"><h3 className="heading- poppins-medium sm:text-[18px]  sm:leading-[27px] lg:text-2xl text-[#1a1a1a] sm:text-center lg:text-start">{title}</h3></Fade>
               <p className="para1 sm:text-base lg:text-base mt-6 text-justify">{description1}</p>
               <p className="para1 sm:text-base lg:text-base mt-6 text-justify">{description2}</p>
               <button
@@ -52,7 +53,7 @@ const IndustriesDetails = ({
           </div>
           {/* <!-- ... --> */}
           <div className="lg:col-span-5 xl:col-span-6 sm:col-span-12 xl:mt-0 sm:mt-5">
-            <div className="element-container sm:w-full sm:h-full lg:w-[70%] xl:h-[70%] lg:overflow-hidden lg:ml-20 lg:mt-20">
+            <div className="element-container sm:w-full sm:h-full lg:w-[70%] xl:h-[70%] lg:overflow-hidden lg:ml-20 lg:mt-17">
               <div className="img-box">
                 <img className="w-full" src={img} alt="" />
               </div>
@@ -75,10 +76,10 @@ const IndustriesDetails = ({
                 className="lg:col-span-4 md:col-span-6 sm:col-span-12"
                 key={i}
               >
-                <div className="our-essence-box industries-details-box">
+                <Bounce><div className="our-essence-box industries-details-box">
                   <h5 className="heading-h5">{item.heading}</h5>
                   <p className="white-color">{item.content}</p>
-                </div>
+                </div></Bounce>
               </div>
             ))}
           </div>
