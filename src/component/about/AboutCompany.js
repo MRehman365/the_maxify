@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./about.css";
 import MetaData from "../../layout/MetaData";
 import ContactForm from "../ContactForm";
+import { Fade } from "react-awesome-reveal";
 const AboutCompany = () => {
   const [showForm, setShowForm] = useState(false);
   useEffect(() => {
@@ -15,12 +16,12 @@ const AboutCompany = () => {
       <div className="element-banner lg:pt-[15%] lg:pb-[15%] sm:pt-[30%] sm:pb-[18%] about-company-banner">
         <div className="container-section">
           <div className="element-banner-content">
-            <h1 className="text-heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
+            <Fade direction="down"><h1 className="text-heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
               Driving Growth with Cutting-Edge Solutions
-            </h1>
-            <p className="para sm:hidden md:block">
+            </h1></Fade>
+            <Fade direction="up"><p className="para sm:hidden md:block">
               Leading business to new heights with innovation
-            </p>
+            </p></Fade>
           </div>
         </div>
       </div>
@@ -30,10 +31,10 @@ const AboutCompany = () => {
           <div className="lg:col-span-7 md:col-span-6 sm:col-span-12">
             <div className="element-container">
               <div className="border-line"></div>
-              <h3 className="heading-h3 ">
+              <Fade direction="down"><h3 className="heading-h3 ">
                 Rejuvenating Innovation within The Digital Landscape
-              </h3>
-              <p className="para mt-6">
+              </h3></Fade>
+              <Fade><p className="para mt-6">
                 We are more than just being a agency, we are the ones who are
                 along with you all way to help you establish a new milestone and
                 get a clear understanding of your goals and how to reach them.
@@ -53,7 +54,7 @@ const AboutCompany = () => {
                 success. With combination of creativity and innovation, we aim
                 to bring excellence and inculcate new spheres of inspiration to
                 the digital world.
-              </p>
+              </p></Fade>
 
               <button class="custom-btn btn-16 mt-8" onClick={()=>setShowForm(!showForm)}>
                 <span>Read More</span>{" "}
@@ -137,9 +138,9 @@ const AboutCompany = () => {
       <div className="black-section  mat-100">
         <div className="container-section">
           <div className="border-line text-center m-auto"></div>
-          <h3 className="heading-h3 text-center text-white">
-            Contributing to the Industry:
-          </h3>
+          <Fade direction="down"><h3 className="heading-h3 text-center text-white">
+            Contributing to the Industry
+          </h3></Fade>
           {/* <p className="para text-center white-color">Professional, Passionate and Proactive</p> */}
           <div className="grid grid-cols-12  gap-4 mt-5">
             <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">

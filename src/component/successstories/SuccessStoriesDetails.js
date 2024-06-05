@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import OurSuccessStories from "../home/OurSuccessStories";
 import "./success.css";
 import MetaData from "../../layout/MetaData";
+import { Fade, Bounce } from "react-awesome-reveal";
 
 const SuccessStoriesDetails = ({
   title,
@@ -32,22 +33,22 @@ const SuccessStoriesDetails = ({
       <div className="element-banner lg:pt-[13%] lg:pb-[13%] sm:pt-[23%] sm:pb-[7%] success-banner">
         <div className="container-sectio sm:w-[90%] sm:mx-5 lg:w-[70%] lg:mx-20 ">
           <div className="element-banner-content">
-            <h1 className="heading- sm:text-[20px] font-[600] sm:leading-[32px] lg:leading-[64px] lg:text-[40px] text-white">
+            <Fade direction="down"><h1 className="heading- sm:text-[20px] font-[600] sm:leading-[32px] lg:leading-[64px] lg:text-[40px] text-white">
               Revolutionize Brands into Success by Unlocking Your Potential with
               Maxify Web Solutions
-            </h1>
-            <p className=" sm:hidden md:block text-2xl">
+            </h1></Fade>
+            <Fade direction="up"><p className=" sm:hidden md:block text-2xl">
               Revolutionizing Industries through Innovative Solutions
-            </p>
+            </p></Fade>
           </div>
         </div>
       </div>
       <div className="widt w-[90%] mx-auto relative flex flex-col">
         <div className="top-content lg:p-[30px] sm:p-0">
-          <h2 className="sm:text-[23px] font-[600] sm:leading-[30px] lg:text-3xl text-gray-600">
+        <Fade direction="down"><h2 className="sm:text-[23px] font-[600] sm:leading-[30px] lg:text-3xl text-gray-600">
             Achieve Success By Unlocking Your Potential with Maxify Web
             Solutions
-          </h2>
+          </h2></Fade>
           <p className="para text-base">
             We are the ones turning your business into success and your goals.
             We believe that success is not just a goal but it is a destination
@@ -62,11 +63,11 @@ const SuccessStoriesDetails = ({
         </div>
 
         <div className="success">
-          <h2>Client Success Stories</h2>
+        <Fade direction="down"><h2>Client Success Stories</h2></Fade>
         </div>
         <div className="success-content mt-4">
           {/* <div className="success-conten flex gap-10 mt-4"> */}
-          <div className="first-success">
+         <Bounce triggerOnce><div className="first-success">
             <div className="image-success">
               <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462508/myCloud/university_internal_image_2_o2fgol.png" alt="" />
             </div>
@@ -80,9 +81,9 @@ const SuccessStoriesDetails = ({
                 visibility of the Sharda University website.
               </p>
             </div>
-          </div>
+          </div></Bounce> 
 
-          <div className="first-success">
+          <Bounce delay={200} triggerOnce><div className="first-success">
             <div className="image-success">
               <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462449/myCloud/hospital_banner_k2xber.png" alt="" />
             </div>
@@ -96,9 +97,9 @@ const SuccessStoriesDetails = ({
                 Delhi Eye Care website.
               </p>
             </div>
-          </div>
+          </div></Bounce>
 
-          <div className="first-success">
+          <Bounce delay={400} triggerOnce><div className="first-success">
             <div className="image-success">
               <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462485/myCloud/play_school_internal_image_2_ftnld7.png" alt="" />
             </div>
@@ -113,7 +114,7 @@ const SuccessStoriesDetails = ({
                 manners to it.
               </p>
             </div>
-          </div>
+          </div></Bounce>
         </div>
         {/* <button className="btn-success">See More</button> */}
       </div>

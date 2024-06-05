@@ -4,6 +4,7 @@ import "../services/service.css";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import OurSuccessStories from "../home/OurSuccessStories";
 import MetaData from "../../layout/MetaData";
+import { Fade } from "react-awesome-reveal";
 // import img2 from '../../assets/1715154300452_bjeoh5_2_0.jpg'
 
 const SuccessDetails = ({
@@ -50,11 +51,11 @@ const SuccessDetails = ({
         <img className="banner brightness-75" src={img} alt="jpg" />
         <div className="container-sectio sm:w-[90%] sm:mx-auto lg:w-[60%] lg:mx-20">
           <div className="element-banner-content">
-            <h1 className="sm:text-[20px] font-[600] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[40px] text-white">
+            <Fade direction="down"><h1 className="sm:text-[20px] font-[600] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[40px] text-white">
               {" "}
               {title2}{" "}
-            </h1>
-            <p className="para sm:hidden md:block">{text}</p>
+            </h1></Fade>
+            <Fade direction="up"><p className="para sm:hidden md:block">{text}</p></Fade>
           </div>
         </div>
       </div>
@@ -102,7 +103,7 @@ const SuccessDetails = ({
           </div>
           <div className="lg:col-span-1"></div>
           <div className="lg:col-span-5  md:col-span-12 sm:col-span-12">
-            <div className="element-container ">
+          <Fade duration={1000}><div className="element-container ">
               <div className="success-stories-middle-section mt-5">
                 <h6 className="heading-h6">
                   <b>CHALLENGE</b>
@@ -121,7 +122,7 @@ const SuccessDetails = ({
                 ></div>
                 <p className="para">{goal}</p>
               </div>
-            </div>
+            </div></Fade>
           </div>
         </div>
       </div>

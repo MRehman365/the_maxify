@@ -8,6 +8,7 @@ import { PiFediverseLogoLight } from "react-icons/pi";
 import { MdBalance } from "react-icons/md";
 import { MdKeyboardArrowUp } from "react-icons/md";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import { Fade } from "react-awesome-reveal";
 const Career = () => {
   const [selected, setSelected] = useState(null);
   const toggle = (i) => {
@@ -27,10 +28,10 @@ const Career = () => {
         <img className="banner" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716660061/myCloud/career_banner_image_vkx7em.png" alt="jpg" />
         <div className="container-sectio lg:w-[70%] lg:mx-20 sm:w-[90%] sm:mx-5">
           <div className="element-banner-content ">
-            <h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
+           <Fade direction="down"> <h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
               Shaping New World Through Maxify Lens
-            </h1>
-            <p className="para sm:hidden md:block text-2xl">Embark on a Journey of Growth and Innovation</p>
+            </h1></Fade>
+            <Fade direction="up"> <p className="para sm:hidden md:block text-2xl">Embark on a Journey of Growth and Innovation</p></Fade>
           </div>
         </div>
       </div>
@@ -38,10 +39,10 @@ const Career = () => {
       <div className="container-section mat-50">
         <div className="lg:w-[70%] md:w-[80%] sm:w-[100%]">
           <div className="border-line"></div>
-          <h3 className="heading-h3">
+          <Fade direction="down"><h3 className="heading-h3">
             Maxify Web Solution - Your next career destination
-          </h3>
-          <p className="para text-justify">
+          </h3></Fade>
+          <Fade><p className="para text-justify">
             We believe in creating a workspace where everyone thrives and has
             the right to communicate and share their ideas. We are seeking
             innovative and young minds that can contribute to the leading
@@ -53,7 +54,7 @@ const Career = () => {
             and dedication. Become a part of our journey and we will together
             shape the future by immersing in the new technologies that will
             bring out the best in us and work we are committed to.
-          </p>
+          </p></Fade>
         </div>
         <div className="grid grid-cols-12  gap-4 mat-50">
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
