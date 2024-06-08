@@ -131,7 +131,7 @@
   }
 }
 
-@media screen and (max-width: 480px) and (min-width: 330px) {
+@media screen and (max-width: 480px) and (min-width: 300px) {
   .home-slider-container .home-slider-content .heading-h1 {
     font-size: 26px;
     line-height: 29px;
