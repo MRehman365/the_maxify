@@ -51,11 +51,11 @@ const SuccessDetails = ({
         <img className="banner brightness-75" src={img} alt="jpg" />
         <div className="container-sectio sm:w-[90%] sm:mx-auto lg:w-[60%] lg:mx-20">
           <div className="element-banner-content">
-            <Fade direction="down"><h1 className="sm:text-[20px] font-[600] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[40px] text-white">
+            <h1 className="sm:text-[20px] font-[600] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[40px] text-white">
               {" "}
               {title2}{" "}
-            </h1></Fade>
-            <Fade direction="up"><p className="para sm:hidden md:block">{text}</p></Fade>
+            </h1>
+            <p className="para sm:hidden md:block">{text}</p>
           </div>
         </div>
       </div>
@@ -103,26 +103,28 @@ const SuccessDetails = ({
           </div>
           <div className="lg:col-span-1"></div>
           <div className="lg:col-span-5  md:col-span-12 sm:col-span-12">
-          <Fade duration={1000}><div className="element-container ">
-              <div className="success-stories-middle-section mt-5">
-                <h6 className="heading-h6">
-                  <b>CHALLENGE</b>
-                </h6>
-                <div className="border-line" style={{ height: "3px" }}></div>
-                <p className="para">{challenge}</p>
-                <li className="para">{challenge1}</li>
-                <li className="para">{challenge2}</li>
-                <li className="para">{challenge3}</li>
-                <h6 className="heading-h6 mt-3">
-                  <b>THE GOAL</b>
-                </h6>
-                <div
-                  className="border-line"
-                  style={{ height: "3px", width: "96px" }}
-                ></div>
-                <p className="para">{goal}</p>
+            <Fade duration={1000}>
+              <div className="element-container ">
+                <div className="success-stories-middle-section mt-5">
+                  <h6 className="heading-h6">
+                    <b>CHALLENGE</b>
+                  </h6>
+                  <div className="border-line" style={{ height: "3px" }}></div>
+                  <p className="para">{challenge}</p>
+                  <li className="para">{challenge1}</li>
+                  <li className="para">{challenge2}</li>
+                  <li className="para">{challenge3}</li>
+                  <h6 className="heading-h6 mt-3">
+                    <b>THE GOAL</b>
+                  </h6>
+                  <div
+                    className="border-line"
+                    style={{ height: "3px", width: "96px" }}
+                  ></div>
+                  <p className="para">{goal}</p>
+                </div>
               </div>
-            </div></Fade>
+            </Fade>
           </div>
         </div>
       </div>

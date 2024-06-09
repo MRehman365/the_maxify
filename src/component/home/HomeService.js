@@ -4,38 +4,46 @@ import { Fade } from "react-awesome-reveal";
 const HomeService = () => {
   return (
     <>
-      
       <div className="black-section mt-10 bg-gray-100">
         <div className="container-section py-10">
           <h3 className="heading-h3 text-center text-white">Our services</h3>
           <div className="border-line text-center m-auto my-2"></div>
-          <p className="para text-center" style={{color:"white"}}>
+          <p className="para text-center" style={{ color: "white" }}>
             Entrust Us with Your Business Needs, We Have Got It All Covered
             Here.
           </p>
 
           <div className="grid grid-cols-12 mat-50 gap-6">
             <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
-              <div className="home-services-box"  >
-            <Fade duration={1000} delay={500} direction="left">
-                <div className="content">
-                  <div>
-                    <h5 className="text-[1.3rem] font-[700] ">
-                      Website <br /> Design &
-                    </h5>
-                    <h5 className="text-[1.3rem] font-[700] ">
-                      {" "}
-                      Development<span></span>
-                    </h5>
+              <div className="home-services-box">
+                <Fade duration={1000} delay={500} direction="left">
+                  <div className="content">
+                    <div>
+                      <h5 className="text-[1.3rem] font-[700] ">
+                        Website <br /> Design &
+                      </h5>
+                      <h5 className="text-[1.3rem] font-[700] ">
+                        {" "}
+                        Development<span></span>
+                      </h5>
+                    </div>
+                    <div className="img">
+                      <img
+                        src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637330/myCloud/api_c4usbl.png"
+                        alt=""
+                      />
+                    </div>
                   </div>
-                  <div className="img">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637330/myCloud/api_c4usbl.png" alt="" />
-                  </div>
-                </div>
-              </Fade>
-                <Link to="/web-development" className="home-service-back-content">
+                </Fade>
+                <Link
+                  to="/web-development"
+                  className="home-service-back-content"
+                >
                   <figure className="back-icons">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637330/myCloud/api_c4usbl.png" alt="" />
+                    <img
+                      src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637330/myCloud/api_c4usbl.png"
+                      alt=""
+                    />
                   </figure>
                   <h5 className="text-[1.3rem] font-[700] ">
                     Website Design & Development
@@ -75,24 +83,33 @@ const HomeService = () => {
             </div>
             <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
               <div className="home-services-box">
-              <Fade duration={1000} delay={500} direction="up">
-                <div className="content">
-                  <div>
-                    <h5 className="text-[1.3rem] font-[700] ">
-                      Application <br/> Development
-                    </h5>
-                    <h5 className="text-[1.3rem] font-[700] ">
-                      & Management<span></span>
-                    </h5>
+                <Fade duration={1000} delay={500} direction="up">
+                  <div className="content">
+                    <div>
+                      <h5 className="text-[1.3rem] font-[700] ">
+                        Application <br /> Development
+                      </h5>
+                      <h5 className="text-[1.3rem] font-[700] ">
+                        & Management<span></span>
+                      </h5>
+                    </div>
+                    <div className="img">
+                      <img
+                        src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637332/myCloud/app-development_iqsdi6.png"
+                        alt=""
+                      />
+                    </div>
                   </div>
-                  <div className="img">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637332/myCloud/app-development_iqsdi6.png" alt="" />
-                  </div>
-                </div>
-              </Fade>
-                <Link to="/application-development" className="home-service-back-content">
+                </Fade>
+                <Link
+                  to="/application-development"
+                  className="home-service-back-content"
+                >
                   <figure className="back-icons">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637332/myCloud/app-development_iqsdi6.png" alt="" />
+                    <img
+                      src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637332/myCloud/app-development_iqsdi6.png"
+                      alt=""
+                    />
                   </figure>
                   <h5 className="text-[1.3rem] font-[700] ">
                     Application Development & Management
@@ -132,65 +149,75 @@ const HomeService = () => {
             </div>
             <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
               <Fade duration={1000} delay={500} direction="right">
-              <div className="home-services-box">
-                <div className="content">
-                  <div>
-                    <h5 className="text-[1.3rem] font-[700] ">
-                      Digital <br /> Marketing &
-                    </h5>
-                    <h5 className="text-[1.3rem] font-[700] ">
-                      Advertising<span></span>
-                    </h5>
+                <div className="home-services-box">
+                  <div className="content">
+                    <div>
+                      <h5 className="text-[1.3rem] font-[700]">
+                        Digital <br /> Marketing &
+                      </h5>
+                      <h5 className="text-[1.3rem] font-[700] ">
+                        Advertising<span></span>
+                      </h5>
+                    </div>
+                    <div className="img">
+                      <img
+                        src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637327/myCloud/digital-campaign_wudbkk.png"
+                        alt=""
+                      />
+                    </div>
                   </div>
-                  <div className="img">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637327/myCloud/digital-campaign_wudbkk.png" alt="" />
-                  </div>
+                  <Link
+                    to="/digital-marketing"
+                    className="home-service-back-content"
+                  >
+                    <figure className="back-icons">
+                      <img
+                        src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637327/myCloud/digital-campaign_wudbkk.png"
+                        alt=""
+                      />
+                    </figure>
+                    <h5 className="text-[1.3rem] font-[700] ">
+                      Digital Marketing & Advertising
+                    </h5>
+                    <div className="border-line"></div>
+                    <ul class="list-unstyled">
+                      <li>
+                        <Link>
+                          Search Engine Optimization (SEO)
+                          <div class="arrow"> </div>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link>
+                          Social Media Optimization (SMO)
+                          <div class="arrow"> </div>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link>
+                          Content Writing and Marketing
+                          <div class="arrow"> </div>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link>
+                          Email Marketing<div class="arrow"> </div>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link>
+                          Digital analytics and advertising{" "}
+                          <div class="arrow"> </div>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link>
+                          Pay Per Click<div class="arrow"> </div>
+                        </Link>
+                      </li>
+                    </ul>
+                  </Link>
                 </div>
-                <Link to='/digital-marketing' className="home-service-back-content">
-                  <figure className="back-icons">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637327/myCloud/digital-campaign_wudbkk.png" alt="" />
-                  </figure>
-                  <h5 className="text-[1.3rem] font-[700] ">
-                    Digital Marketing & Advertising
-                  </h5>
-                  <div className="border-line"></div>
-                  <ul class="list-unstyled">
-                    <li>
-                      <Link>
-                        Search Engine Optimization (SEO)
-                        <div class="arrow"> </div>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link>
-                        Social Media Optimization (SMO)
-                        <div class="arrow"> </div>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link>
-                        Content Writing and Marketing<div class="arrow"> </div>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link>
-                        Email Marketing<div class="arrow"> </div>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link>
-                        Digital analytics and advertising{" "}
-                        <div class="arrow"> </div>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link>
-                        Pay Per Click<div class="arrow"> </div>
-                      </Link>
-                    </li>
-                  </ul>
-                </Link>
-              </div>
               </Fade>
             </div>
           </div>

@@ -16,12 +16,12 @@ const Industries = () => {
         {/* <div className="element-banner industry-banner sm:pt-[30%] sm:pb-[5%] lg:py-[200px] xl:py-[222px] service-banner"> */}
         <div className="container-section ">
           <div className="element-banner-content sm:w-full md:w-[70%]">
-            <Fade direction="down"><h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[40px] text-white">
+            <h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[40px] text-white">
               Explore the Dynamic World of Industries with Maxify Web Solutions
-            </h1></Fade>
-            <Fade direction="up"><p className="para sm:hidden md:block">
+            </h1>
+            <p className="para sm:hidden md:block">
               Revolutionizing Industries through Innovative Solutions
-            </p></Fade>
+            </p>
           </div>
         </div>
       </div>

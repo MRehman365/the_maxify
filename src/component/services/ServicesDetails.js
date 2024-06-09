@@ -35,10 +35,10 @@ const ServicesDetails = ({
           <img className="banner" src={img} alt="jpg" />
           <div className="container-section">
             <div className="element-banner-content sm:w-full md:w-[60%] lg:w-[50%]">
-            <Fade direction="down"> <h1 className="heading-  sm:text-[24px] font-[600] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[40px] text-white">
+            <h1 className="heading-  sm:text-[24px] font-[600] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[40px] text-white">
                 {title2}{" "}
-              </h1></Fade>
-              <Fade direction="up"><p className="para sm:hidden md:block">{text}</p></Fade>
+              </h1>
+              <p className="para sm:hidden md:block">{text}</p>
             </div>
           </div>
         </div>

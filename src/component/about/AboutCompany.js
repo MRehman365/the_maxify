@@ -16,12 +16,12 @@ const AboutCompany = () => {
       <div className="element-banner lg:pt-[15%] lg:pb-[15%] sm:pt-[30%] sm:pb-[18%] about-company-banner">
         <div className="container-section">
           <div className="element-banner-content">
-            <Fade direction="down"><h1 className="text-heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
+            <h1 className="text-heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
               Driving Growth with Cutting-Edge Solutions
-            </h1></Fade>
-            <Fade direction="up"><p className="para sm:hidden md:block">
+            </h1>
+            <p className="para sm:hidden md:block">
               Leading business to new heights with innovation
-            </p></Fade>
+            </p>
           </div>
         </div>
       </div>
@@ -138,9 +138,9 @@ const AboutCompany = () => {
       <div className="black-section  mat-100">
         <div className="container-section">
           <div className="border-line text-center m-auto"></div>
-          <Fade direction="down"><h3 className="heading-h3 text-center text-white">
+          <h3 className="heading-h3 text-center text-white">
             Contributing to the Industry
-          </h3></Fade>
+          </h3>
           {/* <p className="para text-center white-color">Professional, Passionate and Proactive</p> */}
           <div className="grid grid-cols-12  gap-4 mt-5">
             <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">

@@ -28,10 +28,10 @@ const Career = () => {
         <img className="banner" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716660061/myCloud/career_banner_image_vkx7em.png" alt="jpg" />
         <div className="container-sectio lg:w-[70%] lg:mx-20 sm:w-[90%] sm:mx-5">
           <div className="element-banner-content ">
-           <Fade direction="down"> <h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
+           <h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
               Shaping New World Through Maxify Lens
-            </h1></Fade>
-            <Fade direction="up"> <p className="para sm:hidden md:block text-2xl">Embark on a Journey of Growth and Innovation</p></Fade>
+            </h1>
+            <p className="para sm:hidden md:block text-2xl">Embark on a Journey of Growth and Innovation</p>
           </div>
         </div>
       </div>

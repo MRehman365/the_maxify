@@ -15,10 +15,10 @@ const LeadershipTeam = () => {
         <img className="banner" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716664410/myCloud/leadership_banner_fgnkqi.png" alt="jpg" />
         <div className="container-section ">
           <div className="element-banner-content lg:w-[60%]">
-            <Fade direction="down"><h1 className="text-heading- sm:text-[24px] font-[600] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
+            <h1 className="text-heading- sm:text-[24px] font-[600] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
               Powering Great Ideas, Driving Excellence Through Our
               Solutions
-            </h1></Fade>
+            </h1>
           </div>
         </div>
       </div>

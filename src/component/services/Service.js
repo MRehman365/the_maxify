@@ -23,13 +23,13 @@ const Service = () => {
         {/* <div className="element-banner sm:pt-[30%] sm:pb-[5%] lg:py-[200px] xl:py-[222px] service-banner"> */}
         <div className="container-section">
           <div className="element-banner-content">
-           <Fade direction="down"><h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[56px] text-white">
+           <h1 className="heading- sm:text-[24px] font-[700] sm:leading-[32px] lg:leading-[64px] lg:text-[56px] text-white">
               Maxify Services
-            </h1></Fade> 
-            <Fade direction="up"><p className="para lg:w-[50%] md:w-[60%] sm:w-[90%]">
+            </h1>
+            <p className="para lg:w-[50%] md:w-[60%] sm:w-[90%]">
               Maxifying Your Business Requirements with our tailored solutions
               to the table to beat the odds
-            </p></Fade>
+            </p>
           </div>
         </div>
       </div>

@@ -28,10 +28,10 @@ const IndustriesDetails = ({
         <img className="banner" src={img2} alt="jpg" />
         <div className="container-section">
           <div className="element-banner-content w-[55%]">
-            <Fade direction="down"><h1 className=" sm:text-[24px] font-[600] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[40px] text-white">
+            <h1 className=" sm:text-[24px] font-[600] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[40px] text-white">
               {title2}
-            </h1></Fade>
-            <Fade direction="up"><p className="para sm:hidden md:block">{text}</p></Fade>
+            </h1>
+            <p className="para sm:hidden md:block">{text}</p>
           </div>
         </div>
       </div>

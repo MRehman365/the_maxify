@@ -71,11 +71,11 @@ export default function Slider() {
             
             </div>
             <div className="home-slider-content sm:mt-14">
-              <Fade direction="down" delay={200} triggerOnce><h1 className="heading-h1"> We are Maxify</h1></Fade>
-              <Fade direction="up" delay={200} triggerOnce><p className="para sm:hidden md:block ">
+              <h1 className="heading-h1"> We are Maxify</h1>
+              <p className="para sm:hidden md:block ">
                 We provide cutting-edge digital services to elevate your
                 business.
-              </p></Fade>
+              </p>
               {/* <button class="custom-btn btn-16">Read More</button> */}
             </div>
           </div>
