@@ -41,6 +41,7 @@ function App() {
               title2={item.title2}
               text={item.text}
               description={item.description}
+              descriptionMobile={item.descriptionMobile}
               description2={item.description2}
               technologyTitle={item.technologyTitle}
               technologydescription={item.technologydescription}
@@ -60,6 +61,7 @@ function App() {
               title2={item.title2}
               text={item.text}
               description1={item.description1}
+              descriptionMobile={item.descriptionMobile}
               description2={item.description2}
               IndustriesSubData={item.industriesSubData}
 
@@ -80,6 +82,7 @@ function App() {
               logo2={item.logo2}
               logo3={item.logo3}
               logo4={item.logo4}
+              logo5={item.logo5}
               name={item.name}
               title={item.title}
               title2={item.title2}

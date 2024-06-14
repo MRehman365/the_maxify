@@ -44,6 +44,7 @@
 
 .single-industries-box .content p {
   color: white;
+  margin-top: 8px;
 }
 
 .single-industries-box .content button {
@@ -107,6 +108,20 @@ button:focus {
     position: absolute;
     height: 100%;
     width: 100%;
+  }
+  .single-industries-box::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+   -webkit-backdrop-filter: blur(10px);
+    background: rgb(0, 0, 0);
+    opacity: 0.7;
+  }
+  .single-industries-box img {
+    filter: blur(3px);
   }
 }
 .element-banner {

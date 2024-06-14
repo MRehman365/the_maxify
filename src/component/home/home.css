@@ -535,13 +535,13 @@
 
 .home-success-stories .content {
   position: absolute;
-  top: 30%;
+  top: 15%;
   left: 8%;
 }
 
 .home-success-stories .content p {
   color: white;
-  font-size: 19px;
+  font-size: 17px;
   font-weight: bold;
 }
 

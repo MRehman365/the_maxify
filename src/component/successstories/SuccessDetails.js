@@ -29,6 +29,7 @@ const SuccessDetails = ({
   logo2,
   logo3,
   logo4,
+  logo5,
   challenge,
   challenge1,
   challenge2,
@@ -78,7 +79,7 @@ const SuccessDetails = ({
                 <b>Website :</b> www.themaxify.com
               </p>
               <p className="para sm:mt-4">
-                <b>Industry :</b> Retail & eCommerce, Fashion & Apparels
+                <b>Industry :</b> Retail & eCommerce, Education & Health Care
               </p>
             </div>
           </div>
@@ -88,7 +89,7 @@ const SuccessDetails = ({
       {/* Success Goal  */}
 
       <div className="container-section mt-4">
-        <div className="grid grid-cols-12 gap-6">
+        <div className="grid grid-cols-12 gap-6 mt-[4rem]">
           <div className="lg:col-span-6  md:col-span-12 sm:col-span-12">
             <div className="element-container ">
               <div className="success-stories-middle-section">
@@ -131,7 +132,7 @@ const SuccessDetails = ({
 
       {/*  */}
 
-      <div className="lg:mt-0 sm:mt-5 result">
+      <div className="lg:mt-[4rem] sm:mt-5 result">
         <h2 className="heading-h2 para" style={{}}>
           The Result
         </h2>
@@ -146,7 +147,7 @@ const SuccessDetails = ({
       </div>
 
       {/*  */}
-      <div className="highlight mt-20">
+      <div className="highlight mt-4">
         <img src={img22} alt="" />
         <div className="highlight-data para">
           <h2>Highlight</h2>
@@ -165,9 +166,10 @@ const SuccessDetails = ({
                     </div> */}
           <div className="technologies-data mt-10">
             <p>Languages:</p>
-            <div className="tec-im flex md:flex-row sm:flex-col gap-5">
+            <div className="tec-im flex md:flex-row sm:flex-row gap-5">
               <img src={logo3} alt="" />
               <img src={logo4} alt="" />
+              <img src={logo5} alt="" />
             </div>
           </div>
         </div>

@@ -319,7 +319,7 @@ const Navbar = () => {
                 </li>
               ))}
               <button
-                className="nav-btn1 ms-5"
+                className="nav-btn1 sm:ms-0 md:ms-5"
                 onClick={() => {
                   navigate("contact-us");
                   handleClick();

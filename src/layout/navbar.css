@@ -300,7 +300,7 @@ a:focus {
   padding: 14px 20px;
   border: 1px solid #ffac05 !important;
   /* margin-left: 45px; */
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .nav-btn:hover {
@@ -486,5 +486,15 @@ a:focus {
     display: none;
     width: 130px !important;
     height: 130px;
+  }
+  .nav-btn1 {
+    background: #ffac05;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 6px 13px;
+    border: 1px solid #ffac05 !important;
+    /* margin-left: 45px; */
+    border-radius: 0px;
   }
 }

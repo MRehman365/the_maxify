@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./footer.css";
 import { IoCallSharp } from "react-icons/io5";
 import { FaFacebookF } from "react-icons/fa";
-import { FaPinterestP } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
@@ -328,12 +328,12 @@ const Footer = () => {
                   </span>
                   <span>
                     <Link to="" target="_blank">
-                      <FaPinterestP />
+                    <FaLinkedinIn />
                     </Link>
                   </span>
                   <span>
                     <Link to="" target="_blank">
-                    <FaXTwitter />
+                    <FaYoutube  />
                     </Link>
                   </span>
                   <span>

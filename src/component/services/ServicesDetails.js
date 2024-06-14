@@ -20,6 +20,7 @@ const ServicesDetails = ({
   img2,
   title2,
   text,
+  descriptionMobile,
   midsection,
 }) => {
   useEffect(() => {
@@ -51,8 +52,11 @@ const ServicesDetails = ({
                   {title}
                 </h3></Fade>
               
-                <Fade ><p className="para1 sm:text-base lg:text-base mt-6 text-justify">
+                <Fade ><p className="para1 sm:hidden md:block sm:text-base lg:text-base mt-6 text-justify">
                   {description}
+                </p></Fade>
+                <Fade ><p className="para1 sm:block md:hidden sm:text-base lg:text-base mt-6 text-justify">
+                  {descriptionMobile}
                 </p></Fade>
 
                 <button class="custom-btn btn-16 mt-8" onClick={()=>setShowForm(!showForm)}>

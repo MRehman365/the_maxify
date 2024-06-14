@@ -91,44 +91,33 @@ const WhyChooseUs = () => {
                 </h6></Fade>
     <Fade duration={1000} direction="left" delay={200}>
                 <div class="mx-auto mt-16 max-w-2xl text-white sm:mt-10 md:mt-10 lg:mt-20 lg:max-w-4xl">
-  <dl class="space-y-10 lg:space-y-5">
-    <div class="relative why-container flex flex-col pl-16">
+  <dl class="space-y-5 lg:space-y-5">
+    <div class="relative why-container flex flex-col pl-4">
       <dt class="text-base font-semibold leading-7 text-900 flex items-center">
         <div class="flex md:flex sm:relative h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
           <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716630879/digital_solution_m3oe1b.png" alt="" />
         </div>
         <span class="ml-4 sm:relative sm:right-0   ">Tailored Web Solutions</span>
       </dt>
-      <dd class="mt-2 ml-14  text-base leading-7 text-600">We specialize in the development of websites to help solve your unique business problems.</dd>
+      <dd class="ml-14  text-base text-600">We specialize in the development of websites to help solve your unique business problems.</dd>
     </div>
-    <div class="relative why-container flex flex-col pl-16">
+    <div class="relative why-container flex flex-col pl-4">
       <dt class="text-base font-semibold leading-7 text-900 flex items-center">
         <div class="flex md:flex sm:relative h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
         <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/product_engineering.jpg_rbl3fi.png" alt="" />
         </div>
         <span class="ml-4 sm:relative sm:right-0">Innovative Product Applications</span>
       </dt>
-      <dd class="mt-2 ml-14 text-base leading-7 text-600">From web app design development, we have the best product engineering services to enhance your customer experience, increasing brand awareness and driving sales.</dd>
+      <dd class=" ml-14 text-basetext-600">From web app design development, we have the best product engineering services to enhance your customer experience, increasing driving sales.</dd>
     </div>
-    <div class="relative why-container flex flex-col pl-16">
+    <div class="relative why-container flex flex-col pl-4">
       <dt class="text-base font-semibold leading-7 text-900 flex items-center">
         <div class="flex sm:flex md:flex sm:relative h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
         <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716630879/digital_transformation_kyvely.png" alt="" />
         </div>
         <span class="ml-4 sm:relative sm:right-0">Seamless Digital Transformation</span>
       </dt>
-      <dd class="mt-2 ml-14  text-base leading-7 text-600">With our customized digital marketing services, you will get everything you need to elevate your business standards with our endless marketing service endeavors.</dd>
-    </div>
-    <div class="relative flex flex-col pl-16 sm:hidden md:hidden">
-      <dt class="text-base font-semibold leading-5 text-900 flex items-center">
-        <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-          <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33" />
-          </svg>
-        </div>
-        <span class="ml-4">Seamless Digital Transformation</span>
-      </dt>
-      <dd class="mt-2 text-base leading-7 text-600">With our customized digital marketing services, you will get everything you need to elevate your business standards with our endless marketing service endeavors.</dd>
+      <dd class="ml-14  text-base text-600">With our customized digital marketing services, you will get everything you need to elevate your business standards with our endless marketing service endeavors.</dd>
     </div>
   </dl>
       

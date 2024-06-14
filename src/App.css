@@ -10,6 +10,9 @@
 body {
   background-color: rgb(255, 255, 255);
   overflow-x: hidden !important;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 
@@ -141,6 +144,7 @@ body {
   font-size: 56px;
   font-weight: 800;
   line-height: 62px;
+  font-family: Poppins,sans-serif;
 }
 
 .heading-h2 {
@@ -155,9 +159,9 @@ body {
 
 .para {
   font-size: 1.1rem;
-  font-weight: 500;
   color: #595959;
   line-height: 34px;
+  font-family:  Source Sans Pro, sans-serif;
 }
 
 .para-#525CEB {
@@ -166,7 +170,8 @@ body {
 
 .heading-h5 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
 
 .mat-50 {
@@ -232,16 +237,16 @@ body {
   }
 }
 ::-webkit-scrollbar{
-  width: 13px;
+  width: 7px;
   background-color: #ffffff00;
 }
 ::-webkit-scrollbar-thumb{
-  background-color: #525ceb38;
+  background-color: #525ceb98;
   border-radius: 10px;
   transition: 1s;
 }
 ::-webkit-scrollbar-thumb:hover{
-  background-color: #525ceb79;
+  background-color: #525cebef;
   border-radius: 10px;
 }
 

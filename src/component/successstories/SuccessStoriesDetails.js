@@ -67,12 +67,12 @@ const SuccessStoriesDetails = ({
         </div>
         <div className="success-content mt-4">
           {/* <div className="success-conten flex gap-10 mt-4"> */}
-         <Bounce triggerOnce><div className="first-success">
+         <Bounce triggerOnce><div className="first-success" onClick={handleClick}>
             <div className="image-success">
               <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462508/myCloud/university_internal_image_2_o2fgol.png" alt="" />
             </div>
             <div className="success-content">
-              <h2 onClick={handleClick}>
+              <h2 >
                 Uplifting The Digital Presence of Sharda University with Our
                 Solutions
               </h2>
@@ -83,12 +83,12 @@ const SuccessStoriesDetails = ({
             </div>
           </div></Bounce> 
 
-          <Bounce delay={200} triggerOnce><div className="first-success">
+          <Bounce delay={200} triggerOnce><div className="first-success"  onClick={handleClick2}>
             <div className="image-success">
               <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462449/myCloud/hospital_banner_k2xber.png" alt="" />
             </div>
             <div className="success-content">
-              <h2 onClick={handleClick2}>
+              <h2>
                 Revamping and Enhancing The presence of Delhi Eye Care Website
               </h2>
               <p>
@@ -99,12 +99,12 @@ const SuccessStoriesDetails = ({
             </div>
           </div></Bounce>
 
-          <Bounce delay={400} triggerOnce><div className="first-success">
+          <Bounce delay={400} triggerOnce><div className="first-success" onClick={handleClick3}>
             <div className="image-success">
               <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462485/myCloud/play_school_internal_image_2_ftnld7.png" alt="" />
             </div>
             <div className="success-content">
-              <h2 onClick={handleClick3}>
+              <h2>
                 Revolutionizing Education by Integrating AI in My Chhota School
                 Website
               </h2>

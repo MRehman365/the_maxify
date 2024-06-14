@@ -9,6 +9,7 @@ const IndustriesDetails = ({
   title,
   name,
   description1,
+  descriptionMobile,
   description2,
   img,
   img2,
@@ -41,7 +42,8 @@ const IndustriesDetails = ({
             {/* <div className="border-line"></div> */}
             <div className="element-container">
             <Fade direction="down"><h3 className="heading- poppins-medium sm:text-[18px]  sm:leading-[27px] lg:text-2xl text-[#1a1a1a] sm:text-center lg:text-start">{title}</h3></Fade>
-              <p className="para1 sm:text-base lg:text-base mt-6 text-justify">{description1}</p>
+              <p className="para1 sm:hidden md:block sm:text-base lg:text-base mt-6 text-justify">{description1}</p>
+              <p className="para1 sm:block md:hidden sm:text-base lg:text-base mt-6 text-justify">{descriptionMobile}</p>
               <p className="para1 sm:text-base lg:text-base mt-6 text-justify">{description2}</p>
               <button
                 class="custom-btn btn-16 mt-8"
