@@ -133,11 +133,11 @@ const Footer = () => {
                       <br />
                       Noida, Uttar Pradesh 201301
                       <br />
-                      Telephone:<a href="tel:+91">+442084322870</a>
+                      Telephone:<a href="tel:+91">+ 91 81302-45100</a>
                       <br />
                       E-mail:
-                      <a href="mailto:info@mindtreeitsolutions.com">
-                        info@mindtreeitsolutions.com
+                      <a href="mailto:info@maxifyweb.com">
+                      info@maxifyweb.com
                       </a>
                       <a href="mailto:mail@companyname.com">
                         <br />
@@ -322,12 +322,12 @@ const Footer = () => {
 
                 <div className="social-media-icon ">
                   <span>
-                    <Link to="" target="_blank">
+                    <Link to="https://www.facebook.com/share/ShvzJdDvycne15UQ/?mibextid=qi2Omg" target="_blank">
                       <FaFacebookF />
                     </Link>
                   </span>
                   <span>
-                    <Link to="" target="_blank">
+                    <Link to="https://www.linkedin.com/company/themaxify/" target="_blank">
                     <FaLinkedinIn />
                     </Link>
                   </span>

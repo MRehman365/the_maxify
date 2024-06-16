@@ -88,14 +88,8 @@ function App() {
               title2={item.title2}
               title3={item.title3}
               text={item.text}
-              headingp1={item.headingp1}
-              headingp2={item.headingp2}
-              headingp3={item.headingp3}
               description={item.description}
               description2={item.description2}
-              description3={item.description3}
-              description4={item.description4}
-              description5={item.description5}
               technologyTitle={item.technologyTitle}
               technologydescription={item.technologydescription}
               technologyData={item.technologyData}

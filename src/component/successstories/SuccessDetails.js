@@ -5,6 +5,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import OurSuccessStories from "../home/OurSuccessStories";
 import MetaData from "../../layout/MetaData";
 import { Fade } from "react-awesome-reveal";
+import { SuccessData } from "./SuccessData";
 // import img2 from '../../assets/1715154300452_bjeoh5_2_0.jpg'
 
 const SuccessDetails = ({
@@ -132,24 +133,43 @@ const SuccessDetails = ({
 
       {/*  */}
 
-      <div className="lg:mt-[4rem] sm:mt-5 result">
-        <h2 className="heading-h2 para" style={{}}>
-          The Result
-        </h2>
-        <div className="content-result lg:mt-5 sm:mt-0">
-          <li className="para">{headingp1}</li>
-          <p className="para">{description3}</p>
-          <li className="para">{headingp2}</li>
-          <p className="para">{description4}</p>
-          <li className="para">{headingp3}</li>
-          <p className="para">{description5}</p>
+      <div className="red-section lg:mt-32  sm:mt-10 xl:mt-[80px]">
+        <div className="container-section">
+          <div className="border-line sm:hidden md:block text-center m-auto"></div>
+          <h3 className="heading-h3 text-[30px] text-center">Result</h3>
+          <div className="grid grid-cols-12  gap-6 mat-50">
+            {IndustriesSubData.map((item, i) => (
+              <div
+                className="lg:col-span-4 md:col-span-6 sm:col-span-12"
+                key={i}
+              >
+                <div className="our-essence-box industries-details-box">
+                  <h5 className="heading-h5">{item.heading}</h5>
+                  <p className="white-color">{item.content}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
       {/*  */}
-      <div className="highlight mt-4">
-        <img src={img22} alt="" />
-        <div className="highlight-data para">
+      <div className="relative sm:h-[482px] md:h-[650px]  highlight mt-4">
+        <div class="area sm:h-[72vh] md:h-[100vh] absolute">
+          <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div className="highlight-data sm:backdrop-blur-0">
           <h2>Highlight</h2>
           <li>{highlight1}</li>
           <li>{highlight2} </li>
@@ -159,14 +179,14 @@ const SuccessDetails = ({
 
       {/* technologies */}
       <div className="technologies mt-1 para py-10">
-        <div className="tec-inne w-[90%] mx-auto">
+        <div className="tec-inne w-[100%] mx-auto">
           <h2 className="text-center mt-4">Technology Stack</h2>
           {/* <div className='technologies-data'>
                         <p>Frameworks: </p><div className='tec-img'><img src={logo1} alt="" /><img src={logo2} alt="" /></div>
                     </div> */}
           <div className="technologies-data mt-10">
             <p>Languages:</p>
-            <div className="tec-im flex md:flex-row sm:flex-row gap-5">
+            <div className="tec-im flex md:flex-row sm:flex-row self-start gap-4">
               <img src={logo3} alt="" />
               <img src={logo4} alt="" />
               <img src={logo5} alt="" />
