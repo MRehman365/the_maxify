@@ -9,6 +9,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const ThankYouPage = ({showPopup, setShowPopup}) => {
   return (
+    <div className="">
     <div className=" bg-white border pb-6">
       <div className="flex justify-end heading-1">
       <span className="text-2xl cursor-pointer pr-5 pt-5" onClick={()=>setShowPopup(!showPopup)}><RiCloseCircleFill /></span>
@@ -43,6 +44,7 @@ const ThankYouPage = ({showPopup, setShowPopup}) => {
         href="https://fonts.googleapis.com/css?family=Kaushan+Script|Source+Sans+Pro"
         rel="stylesheet"
       /> */}
+    </div>
     </div>
   );
 };

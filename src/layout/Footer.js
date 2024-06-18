@@ -59,9 +59,9 @@ const Footer = () => {
     // Basic validation checks
     if (!formData.firstName) newErrors.firstName = 'First Name is required';
     if (!formData.lastName) newErrors.lastName = 'Last Name is required';
-    if (!formData.contactNumber) newErrors.contactNumber = 'Contact Number is required';
-    if (!formData.companyEmail) newErrors.companyEmail = 'Company Email is required';
-    if (!formData.company) newErrors.company = 'Company is required';
+    // if (!formData.contactNumber) newErrors.contactNumber = 'Contact Number is required';
+    if (!formData.companyEmail) newErrors.companyEmail = 'Email is required';
+    // if (!formData.company) newErrors.company = 'Company is required';
     // if (!formData.message) newErrors.message = 'Message is required';
 
     // Email validation (basic regex for example purposes)
@@ -148,9 +148,9 @@ const Footer = () => {
               </div>
             </div>
             <div className="lg:col-span-6 md:col-span-6 sm:col-span-12">
-       <div className="mb-5">
-        <h3 className="heading-h3">Time to break the ice?</h3>
-        <p className="para">We would love to hear from you.</p>
+       <div className="mb-5 text-center">
+        <h3 className="heading-h3">Contact us</h3>
+        <p className="para">We're all ears and eager to assist.</p>
       </div>
       <div className="footer-contact-form">
       <div>

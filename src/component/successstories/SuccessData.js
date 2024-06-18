@@ -3,7 +3,9 @@ import { MdOutlineConstruction } from "react-icons/md";
 export const SuccessData = [
   {
     url: "/sharda-university",
+    weburl: "https://admissions.sharda.ac.in/apply-com/?utm_source=Google_Search&utm_medium=cpc_Comp&utm_campaign=2024-Competitor-DelhiNCR(S)&utm_keyword=universities%20in%20delhi&gad_source=1&gclid=Cj0KCQjw6PGxBhCVARIsAIumnWaBT9Z21vNkhsGGfXdktsp0F6XYctbz5FVQLCCj9ruSuJ7INu1i5IMaAqOiEALw_wcB",
     name: "Sharda University",
+    type: "Education",
     title2:
       "Uplifting The Digital Presence of Sharda University with Our Solutions",
     text: "Maxify web solutions was given the opportunity to increase visibility of the Sharda University website.",
@@ -22,7 +24,6 @@ export const SuccessData = [
       "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462487/myCloud/REACT_NATIVE-removebg-preview_voblom.png",
     img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462506/myCloud/university_internal_image_1_zwcz7d.png",
     img3: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462508/myCloud/university_internal_image_2_o2fgol.png",
-    name: "Application Development",
     icons: <MdOutlineConstruction />,
     title: "Empowering Excellence with The Right App Development Company",
     title3:
@@ -69,8 +70,10 @@ export const SuccessData = [
   },
   {
     url: "/eye-care",
+    weburl: "https://www.delhieyecare.com/ ",
     name: " Delhi Eye Care",
     title2: "Revamping and Enhancing The presence of Delhi Eye Care Website",
+    type: "Health Care",
     text: "",
     img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716663118/myCloud/delhi_eyecare_banner_aqsk69.png",
     img22:
@@ -87,7 +90,6 @@ export const SuccessData = [
       "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462501/myCloud/stock_development-removebg-preview_3_otmo2l.png",
     img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462451/myCloud/hospital_internal_image2_tmgj1f.png",
     img3: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462449/myCloud/hospital_internal_image_1_lsrigk.png",
-    name: "Application Development",
     icons: <MdOutlineConstruction />,
     title: "Empowering Excellence with The Right App Development Company",
     title3:
@@ -136,7 +138,9 @@ export const SuccessData = [
   },
   {
     url: "/chhota-school",
+    weburl: "https://mychhotaschool.com/",
     name: "My Chhota School",
+    type: "Education",
     title2:
       "Revolutionizing Education by Integrating AI in My Chhota School Website",
     text: "",

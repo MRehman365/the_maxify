@@ -34,7 +34,7 @@ const AboutCompany = () => {
               <Fade direction="down"><h3 className="heading-h3 ">
                 Rejuvenating Innovation within The Digital Landscape
               </h3></Fade>
-              <Fade><p className="para mt-6">
+              <Fade><p className="para mt-6 sm:hidden md:block">
                 We are more than just being a agency, we are the ones who are
                 along with you all way to help you establish a new milestone and
                 get a clear understanding of your goals and how to reach them.
@@ -55,9 +55,26 @@ const AboutCompany = () => {
                 to bring excellence and inculcate new spheres of inspiration to
                 the digital world.
               </p></Fade>
+              <Fade><p className="para mt-6 sm:block md:hidden">
+                We are more than just being a agency, we are the ones who are
+                along with you all way to help you establish a new milestone and
+                get a clear understanding of your goals and how to reach them.
+                With relentless passion running through, we are committed to
+                transform business thrive and succeed.
+                <h3>Our Mission:</h3>
+                Our mission is to provoke simple yet advanced solutions that can
+                align well with the needs of clients and help them achieve their
+                goal.
+                <h3>Our Vision:</h3>
+                Our vision is to be a catalyst of growth and innovation in your
+                journey of success. We envision a future where people from all
+                industries can harness and leverage the power of technology and
+                innovation to achieve their potential and benchmark new ways to
+                success.
+              </p></Fade>
 
               <button class="custom-btn btn-16 mt-8" onClick={()=>setShowForm(!showForm)}>
-                <span>Read More</span>{" "}
+                <span>Contact Us</span>{" "}
               </button>
             </div>
           </div>
@@ -85,7 +102,7 @@ const AboutCompany = () => {
           <div className="lg:col-span-7 md:col-span-6 sm:col-span-12 ms-5 sm:ms-0 ">
             <div className="border-line"></div>
             <h3 className="heading-h3 ">Our ethos are our foundation</h3>
-            <ul className="our-ethos-ul">
+            <ul className="our-ethos-ul w-full">
               <li>
                 <div className="number">1</div>
                 <div className="content">

@@ -87,6 +87,8 @@ function App() {
               title={item.title}
               title2={item.title2}
               title3={item.title3}
+              weburl={item.weburl}
+              type={item.type}
               text={item.text}
               description={item.description}
               description2={item.description2}

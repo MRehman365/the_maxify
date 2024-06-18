@@ -15,7 +15,7 @@ const LeadershipTeam = () => {
         <img className="banner" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716664410/myCloud/leadership_banner_fgnkqi.png" alt="jpg" />
         <div className="container-section ">
           <div className="element-banner-content lg:w-[60%]">
-            <h1 className="text-heading- sm:text-[24px] font-[600] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
+            <h1 className="text-heading- sm:text-[24px] font-[600] sm:w-[70%] md:w-[90%] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
               Powering Great Ideas, Driving Excellence Through Our
               Solutions
             </h1>
@@ -59,8 +59,8 @@ const LeadershipTeam = () => {
 
       <div className="container-section-2 mat-0 sm:mt-20">
         <Fade direction="down"><h4 className="text-heading-h4 left-line sm:mt-10 lg:mt-0">Management Team</h4></Fade>
-        <div className="grid grid-cols-12  gap-4 mat-50">
-          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
+        <div className="flex flex-wrap gap-4 justify-center mat-50">
+          <div className="w-[400px]">
             <div className="leadership-box">
               <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="w-full lg:h-[25rem] sm:h-[21rem]" />
               <div className="content">
@@ -77,24 +77,7 @@ const LeadershipTeam = () => {
               </div>
             </div>
           </div>
-          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
-            <div className="leadership-box">
-              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="w-full lg:h-[25rem] sm:h-[21rem]" />
-              <div className="content">
-                <p className="para">
-                  <b>Rameshwar Vyas</b>
-                </p>
-                <p className="para">Chief Executive Officer</p>
-                <div className="leader-loaction">
-                  <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462456/myCloud/india-logo_uaybm2.jpg" alt="" />
-                  <Link href="">
-                    <FaLinkedinIn />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
+          <div className="w-[400px]">
             <div className="leadership-box">
               <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="w-full lg:h-[25rem] sm:h-[21rem]" />
               <div className="content">
@@ -117,7 +100,7 @@ const LeadershipTeam = () => {
         
         </div>
       </div>
-      <div className="container-section-2 mat-100">
+      {/* <div className="container-section-2 mat-100">
         <Fade direction="down"><h4 className="text-heading-h4 left-line">Developer Team</h4></Fade>
         <div className="grid grid-cols-12  gap-4 mat-50">
           <div className="lg:col-span-3 md:col-span-6 sm:col-span-12">
@@ -190,7 +173,7 @@ const LeadershipTeam = () => {
           </div>
         
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

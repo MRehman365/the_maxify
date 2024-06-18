@@ -160,10 +160,10 @@
   scrollbar-width: 2px;
 }
 .highlight-data {
-  background-color: #ffffff56;
+  background-color: #292929;
   max-width: 600px;
   height: 560px;
-  color: rgb(39, 39, 39);
+  color: rgb(228, 228, 228);
   position: absolute;
   top: 20%;
   left: 5%;
@@ -441,8 +441,8 @@ left: 45%;
 }
 @media (max-width: 450px){
   .highlight-data {
-    background-color: #00000044;
-    color: rgb(0, 0, 0);
+    background-color: #292929;
+    color: rgb(218, 218, 218);
     max-width: 430px;
     height: 100%;
     position: absolute;
@@ -451,7 +451,7 @@ left: 45%;
     display: flex;
     flex-direction: column;
     gap: 7px;
-    padding-left: 2%;
+    padding-left: 3%;
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: #3d3b40 gray;

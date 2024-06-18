@@ -79,14 +79,14 @@ const ServicesDetails = ({
         {/* service related technology  */}
         <div className="blue-section mt-2">
           <div className="container-section ">
-            <div className="grid grid-cols-12  gap-4">
+            <div className="grid grid-cols-12 gap-4">
               <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
                 <div className="border-line"></div>
                 <Fade direction="down"><h3 className="heading-h3">{technologyTitle}</h3></Fade>
                 <Fade direction="up"><p className="para mt-3">{technologydescription}</p></Fade>
               </div>
               <div className="lg:col-span-8 md:col-span-6 sm:col-span-12">
-                <div className="grid grid-cols-12  gap-4">
+                <div className="grid grid-cols-12 sm:gap-0 md:gap-4">
                   {technologyData.map((data, i) => (
                     <div
                       className="lg:col-span-6 md:col-span-12 sm:col-span-12"

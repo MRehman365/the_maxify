@@ -49,9 +49,9 @@ const ContactForm = ({showForm, setShowForm, }) => {
     // Basic validation checks
     if (!formData.firstName) newErrors.firstName = 'First Name is required';
     if (!formData.lastName) newErrors.lastName = 'Last Name is required';
-    if (!formData.contactNumber) newErrors.contactNumber = 'Contact Number is required';
+    // if (!formData.contactNumber) newErrors.contactNumber = 'Contact Number is required';
     if (!formData.companyEmail) newErrors.companyEmail = 'Company Email is required';
-    if (!formData.company) newErrors.company = 'Company is required';
+    // if (!formData.company) newErrors.company = 'Company is required';
     // if (!formData.message) newErrors.message = 'Message is required';
 
     // Email validation (basic regex for example purposes)
@@ -101,15 +101,16 @@ const ContactForm = ({showForm, setShowForm, }) => {
 
 
   return (
-    <div className="relative">
+    <div className="fixed flex h-[70vh] sm:w-[90%] md:w-[70%] justify-center items-center">
+    <div className="relative w-[90%]">
       <div className="footer-contact-section sm:py-10 lg:py-10 lg:px-20 sm:px-5">
         <div className="lg:grid lg:grid-cols-12 gap-[5%] sm:flex sm:flex-col-reverse">
        
           <div className="lg:col-span-12 md:col-span-12 sm:col-span-12">
             <div className="mb-5 flex justify-between">
-              <div>
-                <h3 className="heading-h3 sm:hidden lg:block">Time to break the ice?</h3>
-                <p className="para">We would love to hear from you.</p>
+              <div className="text-center w-full">
+                <h3 className="heading-h3 sm:hidden lg:block">Contact US</h3>
+                <p className="para">We're all ears and eager to assist.</p>
               </div>
               <div className="text-3xl font-[700] cursor-pointer" onClick={()=>setShowForm(!showForm)}>
                 <MdClose />
@@ -203,9 +204,10 @@ const ContactForm = ({showForm, setShowForm, }) => {
         </div>
       </div>
 
-      {showPopup?( <div className="fixed top-[25%] left-[25%] z-[9999] bg-black rounded-lg">
+      {showPopup?( <div className="fixed flex h-[50vh] items-center justify-center z-[9999] bg-black rounded-lg">
       <ThankYouPage showPopup={showPopup} setShowPopup={setShowPopup} />
     </div>):("")}
+    </div>
     </div>
   );
 };
