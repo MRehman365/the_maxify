@@ -154,7 +154,7 @@ const SuccessDetails = ({
       </div>
 
       {/*  */}
-      <div className="relative sm:h-[482px] md:h-[650px]  highlight mt-4">
+      <div className="relative sm:h-[390px] md:h-[650px]  highlight mt-4">
         <div class="area sm:h-[72vh] md:h-[100vh] absolute">
           <ul class="circles">
             <li></li>

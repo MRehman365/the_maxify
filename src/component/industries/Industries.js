@@ -50,8 +50,8 @@ const Industries = () => {
                   <img className="" src={item.industriesImg} alt="" />
                 </div>
                 <div className="content">
-                  <h4 className="heading-h4 ">{item.industriesHeading}</h4>
-                  <p className="para ">{item.industriesText}</p>
+                  <h4 className="heading-h4 mt-4">{item.industriesHeading}</h4>
+                  <p className="para mt-4">{item.industriesText}</p>
                   <button class="">
                     <IoIosArrowRoundForward />{" "}
                   </button>
