@@ -12,7 +12,7 @@ const LeadershipTeam = () => {
       <MetaData titles={`Maxify Industries Leadership Team`} />
       {/* banner */}
       <div className="element-banner lg:pt-[15%] lg:pb-[15%] sm:pt-[30%] sm:pb-[18%]  about-company-banner">
-        <img className="banner" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716664410/myCloud/leadership_banner_fgnkqi.png" alt="jpg" />
+        <img className="banner" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776689/MaxifyAssits/leadership_banner_fgnkqi_vfl0fm.webp" alt="jpg" />
         <div className="container-section ">
           <div className="element-banner-content lg:w-[60%]">
             <h1 className="text-heading- sm:text-[24px] font-[600] sm:w-[70%] md:w-[90%] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
@@ -50,7 +50,7 @@ const LeadershipTeam = () => {
           <div className="lg:col-span-5 xl:col-span-6 sm:col-span-12 lg:mt-20 sm:mt-0">
             <div className="element-container sm:w-full sm:h-full lg:w-[70%] xl:h-[70%] lg:overflow-hidden lg:ml-20">
               <div className="img-box about-leadership-main">
-                <img className="w-full" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462514/myCloud/welcome-img_1_w9k7l7.jpg" alt="" />
+                <img className="w-full" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776793/MaxifyAssits/welcome-img_1_w9k7l7_fhdxse.webp" alt="" />
               </div>
             </div>
           </div>
@@ -62,14 +62,14 @@ const LeadershipTeam = () => {
         <div className="flex flex-wrap gap-4 justify-center mat-50">
           <div className="w-[400px]">
             <div className="leadership-box">
-              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="w-full lg:h-[25rem] sm:h-[21rem]" />
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776731/MaxifyAssits/profile_cj6crw_dxzqpl.webp" alt="" className="w-full lg:h-[25rem] sm:h-[21rem]" />
               <div className="content">
                 <p className="para">
                   <b>Rameshwar Vyas</b>
                 </p>
                 <p className="para">Chief Executive Officer</p>
                 <div className="leader-loaction">
-                  <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462456/myCloud/india-logo_uaybm2.jpg" alt="" />
+                  <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776675/MaxifyAssits/india-logo_uaybm2_unwqvg.webp" alt="" />
                   <Link href="">
                     <FaLinkedinIn />
                   </Link>
@@ -79,14 +79,14 @@ const LeadershipTeam = () => {
           </div>
           <div className="w-[400px]">
             <div className="leadership-box">
-              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/profile_cj6crw.jpg" alt="" className="w-full lg:h-[25rem] sm:h-[21rem]" />
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776731/MaxifyAssits/profile_cj6crw_dxzqpl.webp" alt="" className="w-full lg:h-[25rem] sm:h-[21rem]" />
               <div className="content">
                 <p className="para">
                   <b>Rameshwar Vyas</b>
                 </p>
                 <p className="para">Chief Executive Officer</p>
                 <div className="leader-loaction">
-                  <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462456/myCloud/india-logo_uaybm2.jpg" alt="" />
+                  <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776675/MaxifyAssits/india-logo_uaybm2_unwqvg.webp" alt="" />
                   <Link href="">
                     <FaLinkedinIn />
                   </Link>

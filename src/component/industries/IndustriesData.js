@@ -3,14 +3,14 @@ export const IndustriesData = [
   {
     name: "eCommerce Services",
     url: "/ecommerce-services",
-    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462436/myCloud/ECOMMERCE_1_k0ocx8.png",
-    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462198/myCloud/ecom_z78g6j.jpg",
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776636/MaxifyAssits/ECOMMERCE_1_k0ocx8_pvb7c6.webp",
+    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776635/MaxifyAssits/ecom_z78g6j_rp81ov.webp",
     title2: "E-commerce and Retail Services To The Best",
     text: "Creating personalized shopping experiences and driving sales with AI-powered insights",
     industriesHeading: "Personalize experiences, boost sales",
     industriesText:
       "Creating personalized shopping experiences and driving sales with AI-powered insights",
-    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716621219/myCloud/shopping_internal_image_a7yhq1.png",
+    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776737/MaxifyAssits/shopping_internal_image_a7yhq1_j4n5a9.webp",
     title:
       "Empowering  Your e-commerce Businesses Through Our Experience Led Solutions",
     description1:
@@ -49,14 +49,14 @@ export const IndustriesData = [
   {
     name: "Health Care",
     url: "/health-care",
-    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462443/myCloud/health_container_image_2_oxnsml.png",
-    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716640516/myCloud/1716639237138_qrckr0_2_0_nx6afv.jpg",
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776646/MaxifyAssits/health_container_image_2_oxnsml_rtn1rl.webp",
+    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776564/MaxifyAssits/1716639237138_qrckr0_2_0_nx6afv_n2bhgv.webp",
     title2: "Transforming Healthcare with Innovative Technology",
     text: "Improving efficiency, through application development and digital transformation in healthcare industry",
     industriesHeading: " Improve outcomes, optimize operations",
     industriesText:
       "Enhancing patient care and operational efficiency through advanced digital solutions",
-    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462402/myCloud/1714742637478_i6y61k_2_0_fdaa8g.jpg",
+    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776561/MaxifyAssits/1714742637478_i6y61k_2_0_fdaa8g_yxqnxp.webp",
     title:
       "Leading The Change with Innovative Solutions and Expertise to revolutionize Healthcare Industry ",
     description1:
@@ -103,14 +103,14 @@ export const IndustriesData = [
   {
     name: "Education",
     url: "/education",
-    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462439/myCloud/EDUCATION_itpuzn.png",
-    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716663118/myCloud/education_banner_nrueoz.png",
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776636/MaxifyAssits/EDUCATION_itpuzn_l0xs1y.webp",
+    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776636/MaxifyAssits/education_banner_nrueoz_nj2se5.webp",
     title2: "Explore Educational Solutions with Maxify Web Solutions",
     text: "Empowering Learning Through Technology",
     industriesHeading: "Empower learning, enhance outcomes",
     industriesText:
       "Empowering learning institutions with innovative tools for student engagement and performance tracking",
-    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637226/myCloud/education_service_image_ayf1ii.png",
+    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776645/MaxifyAssits/education_service_image_ayf1ii_vadebi.webp",
     title: "Transforming Education with Innovative Solutions",
     description1:
       "In today's digital age, traditional methods of teaching and learning are evolving, and we're at the forefront of this transformation. Our mission is to empower educators, students, and institutions with cutting-edge educational solutions that enhance learning outcomes and drive innovation. We understand the diverse needs of the education sector. We offer a comprehensive suite of services tailored to meet the unique requirements of our clients. Whether you're looking to develop a custom learning management system, create interactive e-learning modules, or implement virtual classroom solutions, we have the expertise and experience to bring your vision to life. Our team of experienced developers, designers, and educational experts works closely with clients to understand their goals and objectives. We leverage the latest technologies and methodologies to deliver high-quality solutions that are scalable, user-friendly, and cost-effective. From mobile apps to web platforms, we provide end-to-end development services that optimize the learning experience for all stakeholders.",
@@ -146,14 +146,14 @@ export const IndustriesData = [
   {
     name: "Finance",
     url: "/banking-finance",
-    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462414/myCloud/BANKING_AND_FINANCIAL_CONTAINER_IMAGE_3_qwtfdg.png",
-    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716660061/myCloud/1716647422042_g2k503_2_0_1_pogatj.jpg",
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776566/MaxifyAssits/BANKING_AND_FINANCIAL_CONTAINER_IMAGE_3_qwtfdg_op8mug.webp",
+    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776564/MaxifyAssits/1716647422042_g2k503_2_0_1_pogatj_-_Copy_2_qlvmqi.webp",
     title2: "Empowering Financial World Through Next-Gen Development Services",
     text: "Transforming With Cutting-Edge Technology Solutions",
     industriesHeading: "Ensure security, unlock new revenue streams",
     industriesText:
       "Ensuring security and compliance while unlocking new revenue streams with blockchain technology",
-    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716625605/myCloud/banking_and_financial_image__1_nwjjfk.png",
+    industriesImg: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776594/MaxifyAssits/banking_and_financial_image__1_nwjjfk_d0005k.webp",
     title:
       "Revolutionizing Financial Operations with Tailored Web and App Development Services ",
     description1:

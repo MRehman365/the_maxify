@@ -9,21 +9,17 @@ export const SuccessData = [
     title2:
       "Uplifting The Digital Presence of Sharda University with Our Solutions",
     text: "Maxify web solutions was given the opportunity to increase visibility of the Sharda University website.",
-    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716663119/myCloud/sharda_university_banner_image_tbczj8.png",
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776737/MaxifyAssits/sharda_university_banner_image_tbczj8_vetnje.webp",
     img22:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462506/myCloud/university_banner_i2sfyj.png",
-    logo1:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462469/myCloud/microsoft_net_development-removebg-preview_4_tejmlq.png",
-    logo2:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462458/myCloud/java_development-removebg-preview_1_olfdje.png",
-    logo3:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462480/myCloud/php_developer-removebg-preview_3_p7mlsk.png",
+      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776745/MaxifyAssits/university_banner_i2sfyj_lvfann.webp",
+   logo3:
+      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776730/MaxifyAssits/php_developer-removebg-preview_3_p7mlsk_zb6pzk.webp",
     logo4:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462460/myCloud/JAVA-removebg-preview_nn4n43.png",
+      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776676/MaxifyAssits/JAVA-removebg-preview_nn4n43_j9nvm5.webp",
     logo5:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462487/myCloud/REACT_NATIVE-removebg-preview_voblom.png",
-    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462506/myCloud/university_internal_image_1_zwcz7d.png",
-    img3: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462508/myCloud/university_internal_image_2_o2fgol.png",
+      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776731/MaxifyAssits/REACT_NATIVE-removebg-preview_voblom_oftgmf.webp",
+    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776793/MaxifyAssits/university_internal_image_1_zwcz7d_udkeub.webp",
+    img3: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776791/MaxifyAssits/university_internal_image_2_o2fgol_rovzvb.webp",
     icons: <MdOutlineConstruction />,
     title: "Empowering Excellence with The Right App Development Company",
     title3:
@@ -75,21 +71,17 @@ export const SuccessData = [
     title2: "Revamping and Enhancing The presence of Delhi Eye Care Website",
     type: "Health Care",
     text: "",
-    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716663118/myCloud/delhi_eyecare_banner_aqsk69.png",
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776609/MaxifyAssits/delhi_eyecare_banner_aqsk69_v9o3hd.webp",
     img22:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462449/myCloud/hospital_banner_k2xber.png",
-    logo1:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462469/myCloud/microsoft_net_development-removebg-preview_4_tejmlq.png",
-    logo2:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462458/myCloud/java_development-removebg-preview_1_olfdje.png",
+      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776661/MaxifyAssits/hospital_banner_k2xber_c0cq07.webp",
     logo3:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462480/myCloud/php_developer-removebg-preview_3_p7mlsk.png",
+      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776730/MaxifyAssits/php_developer-removebg-preview_3_p7mlsk_zb6pzk.webp",
     logo4:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462460/myCloud/JAVA-removebg-preview_nn4n43.png",
+      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776676/MaxifyAssits/JAVA-removebg-preview_nn4n43_j9nvm5.webp",
     logo5:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462501/myCloud/stock_development-removebg-preview_3_otmo2l.png",
-    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462451/myCloud/hospital_internal_image2_tmgj1f.png",
-    img3: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462449/myCloud/hospital_internal_image_1_lsrigk.png",
+      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776738/MaxifyAssits/stock_development-removebg-preview_3_otmo2l_s7qv9f.webp",
+    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776662/MaxifyAssits/hospital_internal_image2_tmgj1f_i4vjxi.webp",
+    img3: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776661/MaxifyAssits/hospital_internal_image_1_lsrigk_ektilr.webp",
     icons: <MdOutlineConstruction />,
     title: "Empowering Excellence with The Right App Development Company",
     title3:
@@ -144,21 +136,17 @@ export const SuccessData = [
     title2:
       "Revolutionizing Education by Integrating AI in My Chhota School Website",
     text: "",
-    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716660061/myCloud/chota_school_banner_rg7kby.png",
+    img: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776608/MaxifyAssits/chota_school_banner_rg7kby_dqwz08.webp",
     img22:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462485/myCloud/play_school_internal_image_2_ftnld7.png",
-    logo1:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462469/myCloud/microsoft_net_development-removebg-preview_4_tejmlq.png",
-    logo2:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462458/myCloud/java_development-removebg-preview_1_olfdje.png",
-    logo3:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462487/myCloud/REACT_NATIVE-removebg-preview_voblom.png",
+      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776731/MaxifyAssits/play_school_internal_image_2_ftnld7_q0zkml.webp",
+   logo3:
+      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776731/MaxifyAssits/REACT_NATIVE-removebg-preview_voblom_oftgmf.webp",
     logo4:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462442/myCloud/flutter-removebg-preview_c1lu2d.png",
+      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776645/MaxifyAssits/flutter-removebg-preview_c1lu2d_txumxo.webp",
     logo5:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462460/myCloud/JAVA-removebg-preview_nn4n43.png",
-    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/playschool_internal_page_image_ehwqag.png",
-    img3: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462418/myCloud/banner_play_school_tpbnzw.png",
+      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776676/MaxifyAssits/JAVA-removebg-preview_nn4n43_j9nvm5.webp",
+    img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776731/MaxifyAssits/playschool_internal_page_image_ehwqag_qpukmk.webp",
+    img3: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776595/MaxifyAssits/banner_play_school_tpbnzw_gljf8q.webp",
     icons: <MdOutlineConstruction />,
     title: "Empowering Excellence with The Right App Development Company",
     title3:

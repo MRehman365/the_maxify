@@ -15,7 +15,7 @@ export default function Slider() {
   const homeVideo =
     "https://res.cloudinary.com/djkkjx9ry/video/upload/v1716566117/myCloud/videos_mudjus.mp4";
   const homeBanner =
-    "https://res.cloudinary.com/djkkjx9ry/image/upload/v1716809151/myCloud/home_page_main_banner_x1j1ga.png";
+    "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776661/MaxifyAssits/home_page_main_banner_x1j1ga_apg4bz.webp";
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
   const [showVideo, setShowVideo] = useState(false);
 

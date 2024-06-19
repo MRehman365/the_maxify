@@ -95,7 +95,7 @@ const WhyChooseUs = () => {
     <div class="relative why-container flex flex-col pl-4">
       <dt class="text-base font-semibold leading-7 text-900 flex items-center">
         <div class="flex md:flex sm:relative h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-          <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716630879/digital_solution_m3oe1b.png" alt="" />
+          <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776623/MaxifyAssits/digital_solution_dsc45i_tl0ieg.webp" alt="" />
         </div>
         <span class="ml-4 sm:relative sm:right-0   ">Tailored Web Solutions</span>
       </dt>
@@ -104,7 +104,7 @@ const WhyChooseUs = () => {
     <div class="relative why-container flex flex-col pl-4">
       <dt class="text-base font-semibold leading-7 text-900 flex items-center">
         <div class="flex md:flex sm:relative h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-        <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462486/myCloud/product_engineering.jpg_rbl3fi.png" alt="" />
+        <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776731/MaxifyAssits/product_engineering.jpg_rbl3fi_fgm5fn.webp" alt="" />
         </div>
         <span class="ml-4 sm:relative sm:right-0">Innovative Product Applications</span>
       </dt>
@@ -113,7 +113,7 @@ const WhyChooseUs = () => {
     <div class="relative why-container flex flex-col pl-4">
       <dt class="text-base font-semibold leading-7 text-900 flex items-center">
         <div class="flex sm:flex md:flex sm:relative h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-        <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716630879/digital_transformation_kyvely.png" alt="" />
+        <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776623/MaxifyAssits/digital_transformation_ueqryf_aelf1t.webp" alt="" />
         </div>
         <span class="ml-4 sm:relative sm:right-0">Seamless Digital Transformation</span>
       </dt>
@@ -136,10 +136,10 @@ const WhyChooseUs = () => {
                 </h2></Fade>
                 <Fade direction="right"><div className="img-box mt-8">
                   <figure className="img-box-bg">
-                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462516/myCloud/why-us-2_hm7mhc.png" alt="" />
+                    <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776796/MaxifyAssits/why-us-2_hm7mhc_yzkxgq.webp" alt="" />
                   </figure>
                   <figure className="image2">
-                    <img className="rounded-lg" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716797451/myCloud/why_choose_us_ulcrfw.png" alt="" />
+                    <img className="rounded-lg" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776795/MaxifyAssits/why_choose_us_ulcrfw_qj0wti.webp" alt="" />
                   </figure>
                 </div></Fade>
               </div>

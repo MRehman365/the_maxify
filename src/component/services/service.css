@@ -149,21 +149,16 @@
 }
 
 .element-banner.service-banner {
-  background-image: url("https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462495/myCloud/service_web_ydimck.png");
-  /* height: 250px; */
-}
-
-.application-banner {
-  background-image: url("../../assets/1714638131214_w3yfxk_2_0.jpg");
+  background-image: url("https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776735/MaxifyAssits/service_web_ydimck_fppm4j.webp");
   /* height: 250px; */
 }
 
 .industry-banner {
-  background-image: url("https://res.cloudinary.com/djkkjx9ry/image/upload/v1716620034/myCloud/industries_mxl5zg.png");
+  background-image: url("https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776676/MaxifyAssits/industries_mxl5zg_h2hytr.webp");
   /* height: 250px; */
 }
 .success-banner {
-  background-image: url("https://res.cloudinary.com/djkkjx9ry/image/upload/v1716663119/myCloud/success_story_banner_kgwtpj.png");
+  background-image: url("https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776739/MaxifyAssits/success_story_banner_kgwtpj_qffgpn.webp");
   /* height: 250px; */
 }
 
@@ -175,7 +170,7 @@
 }
 .red-section {
   color: white;
-  background: url("https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637326/myCloud/Service-Section-bg_qzmznj.png");
+  background: url("https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776735/MaxifyAssits/Service-Section-bg_qzmznj_eewpvv.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

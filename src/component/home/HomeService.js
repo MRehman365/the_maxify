@@ -28,7 +28,7 @@ const HomeService = () => {
                     </div>
                     <div className="img">
                       <img
-                        src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637330/myCloud/api_c4usbl.png"
+                        src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776566/MaxifyAssits/api_c4usbl_qsfxbr.webp"
                         alt=""
                       />
                     </div>
@@ -39,7 +39,7 @@ const HomeService = () => {
                 >
                   <figure className="back-icons">
                     <img
-                      src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637330/myCloud/api_c4usbl.png"
+                      src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776566/MaxifyAssits/api_c4usbl_qsfxbr.webp"
                       alt=""
                     />
                   </figure>
@@ -92,7 +92,7 @@ const HomeService = () => {
                     </div>
                     <div className="img">
                       <img
-                        src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637332/myCloud/app-development_iqsdi6.png"
+                        src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776566/MaxifyAssits/app-development_iqsdi6_fsagqo.webp"
                         alt=""
                       />
                     </div>
@@ -103,7 +103,7 @@ const HomeService = () => {
                 >
                   <figure className="back-icons">
                     <img
-                      src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637332/myCloud/app-development_iqsdi6.png"
+                      src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776566/MaxifyAssits/app-development_iqsdi6_fsagqo.webp"
                       alt=""
                     />
                   </figure>
@@ -156,7 +156,7 @@ const HomeService = () => {
                     </div>
                     <div className="img">
                       <img
-                        src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637327/myCloud/digital-campaign_wudbkk.png"
+                        src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776623/MaxifyAssits/digital-campaign_wudbkk_pepujt.webp"
                         alt=""
                       />
                     </div>
@@ -167,7 +167,7 @@ const HomeService = () => {
                   >
                     <figure className="back-icons">
                       <img
-                        src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637327/myCloud/digital-campaign_wudbkk.png"
+                        src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776623/MaxifyAssits/digital-campaign_wudbkk_pepujt.webp"
                         alt=""
                       />
                     </figure>

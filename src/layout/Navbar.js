@@ -95,7 +95,7 @@ const Navbar = () => {
         <div className={` lg:hover:bg-[#3d3b40] ${click? "sm:bg-[#3d3b40]":""}  navbar-main-box`}>
           <Bounce duration={1000} >
           <div className="logo" onClick={() => navigate("/")}>
-            <img loading="lazy" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462466/myCloud/logo_zxu5hn.png" alt="" />
+            <img loading="lazy" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776690/MaxifyAssits/logo_zxu5hn_qgjini.webp" alt="" />
           </div>
            </Bounce>
           <nav className="navigation">

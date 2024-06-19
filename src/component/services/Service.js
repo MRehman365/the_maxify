@@ -53,14 +53,14 @@ const Service = () => {
                 </Link>
               </div>
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 img">
-                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462471/myCloud/mobile_app_yo4pfh.png" alt="Application Image" />
+                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776691/MaxifyAssits/mobile_app_yo4pfh_o6inf7.webp" alt="Application Image" />
               </div>
             </div></Fade>
           </div>
           <div className="lg:col-span-12 md:col-span-12 sm:col-span-12">
           <Fade duration={1000}><div className="lg:grid lg:grid-cols-12 sm:flex sm:flex-col-reverse single-service-box">
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 img">
-                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462401/myCloud/1714554235083_29zv92_2_0_xth8qs.jpg" alt="" />
+                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776559/MaxifyAssits/1714554235083_29zv92_2_0_xth8qs_su3wls.webp" alt="" />
               </div>
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 content lg:p-10 sm:p-0">
                 <Link to="/application-development">
@@ -94,7 +94,7 @@ const Service = () => {
                 </Link>
               </div>
               <div className="lg:col-span-6 md:col-span-6 sm:col-span-12 img">
-                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462402/myCloud/1714567529414_2n6b6f_2_0_uuislw.jpg" alt="" />
+                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776561/MaxifyAssits/1714567529414_2n6b6f_2_0_uuislw_s9akij.webp" alt="" />
               </div>
             </div></Fade>
         </div>

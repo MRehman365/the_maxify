@@ -82,7 +82,7 @@ const AboutCompany = () => {
           <div className="lg:col-span-5 md:col-span-6 sm:col-span-12">
             <div className="element-container">
               <div className="img-box about-company-im sm:w-full sm:h-full 2xl:w-[80%] 2xl:ml-20">
-                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462410/myCloud/about_us_page_1_cepnfn.png" alt="" />
+                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776565/MaxifyAssits/about_us_page_1_cepnfn_r0n2aq.webp" alt="" />
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@ const AboutCompany = () => {
           <div className="lg:col-span-4 md:col-span-6 sm:col-span-12">
             <div className="element-container">
               <div className="img-box ">
-                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716637325/myCloud/success_story_image_gnsyai.png" alt="" />
+                <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776738/MaxifyAssits/success_story_image_gnsyai_abosxv.webp" alt="" />
               </div>
             </div>
           </div>

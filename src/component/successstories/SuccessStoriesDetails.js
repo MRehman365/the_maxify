@@ -69,7 +69,7 @@ const SuccessStoriesDetails = ({
           {/* <div className="success-conten flex gap-10 mt-4"> */}
          <Bounce triggerOnce><div className="first-success" onClick={handleClick}>
             <div className="image-success">
-              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462508/myCloud/university_internal_image_2_o2fgol.png" alt="" />
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776791/MaxifyAssits/university_internal_image_2_o2fgol_rovzvb.webp" alt="" />
             </div>
             <div className="success-content">
               <h2 >
@@ -85,7 +85,7 @@ const SuccessStoriesDetails = ({
 
           <Bounce delay={200} triggerOnce><div className="first-success"  onClick={handleClick2}>
             <div className="image-success">
-              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462449/myCloud/hospital_banner_k2xber.png" alt="" />
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776661/MaxifyAssits/hospital_banner_k2xber_c0cq07.webp" alt="" />
             </div>
             <div className="success-content">
               <h2>
@@ -101,7 +101,7 @@ const SuccessStoriesDetails = ({
 
           <Bounce delay={400} triggerOnce><div className="first-success" onClick={handleClick3}>
             <div className="image-success">
-              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716462485/myCloud/play_school_internal_image_2_ftnld7.png" alt="" />
+              <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776731/MaxifyAssits/play_school_internal_image_2_ftnld7_q0zkml.webp" alt="" />
             </div>
             <div className="success-content">
               <h2>

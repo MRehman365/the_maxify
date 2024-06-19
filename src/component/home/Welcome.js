@@ -15,14 +15,14 @@ const Welcome = () => {
           <div className="grid grid-cols-12  gap-[5%]">
             <div className="lg:col-span-6 sm:col-span-12">
               <div className="element-container">
-              <Fade direction="down" duration={1000} >
+              <Fade direction="down" duration={1000} triggerOnce>
                 <h6 className="text mb-2">WELCOME TO MAXIFY</h6>
                 <div className="welcome"></div>
                 <h2 className="heading-h3 text">
                   Simplifying, Strengthening Business Worldwide
                 </h2>
                 </Fade>
-                <Fade duration={1000}>
+                <Fade duration={1000} triggerOnce>
                 <p className="sm:hidden md:block text-[#595959] text-[1rem]   mt-6 text-justify">
                 {/* <p className="text-[#595959] sm:text-[1rem] lg:text-[1rem] xl:text-[1.5rem]  mt-6 "> */}
                   Maxify is the right platform for all your development and
@@ -78,7 +78,7 @@ const Welcome = () => {
             {/* <Slide direction="right" duration={1500} delay={500} triggerOnce> */}
               <div className="element-container lg:w-[80%] lg:h-[70%] lg:overflow-hidden lg:mt-[50px] sm:mt-10 2xl:mt-10 lg:ml-20">
                 <div className="img-box sm:mb-20 lg:mb-0">
-                  <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1716624450/myCloud/1716623974614_owuxdh_2_0_ptyhfi.jpg" alt="" />
+                  <img src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776564/MaxifyAssits/1716623974614_owuxdh_2_0_ptyhfi_-_Copy_2_habccb.webp" alt="" />
                 </div>
               </div>
               {/* </Slide> */}
