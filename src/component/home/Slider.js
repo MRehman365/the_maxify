@@ -13,7 +13,7 @@ import { Navigation } from "swiper/modules";
 
 export default function Slider() {
   const homeVideo =
-    "https://res.cloudinary.com/djkkjx9ry/video/upload/v1716566117/myCloud/videos_mudjus.mp4";
+    "https://res.cloudinary.com/djkkjx9ry/video/upload/v1718953875/MaxifyAssits/videos_wyialq.mp4";
   const homeBanner =
     "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776661/MaxifyAssits/home_page_main_banner_x1j1ga_apg4bz.webp";
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
