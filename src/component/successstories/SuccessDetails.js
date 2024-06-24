@@ -47,9 +47,9 @@ const SuccessDetails = ({
       <MetaData titles={`Maxify ${name}`} />
       <div className="element-banner lg:pt-[15%] lg:pb-[15%] md:pt-[17%] md:pb-[18%] sm:pt-[30%] sm:pb-[18%] ">
         <img className="banner brightness-75" src={img} alt="jpg" />
-        <div className="container-sectio sm:w-[90%] sm:mx-auto lg:w-[60%] lg:mx-20">
+        <div className="container-sectio sm:w-[90%] sm:mx-auto lg:w-[70%] lg:mx-20">
           <div className="element-banner-content">
-            <h1 className="sm:text-[20px] font-[600] sm:w-[70%] w-[90%] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[40px] text-white">
+            <h1 className="sm:text-[20px] font-[600] sm:w-[90%] md:w-[70%] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[35px] text-white">
               {" "}
               {title2}{" "}
             </h1>
@@ -73,7 +73,7 @@ const SuccessDetails = ({
           <div className="lg:col-span-4  md:col-span-12 sm:col-span-12">
             <div className="element-container  flex columns-lg h-[100%] justify-center sm:flex-col">
               <a href={weburl} className="para" target="blank">
-                <b>Website :</b> {name}
+                <b>Website :</b> {weburl}
               </a>
               <p className="para sm:mt-4">
                 <b>Industry :</b> {type}
@@ -131,8 +131,8 @@ const SuccessDetails = ({
 
       <div className="red-section lg:mt-32  sm:mt-10 xl:mt-[80px]">
         <div className="container-section">
-          <div className="border-line sm:hidden md:block text-center m-auto"></div>
-          <h3 className="heading-h3 text-[30px] text-center">Result</h3>
+          <div className="border-line sm:block md:block text-center m-auto"></div>
+          <h3 className="heading text-[36px] font-semibold text-center">Result</h3>
           <div className="grid grid-cols-12  gap-6 mat-50">
             {IndustriesSubData.map((item, i) => (
               <div
@@ -150,7 +150,7 @@ const SuccessDetails = ({
       </div>
 
       {/*  */}
-      <div className="relative sm:h-[390px] md:h-[650px]  highlight mt-4">
+      <div className="relative sm:h-[390px] md:h-[515px] lg:h-[650px]  highlight mt-4">
         
           <img src={img22} alt="" />
         <div className="highlight-data sm:backdrop-blur-0">

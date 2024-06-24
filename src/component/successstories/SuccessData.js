@@ -3,7 +3,7 @@ import { MdOutlineConstruction } from "react-icons/md";
 export const SuccessData = [
   {
     url: "/sharda-university",
-    weburl: "https://admissions.sharda.ac.in/apply-com/?utm_source=Google_Search&utm_medium=cpc_Comp&utm_campaign=2024-Competitor-DelhiNCR(S)&utm_keyword=universities%20in%20delhi&gad_source=1&gclid=Cj0KCQjw6PGxBhCVARIsAIumnWaBT9Z21vNkhsGGfXdktsp0F6XYctbz5FVQLCCj9ruSuJ7INu1i5IMaAqOiEALw_wcB",
+    weburl: "https://admissions.sharda.ac.in",
     name: "Sharda University",
     type: "Education",
     title2:
@@ -66,7 +66,7 @@ export const SuccessData = [
   },
   {
     url: "/eye-care",
-    weburl: "https://www.delhieyecare.com/ ",
+    weburl: "https://www.delhieyecare.com",
     name: " Delhi Eye Care",
     title2: "Revamping and Enhancing The presence of Delhi Eye Care Website",
     type: "Health Care",
@@ -79,7 +79,7 @@ export const SuccessData = [
     logo4:
       "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776676/MaxifyAssits/JAVA-removebg-preview_nn4n43_j9nvm5.webp",
     logo5:
-      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776738/MaxifyAssits/stock_development-removebg-preview_3_otmo2l_s7qv9f.webp",
+      "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776691/MaxifyAssits/microsoft_net_development-removebg-preview_4_tejmlq_wlsdbs.webp",
     img2: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776662/MaxifyAssits/hospital_internal_image2_tmgj1f_i4vjxi.webp",
     img3: "https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776661/MaxifyAssits/hospital_internal_image_1_lsrigk_ektilr.webp",
     icons: <MdOutlineConstruction />,
@@ -130,7 +130,7 @@ export const SuccessData = [
   },
   {
     url: "/chhota-school",
-    weburl: "https://mychhotaschool.com/",
+    weburl: "https://mychhotaschool.com",
     name: "My Chhota School",
     type: "Education",
     title2:

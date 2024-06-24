@@ -15,7 +15,7 @@ const LeadershipTeam = () => {
         <img className="banner" src="https://res.cloudinary.com/djkkjx9ry/image/upload/v1718776689/MaxifyAssits/leadership_banner_fgnkqi_vfl0fm.webp" alt="jpg" />
         <div className="container-section ">
           <div className="element-banner-content lg:w-[60%]">
-            <h1 className="text-heading- sm:text-[24px] font-[600] sm:w-[70%] md:w-[90%] sm:leading-[32px] lg:leading-[50px] lg:text-[40px]">
+            <h1 className="text-heading- sm:text-[24px] font-[600] sm:w-[70%] md:w-[90%] sm:leading-[32px] lg:leading-[50px] lg:text-[35px]">
               Powering Great Ideas, Driving Excellence Through Our
               Solutions
             </h1>

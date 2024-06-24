@@ -28,8 +28,8 @@ const IndustriesDetails = ({
       <div className="element-banner  lg:pt-[13%] lg:pb-[13%] sm:pt-[30%] sm:pb-[18%] industry-banner">
         <img className="banner" src={img2} alt="jpg" />
         <div className="container-section">
-          <div className="element-banner-content w-[55%]">
-            <h1 className=" sm:text-[24px] font-[600] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[40px] text-white">
+          <div className="element-banner-content w-[60%]">
+            <h1 className=" sm:text-[24px] font-[600] md:text-[35px] sm:leading-[32px] lg:leading-[50px] lg:text-[35px] text-white">
               {title2}
             </h1>
             <p className="para sm:hidden md:block">{text}</p>
