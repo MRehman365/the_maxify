@@ -136,8 +136,8 @@ const Footer = () => {
                       Telephone:<a href="tel:+91">+ 91 81302-45100</a>
                       <br />
                       E-mail:
-                      <a href="mailto:info@maxifyweb.com">
-                      info@maxifyweb.com
+                      <a href="mailto:support@maxifysolution.com">
+                      support@maxifysolution.com
                       </a>
                       <a href="mailto:mail@companyname.com">
                         <br />
@@ -316,7 +316,7 @@ const Footer = () => {
                     <span>
                       <MdOutlineMailOutline />
                     </span>
-                    <a href="mailto:info@maxifyweb.com">info@maxifyweb.com</a>
+                    <a href="mailto:support@maxifysolution.com">support@maxifysolution.com</a>
                   </li>
                 </ul>
 
